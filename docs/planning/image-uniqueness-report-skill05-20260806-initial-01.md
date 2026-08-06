@@ -1,0 +1,44 @@
+# Image Uniqueness Report v1
+
+- run_id: skill05-20260806-initial-01
+- article count: 36
+- pages with duplicate featured/closing hashes: 0
+- blocking duplicate count: 0
+- status: PASS
+
+- arriving-bangkok-suvarnabhumi-airport: 2 unique package images
+- bangkok-airport-to-city-main-options: 2 unique package images
+- bangkok-bts-mrt-for-beginners: 2 unique package images
+- bangkok-chiang-mai-itinerary: 2 unique package images
+- bangkok-first-timer-guide: 2 unique package images
+- bangkok-krabi-itinerary: 2 unique package images
+- bangkok-phuket-itinerary: 2 unique package images
+- best-time-to-visit-thailand-by-region: 2 unique package images
+- book-overnight-trains-thailand: 2 unique package images
+- chiang-mai-first-timer-guide: 2 unique package images
+- chiang-rai-travel-guide: 2 unique package images
+- historical-day-trips-from-bangkok: 2 unique package images
+- how-many-days-in-thailand: 2 unique package images
+- how-to-use-grab-in-thailand: 2 unique package images
+- island-hopping-logistics-thailand: 2 unique package images
+- koh-samui-travel-guide: 2 unique package images
+- krabi-travel-guide: 2 unique package images
+- pai-travel-guide-first-time-visitors: 2 unique package images
+- phuket-first-time-visitors: 2 unique package images
+- take-ferry-southern-thailand: 2 unique package images
+- thai-food-first-time-visitors: 2 unique package images
+- thai-temple-etiquette-visitors: 2 unique package images
+- thailand-10-days-balanced-first-trip: 2 unique package images
+- thailand-14-days-north-city-islands: 2 unique package images
+- thailand-7-days-bangkok-chiang-mai-beach: 2 unique package images
+- thailand-digital-arrival-entry-procedures: 2 unique package images
+- thailand-domestic-flights-when-they-make-sense: 2 unique package images
+- thailand-entry-requirements-first-time-visitors: 2 unique package images
+- thailand-for-solo-travelers: 2 unique package images
+- thailand-trains-first-time-visitors: 2 unique package images
+- thailand-travel-first-time-visitors: 2 unique package images
+- thailand-travel-insurance-what-to-check: 2 unique package images
+- thailand-travel-mistakes-first-time-visitors: 2 unique package images
+- thailand-travel-safety-basics: 2 unique package images
+- thailand-visa-visa-exemption-basics: 2 unique package images
+- thailand-without-domestic-flights: 2 unique package images

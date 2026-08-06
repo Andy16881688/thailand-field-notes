@@ -1,0 +1,18 @@
+{
+  "schema_version": "orchestrator-handoff-v1",
+  "site_id": "thailand-field-notes",
+  "skill_id": "05",
+  "run_id": "skill05-20260806-initial-01",
+  "status": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+  "next_stage": "06",
+  "package_identity": {
+    "zip_outer_sha256": "09E269EB9DD907746EFDF2E263D7CF66F3B22059569F84B4D3398B524B592A8F",
+    "normalized_file_manifest_sha256": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41"
+  },
+  "admin_boundary": {
+    "url_accessed": false,
+    "uploaded": false,
+    "preview": false,
+    "apply": false
+  }
+}

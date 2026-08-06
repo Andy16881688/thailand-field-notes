@@ -1,0 +1,9 @@
+{
+  "schema_version": "skill02-rejected-visual-source-signatures-v1",
+  "site_id": "thailand-field-notes",
+  "rejected_visual_source_signatures": [
+    {"candidate_id":"6976483276380548078","signature":"legacy-bangkok-hub-and-pre-revision-screen-set","reason":"Superseded screens remain visible after revision; not eligible for source lock."},
+    {"candidate_id":"6976483276380548078","signature":"formal-domain-external-dependency-thailandfieldnotes.com","reason":"Formal domain is pending; dependency must not be treated as approved production source."}
+  ],
+  "status": "REJECTED_SIGNATURES_RECORDED"
+}

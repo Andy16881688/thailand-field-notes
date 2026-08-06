@@ -1,0 +1,12 @@
+{
+    "site_id":  "thailand-field-notes",
+    "site_name":  "Thailand Field Notes",
+    "tagline":  "Practical routes, local context, and travel updates for Thailand.",
+    "production_domain":  null,
+    "canonical_origin":  null,
+    "language":  "en-US",
+    "timezone":  "Asia/Bangkok",
+    "sections_path":  "src/data/sections.json",
+    "categories_path":  "src/data/categories.json",
+    "posts_path":  "src/data/posts.json"
+}

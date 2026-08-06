@@ -1,0 +1,23 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill03-20260806-repair-01",
+  "surface": "dist static files via local Chrome",
+  "viewports": [360, 390, 414],
+  "routes": [
+    "/post/bangkok-first-timer-guide/",
+    "/post/arriving-bangkok-suvarnabhumi-airport/",
+    "/post/bangkok-bts-mrt-for-beginners/",
+    "/about/",
+    "/privacy-policy/",
+    "/terms/",
+    "/user-agreement/"
+  ],
+  "checks": {
+    "viewport_width_equals_scroll_width": true,
+    "route_specific_canonical": true,
+    "escaped_html_marker_absent": true,
+    "post_body_text_present": true,
+    "robots_file_generated": true
+  },
+  "status": "PASS_WITH_DOMAIN_PENDING"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "v1",
+  "skill_id": "03",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill03-20260806-repair-01",
+  "mode": "repair_delta",
+  "preflight": {
+    "skill02_visual_lock_found": true,
+    "skill07_blocker_returned": true,
+    "project_root_found": true
+  },
+  "technical_validation": {
+    "validate_data_pass": true,
+    "pnpm_check_pass": true,
+    "build_pass": true,
+    "generated_pages": 58,
+    "mobile_overflow_sample": 0,
+    "html_body_rendering_sample": true,
+    "route_specific_canonical_sample": true,
+    "robots_route_generated": true,
+    "formal_domain_ready": false
+  },
+  "outputs": [
+    {"path":"docs/planning/skill03-repair-report-skill03-20260806-repair-01.md","status":"PASS"},
+    {"path":"docs/planning/orchestrator-handoff-03-skill03-20260806-repair-01.json","status":"PASS"},
+    {"path":"docs/planning/03-real-surface-smoke-skill03-20260806-repair-01.json","status":"PASS"}
+  ],
+  "final_status": "PASS_READY_FOR_SKILL07_RECHECK_WITH_DOMAIN_PENDING",
+  "orchestration": {
+    "next_stage": "skill07",
+    "resume_token": "skill07-resume-after-skill03-render-and-seo-repair",
+    "git_actions": "NOT_AUTHORIZED",
+    "deploy_actions": "NOT_AUTHORIZED"
+  }
+}

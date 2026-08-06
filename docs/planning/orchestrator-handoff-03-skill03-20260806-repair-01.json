@@ -1,0 +1,25 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill03-20260806-repair-01",
+  "skill_id": "03",
+  "site_id": "thailand-field-notes",
+  "status": "PASS_READY_FOR_SKILL07_RECHECK_WITH_DOMAIN_PENDING",
+  "mode": "repair_delta",
+  "repair_report": "docs/planning/skill03-repair-report-skill03-20260806-repair-01.md",
+  "validation": {
+    "pnpm_check": "PASS",
+    "pnpm_build": "PASS",
+    "generated_pages": 58,
+    "post_count": 36,
+    "mobile_overflow_sample": "PASS",
+    "html_body_rendering_sample": "PASS",
+    "route_canonical_sample": "PASS",
+    "robots_route": "PASS",
+    "formal_domain": "PENDING"
+  },
+  "next_stage": "skill07",
+  "release_actions": "NOT_AUTHORIZED",
+  "git_actions": "NOT_AUTHORIZED",
+  "deploy_actions": "NOT_AUTHORIZED",
+  "resume_token": "skill07-resume-after-skill03-render-and-seo-repair"
+}

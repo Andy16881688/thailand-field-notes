@@ -1,0 +1,472 @@
+{
+    "schema_version":  "skill03-normalized-file-manifest-v1",
+    "site_id":  "thailand-field-notes",
+    "run_id":  "skill03-20260806-preflight-01",
+    "source_archive_path":  "prototypes/approved/skill02-candidate-01/stitch_thailand_field_notes_prototype-full.zip",
+    "source_archive_sha256":  "7DEC4DF386F7680A353E71E90C0E50AEA845993DACFED135DEC0D74EB8C27147",
+    "localized_source_root":  ".tmp-ai-studio-audit/localized-source",
+    "file_count":  92,
+    "files":  [
+                  {
+                      "path":  "assets/stitch-fonts/font-face-1042869150.css",
+                      "bytes":  536,
+                      "sha256":  "0F38FB9586A1F88411C5A11AEA39E95C5F9C987847154C7AB650FF0DE2E36196"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-face-119028504.css",
+                      "bytes":  3811,
+                      "sha256":  "D7A4A9FA8D82ACBCB32E6F872EFF1AD6C9B409DCCA594841A6010611690613DB"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-988713024.bin",
+                      "bytes":  123240,
+                      "sha256":  "1609A54FA3AD1ABC8D0037132F73700333241EA0B65672079998E352F151DEA7"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-923710644.bin",
+                      "bytes":  325604,
+                      "sha256":  "1BE2B11BC5C1E0F78DEEEB4E8049B2F5CCA9C476B77BB1912AAC748BA4A37312"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-950330861.bin",
+                      "bytes":  123536,
+                      "sha256":  "ADEFC53E7B3D483F1FA5E85EDD82B7689CA79DB25A1F6786BD7949CDCFEEC601"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-face-1835608007.css",
+                      "bytes":  722,
+                      "sha256":  "BC74F49FC8DFA25D2F435678A248D7D2FC8655845A64EC0A636EC27D3A84CEF2"
+                  },
+                  {
+                      "path":  "homepage_desktop/code.html",
+                      "bytes":  13233,
+                      "sha256":  "50DAC88E8A5D97AE9ADF30C810D879DD5ABBDC1E03725E4EF61CC96713AE937D"
+                  },
+                  {
+                      "path":  "homepage_desktop/screen.png",
+                      "bytes":  755153,
+                      "sha256":  "253A0F5311802E9EA54E27A98B4B20DFCC87160138AB52921396E1F15545A7E4"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-face-658239174.css",
+                      "bytes":  1662,
+                      "sha256":  "28F02A75C0F22B97F82E1F6C6D9B9A150AAF1A974FA0D87AEC7AE7D7AF660D09"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-face-2025698732.css",
+                      "bytes":  1083,
+                      "sha256":  "43640E5131CB3B9A65C346F3A4688FB9686E85BA0F7F3E6C7CC84827820A4B12"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-face-497168148.css",
+                      "bytes":  908,
+                      "sha256":  "72D989E61222B823CC20819929837422515460C050C5601772C41695C3C1D281"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-915318788.bin",
+                      "bytes":  325304,
+                      "sha256":  "8C883F63B2C4157D997319F2C8BC6995ED4357EF371940D31CA159004A4AAE63"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-323940468.bin",
+                      "bytes":  324820,
+                      "sha256":  "1B08E7FC267A5C7E1D614100F604B83E7E8A0BE241F0F288FAA2B3AC93A683BA"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-393724797.bin",
+                      "bytes":  325028,
+                      "sha256":  "3428FD01A45310781CFC06D8957C5485DE2432132B405EBE6E53EFEC0719C229"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-317727383.bin",
+                      "bytes":  123608,
+                      "sha256":  "B60FFB0EE2B4E09D71D67FF3EA16D6A23CF2E0CF637C5F4E36FFF2E3B1465252"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-211156148.bin",
+                      "bytes":  123672,
+                      "sha256":  "8AB6A1DB2D7CAEB46C742371DA500D0F3DE1DC6EC6BEA2AEF0106F678D7A1F8D"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-2732425.bin",
+                      "bytes":  964196,
+                      "sha256":  "4490C8FC0F5F829911936D10110C40D5D30660111CE2198B96CEDA715CC501F7"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-493048606.bin",
+                      "bytes":  110756,
+                      "sha256":  "742C2BE300DA25736B5D1CD959750F3D4EE974908D0061E922B485C56B0E4371"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-850715993.bin",
+                      "bytes":  327260,
+                      "sha256":  "5B717029A2C4CFCA2167E97BE1157EDB24151591E5EC96EB484745C392817A7A"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-875463551.bin",
+                      "bytes":  110816,
+                      "sha256":  "6021680663C58B344D8404C289C755AADC662A02189FFE4F5CA79378F9E97840"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-6779036.bin",
+                      "bytes":  123532,
+                      "sha256":  "C549B1064828D22E398C5D9BDCE9267AA130569B177C67D550DAAF1E8C636288"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-53008966.bin",
+                      "bytes":  963360,
+                      "sha256":  "BC536D86AF79DCA83EF8398547BFB651A583D4F0A6433D848E60F7648EE1BD92"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-538457544.bin",
+                      "bytes":  111128,
+                      "sha256":  "954E20EE10AE685D0A5A6E6EE380165EA9C8EB329C0E22A58739496714F66991"
+                  },
+                  {
+                      "path":  "terms_desktop_revised/screen.png",
+                      "bytes":  778154,
+                      "sha256":  "BC887220311099DE0C77390520F23781F7ED58B715C4118F9B865C9C5C896F40"
+                  },
+                  {
+                      "path":  "terms_mobile_revised/code.html",
+                      "bytes":  10719,
+                      "sha256":  "68BDD5973F02D07B298319062A44C236108850DE9E83FBAAC3950A7A31969374"
+                  },
+                  {
+                      "path":  "terms_desktop_revised/code.html",
+                      "bytes":  12348,
+                      "sha256":  "2975B98F367FB23593B4D8D3A67FD2DEE14C60CB74AC154CC92CCE3B7B21234D"
+                  },
+                  {
+                      "path":  "route_lengths_mobile/code.html",
+                      "bytes":  14292,
+                      "sha256":  "19D59329B5E43121F6D65DB5CE11E3A1B0352E1B47CE6D5BF4A2FF7F581F45ED"
+                  },
+                  {
+                      "path":  "route_lengths_mobile/screen.png",
+                      "bytes":  344504,
+                      "sha256":  "39D69E49294A81AF869B9A7345E3D025F2AEEB15F733A2EA6ECA4758D090687D"
+                  },
+                  {
+                      "path":  "terms_mobile_revised/screen.png",
+                      "bytes":  631384,
+                      "sha256":  "E0500803FA1D1EA3D90BF079E00B12D7D26F1E42569D457D127F44A7BDC5671B"
+                  },
+                  {
+                      "path":  "user_agreement_mobile_revised/code.html",
+                      "bytes":  10845,
+                      "sha256":  "BB99E19B9D5F4FEAE68A6DCC022F35ADB50B0E987E9134A275A89A1F6AFF2943"
+                  },
+                  {
+                      "path":  "user_agreement_mobile_revised/screen.png",
+                      "bytes":  639552,
+                      "sha256":  "A394BE5EFCD98534A03650F7D580429FC7482A7D88B905F51D9770B56E52C951"
+                  },
+                  {
+                      "path":  "user_agreement_desktop_revised/screen.png",
+                      "bytes":  916365,
+                      "sha256":  "9D83488184FC83770DA69C967918BA7B6EE4FEA09017D7CA0CD70FF531A086AA"
+                  },
+                  {
+                      "path":  "thailand_field_notes/DESIGN.md",
+                      "bytes":  6545,
+                      "sha256":  "5A21165F313468C7935FA38346E3B7A8BAE0AE34AEA23D934D8544D9EAC07C67"
+                  },
+                  {
+                      "path":  "user_agreement_desktop_revised/code.html",
+                      "bytes":  10812,
+                      "sha256":  "C9F0A9C0DA1B69549CC1662E7D921F25B44C8E1B1D25F3BDC03F8128CC1CB886"
+                  },
+                  {
+                      "path":  "route_lengths_desktop/screen.png",
+                      "bytes":  3314430,
+                      "sha256":  "936275975FD9F57F334C62EDE3257CDC10A965646DCC1E6AD89B708E02180865"
+                  },
+                  {
+                      "path":  "plan_your_trip_desktop/screen.png",
+                      "bytes":  580566,
+                      "sha256":  "76EEE477118D01EF62BBDD5BC7AEBE5240959C14D00066FE38F0A51BAA400C81"
+                  },
+                  {
+                      "path":  "plan_your_trip_mobile/code.html",
+                      "bytes":  17958,
+                      "sha256":  "E70A6E5C3FB1E114154164BB63906864C57AF1C983F5BD36674148408E987E6F"
+                  },
+                  {
+                      "path":  "plan_your_trip_desktop/code.html",
+                      "bytes":  15721,
+                      "sha256":  "F8D2F3641C89A43ABABF5C727C724C00181FFE8FDE129FEA288ED476AA1EDFE1"
+                  },
+                  {
+                      "path":  "homepage_mobile/code.html",
+                      "bytes":  13262,
+                      "sha256":  "0AFBDD1DF9A29EE1838A2090F4F0C8100D1B429DFE6F5F11568F09F16BB6941B"
+                  },
+                  {
+                      "path":  "homepage_mobile/screen.png",
+                      "bytes":  263520,
+                      "sha256":  "2416950A7FDC4E58C4088B76EE38CF8795AEB757F8F21D0C0CF3AAFB4D6FC37A"
+                  },
+                  {
+                      "path":  "plan_your_trip_mobile/screen.png",
+                      "bytes":  277132,
+                      "sha256":  "1C5C81A973D4FBBF414B2CF9807F8CD2EB3C1FEF33AD7C674BEF6378171BCF54"
+                  },
+                  {
+                      "path":  "privacy_policy_mobile_revised/screen.png",
+                      "bytes":  410696,
+                      "sha256":  "A471CD11570F08F0BEF20C669114ADD07186C7D718549545D393CD7E249E7932"
+                  },
+                  {
+                      "path":  "route_lengths_desktop/code.html",
+                      "bytes":  15821,
+                      "sha256":  "620C0C1CE115C21EA908787C675E92D292294973E92A018CCE6552EE4733847C"
+                  },
+                  {
+                      "path":  "privacy_policy_mobile_revised/code.html",
+                      "bytes":  9989,
+                      "sha256":  "624E1A430DB4A174E7208FBBF48372A7F7065401C62FE45A6B3063ED7778856B"
+                  },
+                  {
+                      "path":  "privacy_policy_desktop_revised/code.html",
+                      "bytes":  9721,
+                      "sha256":  "844E2766B26FFB1424C6D26320653DFB5E41BE3F04D7800BCBB0FD186A705AFC"
+                  },
+                  {
+                      "path":  "privacy_policy_desktop_revised/screen.png",
+                      "bytes":  501622,
+                      "sha256":  "257E9D06A804A26D4E72A0C468AC9B9540E42B63FC8646E18EA057E6EE8042A7"
+                  },
+                  {
+                      "path":  "assets/stitch/image-08.bin",
+                      "bytes":  50707,
+                      "sha256":  "CA717B12F9FE9E595F9648F5834FD04D53B5084B6E07C49E1A55C358FB5EB283"
+                  },
+                  {
+                      "path":  "assets/stitch/image-09.bin",
+                      "bytes":  33746,
+                      "sha256":  "0C66D000C605BB34DFEA369683ECDC166B82B117AC67F9911333236E3F0E2869"
+                  },
+                  {
+                      "path":  "assets/stitch/image-07.bin",
+                      "bytes":  38868,
+                      "sha256":  "322998592E45FAD132F8DBC1222BF9FF9708F25C835C49E8371F7E14A67FCB62"
+                  },
+                  {
+                      "path":  "assets/stitch/image-05.bin",
+                      "bytes":  36419,
+                      "sha256":  "7336D17D3221995E256E813D73EF1C354450FACEE5353919B127C7EEC6FB4625"
+                  },
+                  {
+                      "path":  "assets/stitch/image-06.bin",
+                      "bytes":  51109,
+                      "sha256":  "DCB3B881D1091F549D7F75A2A2D1156A6825C2B4618DE5934B32269AA5A214A4"
+                  },
+                  {
+                      "path":  "assets/stitch/image-10.bin",
+                      "bytes":  42876,
+                      "sha256":  "B9FA8623BB38C84B154FA5062F3A710459BA228A90969C94E4AFDE9D2A446E6F"
+                  },
+                  {
+                      "path":  "assets/stitch/image-14.bin",
+                      "bytes":  70989,
+                      "sha256":  "CDF08737E38E174F2660028643E338C38E79BA06322695FBB54C45688B520B58"
+                  },
+                  {
+                      "path":  "assets/stitch/image-15.bin",
+                      "bytes":  39124,
+                      "sha256":  "E00C833EB27F71C3DDA98629E53E592E84962046ED576DD375AD008F93845014"
+                  },
+                  {
+                      "path":  "assets/stitch/image-13.bin",
+                      "bytes":  29360,
+                      "sha256":  "B3D6E19FA3B2648AE65D73324A6011AF1B96A2CE2185EF5E70835CCFBC60D8C9"
+                  },
+                  {
+                      "path":  "assets/stitch/image-11.bin",
+                      "bytes":  70673,
+                      "sha256":  "E6B9FAB432E6FC2FD092B3BA1FBE7F9DAC6081C746FB8B3703B18B261EE84206"
+                  },
+                  {
+                      "path":  "assets/stitch/image-12.bin",
+                      "bytes":  37138,
+                      "sha256":  "CBBD34FF6D9EF3F4776FAEE5D161975691CBCD7526D9DD12A8ADE1FB45DDA43A"
+                  },
+                  {
+                      "path":  "assets/stitch/image-04.bin",
+                      "bytes":  51019,
+                      "sha256":  "66CEACC779D42BC36641718CD5A26173DB18B67BCFF5BA39F0F54BC4D7F4B1A6"
+                  },
+                  {
+                      "path":  "about_mobile_revised/screen.png",
+                      "bytes":  233594,
+                      "sha256":  "D7355769C7ABD93B9ADBF119EC43440EEC966E176D20E40DA5C6E03AABA5D216"
+                  },
+                  {
+                      "path":  "article_page_desktop/code.html",
+                      "bytes":  18573,
+                      "sha256":  "5B8ACC9030D5CFE678437F83011BA47F5B972782A87AAB410616ADB89171731A"
+                  },
+                  {
+                      "path":  "about_mobile_revised/code.html",
+                      "bytes":  10294,
+                      "sha256":  "7FEA32AF476EEB09B45615B1D0DD71D441150F32869671E506445730688FAF6D"
+                  },
+                  {
+                      "path":  "about_desktop_revised/code.html",
+                      "bytes":  12965,
+                      "sha256":  "7C95EE9FD718D9EAA6C55D3C6209FAA109CEF3BF03FFC1E8CB6EE791E6B32464"
+                  },
+                  {
+                      "path":  "about_desktop_revised/screen.png",
+                      "bytes":  425875,
+                      "sha256":  "4D629611FA2E4E600378B4A7C358C83A631900DDBF57831DDE02D124575EA8F8"
+                  },
+                  {
+                      "path":  "article_page_desktop/screen.png",
+                      "bytes":  445208,
+                      "sha256":  "B1C486183568F41898B49AD0AF0AD02C2D440B77A155CB0613F06302D4AF02F6"
+                  },
+                  {
+                      "path":  "assets/stitch/image-02.bin",
+                      "bytes":  46447,
+                      "sha256":  "776548331C1EDA3B3A713CE69A42E986F687D7F61C502B060877AC6368BF1A55"
+                  },
+                  {
+                      "path":  "assets/stitch/image-03.bin",
+                      "bytes":  46733,
+                      "sha256":  "7A9177F7B28A50A45637928561632CF0D74E1502661ECF464E45445A2F865DE6"
+                  },
+                  {
+                      "path":  "assets/stitch/image-01.bin",
+                      "bytes":  69425,
+                      "sha256":  "150318A265F4791D544E8B1161A0A19C07A767A044F5F968DF503A11887FBF0E"
+                  },
+                  {
+                      "path":  "article_page_mobile/code.html",
+                      "bytes":  19292,
+                      "sha256":  "369C582ACABEE210CF1BA4BF1656D49596DBB262755FE9B8FA41ADEADB5194A6"
+                  },
+                  {
+                      "path":  "article_page_mobile/screen.png",
+                      "bytes":  191605,
+                      "sha256":  "9BCAAB3A4B6DFDA0B9E8E59A4848F437192CA76152678BC2A461BEED299C944B"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-178685949.bin",
+                      "bytes":  111208,
+                      "sha256":  "5B667E91B59A4E1D7985EB9933BE7F03AD46E1EA6380B8E729FF6F136EF2AB42"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1802797263.bin",
+                      "bytes":  326468,
+                      "sha256":  "B37284B5701B6B168DFC770AA1A4AC492106422FD3BA76BC7641E37434E8019C"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1437596569.bin",
+                      "bytes":  990868,
+                      "sha256":  "FA6ECF25438E298E897D4E3241B43F37D88E9FE32D33ABBB13DCD1F642BD28FA"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1357052606.bin",
+                      "bytes":  111116,
+                      "sha256":  "A466E5D1F7C0E282D047F4D168F788986F49BA01281C6278162745EC2E124388"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-142450754.bin",
+                      "bytes":  326048,
+                      "sha256":  "E7A1AAF7EDA9F2FAD4131725FA556265EC75CA7B2D756260173A040363E8D4F7"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1814384375.bin",
+                      "bytes":  989320,
+                      "sha256":  "CE4082A3F6787CDF16BD0BD7D79A0554F9FB84F7F0AF86200AB17C58AD760002"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1981304130.bin",
+                      "bytes":  111168,
+                      "sha256":  "EF1515FA19156794B36E5F362C677F78837C38CCDD6FA1FA76D1DD918EA7ABBE"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-2053746698.bin",
+                      "bytes":  991252,
+                      "sha256":  "8C9ACAC9BE077C1D444434B0267DC3D56197E4ECEEF0FC32B4E7B81292067ED5"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1897187779.bin",
+                      "bytes":  123608,
+                      "sha256":  "71A599C413E0126BB042A4B757ADAF801FA8B67CDBBCC9CB42DA427D7C3C5533"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1815408029.bin",
+                      "bytes":  961960,
+                      "sha256":  "A167030B015545461604A62C9D621B33BA073D32078ECC34B4F15F1FC77CC235"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1832005647.bin",
+                      "bytes":  963056,
+                      "sha256":  "43CE27AA36214F5ACDA5D938A400D982BD51501ADFF68FC9E80EEFB9C3C22420"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1288870763.bin",
+                      "bytes":  325748,
+                      "sha256":  "D0F4BC7FACA468376E3DB9B5E57AFCDC2192134C9AC82A9511F32767B56853A4"
+                  },
+                  {
+                      "path":  "assets/stitch/image-19.bin",
+                      "bytes":  30356,
+                      "sha256":  "6AB98767AAD531A110DACA2A53648D81E61CF32C3D9E9EC26B8DFA88CA83E41E"
+                  },
+                  {
+                      "path":  "assets/stitch/image-20.bin",
+                      "bytes":  23991,
+                      "sha256":  "75DF4486569B1C49281EE75EC37E1FE5FC0B0BA96508FDF0EDFDD19E51D1A1CA"
+                  },
+                  {
+                      "path":  "assets/stitch/image-18.bin",
+                      "bytes":  57613,
+                      "sha256":  "E645E1243F353490FCED69F504D919A7FC7A855D1507FCDB761BFF8FF619FAB0"
+                  },
+                  {
+                      "path":  "assets/stitch/image-16.bin",
+                      "bytes":  60360,
+                      "sha256":  "3E3B489311CF41D98D6234701587D7E66AD35BB90F7FB1FE0434967317CA4BD5"
+                  },
+                  {
+                      "path":  "assets/stitch/image-17.bin",
+                      "bytes":  43419,
+                      "sha256":  "5D1BCC05E06441544DD826CE91E42EFA91891DAD6BC8171207E44F59D8CD5EDA"
+                  },
+                  {
+                      "path":  "assets/stitch/image-21.bin",
+                      "bytes":  29167,
+                      "sha256":  "1C5CA0EE15993D5AFCE0C58824D865726120CB6BD560B5F5246438554C3E55DD"
+                  },
+                  {
+                      "path":  "assets/stitch/image-25.bin",
+                      "bytes":  66774,
+                      "sha256":  "ED4E2E49D3A187CB5AD818F9053B57DBAF3684E8CCC467113561604121E8ED90"
+                  },
+                  {
+                      "path":  "assets/stitch-fonts/font-1112549375.bin",
+                      "bytes":  327324,
+                      "sha256":  "EEC66AF7F2337BD34FE6E801CF92EDEDCB57A20C0D7BC40A61D4EEFCBE3DD40C"
+                  },
+                  {
+                      "path":  "assets/stitch/image-24.bin",
+                      "bytes":  38797,
+                      "sha256":  "03DCEF35FD408AAFEDE7C18827A7CBBEFB3D0055CDB79CCEEEE4AEEF015ED69B"
+                  },
+                  {
+                      "path":  "assets/stitch/image-22.bin",
+                      "bytes":  41629,
+                      "sha256":  "637873F28CB11B76B2CD89FC1F82835FE6A8678545A6BC2899BE3C87F28E3FED"
+                  },
+                  {
+                      "path":  "assets/stitch/image-23.bin",
+                      "bytes":  55167,
+                      "sha256":  "38DF8D30750C73260AD6CDC5C32DE7E7F321E7C7C7A5F385B5FE2DF12DEFA2FE"
+                  }
+              ],
+    "status":  "CURRENT"
+}

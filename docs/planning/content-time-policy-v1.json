@@ -1,0 +1,32 @@
+{
+  "content_time_policy_version": "site-factory-time-policy-v2",
+  "publish_anchor_date": "2026-05-13",
+  "publish_base_date": "2026-05-13",
+  "site_timezone": "Asia/Bangkok",
+  "anchor_backward_window_days": 18,
+  "earliest_allowed_date": "2026-04-26",
+  "latest_allowed_publish_date": "2026-05-13",
+  "latest_allowed_datetime": "2026-05-13T16:00:00+07:00",
+  "schedule_direction": "from_window_start_forward",
+  "max_posts_per_day": 2,
+  "same_day_post_limit": 2,
+  "same_timestamp_allowed": false,
+  "duplicate_timestamp_forbidden": true,
+  "future_dates_allowed": false,
+  "future_timestamp_forbidden": true,
+  "initial_updated_equals_published": true,
+  "updated_at_default": "same_as_published_at",
+  "updated_at_display_rule": "show_updated_only_when_later_than_published",
+  "incremental_prefer_after_latest": true,
+  "incremental_backfill_allowed": false,
+  "value_source": {"publish_anchor_date":"user_input","site_timezone":"project_policy","anchor_backward_window_days":"project_policy","max_posts_per_day":"project_policy","latest_allowed_publish_date":"project_policy"},
+  "window_days": 18,
+  "window_capacity": 36,
+  "expected_article_count": 36,
+  "capacity_status": "OK",
+  "approved_post_schedule": [
+    "2026-04-26T09:00:00+07:00","2026-04-26T16:00:00+07:00","2026-04-27T09:00:00+07:00","2026-04-27T16:00:00+07:00","2026-04-28T09:00:00+07:00","2026-04-28T16:00:00+07:00","2026-04-29T09:00:00+07:00","2026-04-29T16:00:00+07:00","2026-04-30T09:00:00+07:00","2026-04-30T16:00:00+07:00","2026-05-01T09:00:00+07:00","2026-05-01T16:00:00+07:00","2026-05-02T09:00:00+07:00","2026-05-02T16:00:00+07:00","2026-05-03T09:00:00+07:00","2026-05-03T16:00:00+07:00","2026-05-04T09:00:00+07:00","2026-05-04T16:00:00+07:00","2026-05-05T09:00:00+07:00","2026-05-05T16:00:00+07:00","2026-05-06T09:00:00+07:00","2026-05-06T16:00:00+07:00","2026-05-07T09:00:00+07:00","2026-05-07T16:00:00+07:00","2026-05-08T09:00:00+07:00","2026-05-08T16:00:00+07:00","2026-05-09T09:00:00+07:00","2026-05-09T16:00:00+07:00","2026-05-10T09:00:00+07:00","2026-05-10T16:00:00+07:00","2026-05-11T09:00:00+07:00","2026-05-11T16:00:00+07:00","2026-05-12T09:00:00+07:00","2026-05-12T16:00:00+07:00","2026-05-13T09:00:00+07:00","2026-05-13T16:00:00+07:00"
+  ],
+  "timestamp_change_count": 0,
+  "validation_status": "PASS"
+}

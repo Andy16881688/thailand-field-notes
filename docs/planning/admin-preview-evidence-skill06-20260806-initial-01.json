@@ -1,0 +1,33 @@
+{
+  "schema_version": "admin-preview-evidence-v1",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill06-20260806-initial-01",
+  "status": "PASS",
+  "upload_attempted": true,
+  "upload_result": "PASS",
+  "admin_url": "http://127.0.0.1:4392",
+  "admin_binding": {"site_id_match": true, "project_root_match": true},
+  "package_identity": {
+    "zip_path": "content-prep/packages/thailand-field-notes-content-package-skill06-admin-import-20260806-compat-03.zip",
+    "outer_archive_sha256": "D4DADA8950B32A89293229A755FDC03F3D8AF4FE4E0AB2040C78980BBD6F1B0E",
+    "content_fingerprint": "713869FCEAF3B18C5D87170927FD1F177EECFB068C0D3851FDD309F11FA4A7C1",
+    "site_id": "thailand-field-notes",
+    "article_count": 36,
+    "image_count": 72
+  },
+  "preview": {
+    "found_article_count": 36,
+    "invalid_count": 0,
+    "needs_review_count": 0,
+    "skipped_duplicate_count": 0,
+    "will_add": 0,
+    "will_update": 36,
+    "will_delete": 0,
+    "risk_level": "high",
+    "preview_token": "965402543B6477E840A8CA1DA0500F303AF667E05D1E33C808E2EF5D95E676A8",
+    "contract_status": "PASS",
+    "media_assignment_status": "PASS",
+    "preview_apply_parity": "PASS"
+  },
+  "blocker": null
+}

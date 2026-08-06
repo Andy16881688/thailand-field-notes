@@ -1,0 +1,722 @@
+{
+  "schema_version": "artifact-lifecycle-registry-v1",
+  "site_id": "thailand-field-notes",
+  "entries": [
+    {
+      "artifact_id": "skill05-01",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+      "artifact_type": "admin_import_package",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 12872378,
+      "sha256": "09E269EB9DD907746EFDF2E263D7CF66F3B22059569F84B4D3398B524B592A8F",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-02",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/package-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 22399,
+      "sha256": "37FBDEDE6D77A71336F273C7753C276DC74A42713C1116CE500C9D7C06BAC8B1",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-03",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/package-file-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 27393,
+      "sha256": "603E0E93C777A985B6B313AFA3153AFC610574D800E5805AAC5B3C7815698579",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-04",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/approved-slugs-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 1558,
+      "sha256": "48DC864273CE1EEE0D75F95B10A62828559937EB4694FA138629B0CEE7D5D6B5",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-05",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/category-map-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 3665,
+      "sha256": "2E8A99F9AF8A36445C611A4263AAFEAE23381D41B2502AE7E3DDEEE8DD747641",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-06",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/media-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 32196,
+      "sha256": "DAEB154CBBFE2B621C33B9DA8FD3CEC5FFEE54844CE9194ABFBC9EC5A532E5AC",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-07",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/package-report-skill05-20260806-initial-01.md",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 1849,
+      "sha256": "3751D495B227B662067DCD75A63AE82F4D22DF795D486411E583205CCA21143C",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-08",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/image-uniqueness-report-skill05-20260806-initial-01.md",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 2340,
+      "sha256": "D05E7F7B58CCE776A241372B83B8D6773FA7CC4CA01D2AA8B641DE60DC5EA220",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-09",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/05-package-consumer-preflight-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 1161,
+      "sha256": "10DF4E09165629C52B3641C8A76BFAADDEE2F5F1E84D6D726CAA9B4C585D5BD2",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-10",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/orchestrator-handoff-05-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 568,
+      "sha256": "709656425ABCF03E58FF1CFEE462FDC088C089774AE955F1DC5F500573442DD5",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-11",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/skill05-cleanup-report-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 499,
+      "sha256": "C6315A9FBF28065478BD1C2A9403EBFEC09D75C7CD8F9CD32AF0E908486A2EC0",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-12",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/05-skill-output-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_output_manifest",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 29736,
+      "sha256": "FA5554EAB30295A6F2ADFE5CD9D866C95DEC1D817722EADF3CE0A63E00A09C8A",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 machine output manifest",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-package-build-temp",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/package-build/",
+      "artifact_type": "package_build_temp",
+      "lifecycle_status": "TEMPORARY",
+      "cleanup_policy": "delete_after_skill_success",
+      "safe_to_delete_after": "Skill 05 success and package verification",
+      "current_replacement": null,
+      "referenced_by": [],
+      "size_bytes": 13063991,
+      "sha256": null,
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 0,
+      "handoff_target": null,
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Rebuildable isolated package source",
+      "notes": [
+        "Retained for this handoff; exact-path cleanup is pending."
+      ]
+    },
+    {
+      "artifact_id": "skill06-01",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/local-preview-evidence-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 3925,
+      "sha256": "920F11FA0AC4D317F6336277A4C92D10BA4812F2B1BDB67E897C9EC2BC4142FD",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-02",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-preview-evidence-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 858,
+      "sha256": "6D698547EF2CB4F6B88B2608D9069D41B9F51FDCBBA403BA8F3DF686963127C9",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-03",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-apply-evidence-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 260,
+      "sha256": "C57A1CD561E7E4CE8F22ED5C70CF0D7CBDE5F864D32BEDAB6022A2241D69C6CF",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-04",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-validation-result-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 414,
+      "sha256": "0750DC30B72E9E3D7353066384D48CBA65B391142F047A1745D1201C7DBD4498",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-05",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-import-qa-report-skill06-20260806-initial-01.md",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 1036,
+      "sha256": "84A4F3EF2970E6AFAD096D21C2B37E1135239372FF6107CA25B4C5FDCC5DD241",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-06",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-import-qa-report-v1.md",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 1036,
+      "sha256": "84A4F3EF2970E6AFAD096D21C2B37E1135239372FF6107CA25B4C5FDCC5DD241",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-07",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/skill06-cleanup-report-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 321,
+      "sha256": "E67F8C45C63339FF6F819821AC9D6CF705DA73D25F4FBC44E6261486DB865972",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 cleanup evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill07-01",
+      "run_id": "skill07-20260806-local-01",
+      "skill_id": "07",
+      "relative_path": "docs/planning/site-launch-qa-report-skill07-20260806-local-01.md",
+      "artifact_type": "launch_qa_report",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["07"],
+      "size_bytes": 1916,
+      "sha256": "DDFC3B98E7D631F515BE48FD00A2EF5EE9A3602968A7E9344C0ED6B048CD5148",
+      "created_at": "2026-08-06T18:52:00+08:00",
+      "last_verified_at": "2026-08-06T18:52:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "04",
+      "source_artifact_ids": ["skill06-01"],
+      "reason": "Skill 07 local launch QA evidence with implementation blockers",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill07-02",
+      "run_id": "skill07-20260806-local-01",
+      "skill_id": "07",
+      "relative_path": "docs/planning/07-skill-output-manifest-skill07-20260806-local-01.json",
+      "artifact_type": "skill_output_manifest",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["04"],
+      "size_bytes": 4822,
+      "sha256": "19F1408B91F2E941293581EB66BAB1BC1BC84C24DDD0D32D753F592718299C1A",
+      "created_at": "2026-08-06T18:52:00+08:00",
+      "last_verified_at": "2026-08-06T18:52:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "04",
+      "source_artifact_ids": ["skill07-01"],
+      "reason": "Skill 07 blocked handoff manifest",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill07-03",
+      "run_id": "skill07-20260806-local-01",
+      "skill_id": "07",
+      "relative_path": "docs/planning/orchestrator-handoff-07-skill07-20260806-local-01.json",
+      "artifact_type": "orchestrator_handoff",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["04"],
+      "size_bytes": 823,
+      "sha256": "79FA190BDED49D04E0C339EF0ED2C30C51EE046155EFE92C2B5F707969E0BFD4",
+      "created_at": "2026-08-06T18:52:00+08:00",
+      "last_verified_at": "2026-08-06T18:52:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "04",
+      "source_artifact_ids": ["skill07-01"],
+      "reason": "Skill 07 blocked handoff with repair resume token",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill03-repair-01",
+      "run_id": "skill03-20260806-repair-01",
+      "skill_id": "03",
+      "relative_path": "docs/planning/skill03-repair-report-skill03-20260806-repair-01.md",
+      "artifact_type": "repair_report",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["07"],
+      "size_bytes": 1583,
+      "sha256": "484CC92E3ED2D57BE5F2FB6BC238102ADBDA314FFD2B343D87A72BBD61F0543F",
+      "created_at": "2026-08-06T19:00:00+08:00",
+      "last_verified_at": "2026-08-06T19:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": ["skill07-01"],
+      "reason": "Skill 03 repair delta after local QA rendering and SEO findings",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill03-repair-02",
+      "run_id": "skill03-20260806-repair-01",
+      "skill_id": "03",
+      "relative_path": "docs/planning/orchestrator-handoff-03-skill03-20260806-repair-01.json",
+      "artifact_type": "orchestrator_handoff",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["07"],
+      "size_bytes": 1047,
+      "sha256": "A18FB066FF10F9B3D008AF2290EF941C9C288958D3C7C739EBA46E429AFD86B5",
+      "created_at": "2026-08-06T19:00:00+08:00",
+      "last_verified_at": "2026-08-06T19:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": ["skill03-repair-01"],
+      "reason": "Skill 03 repaired implementation handoff",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill03-repair-03",
+      "run_id": "skill03-20260806-repair-01",
+      "skill_id": "03",
+      "relative_path": "docs/planning/03-real-surface-smoke-skill03-20260806-repair-01.json",
+      "artifact_type": "qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["07"],
+      "size_bytes": 842,
+      "sha256": "DF5065D182A7B585AA70FFA7DF7384A8AB43BDC6A86EA6CAFD4C841D5CA1FE8D",
+      "created_at": "2026-08-06T19:00:00+08:00",
+      "last_verified_at": "2026-08-06T19:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": ["skill03-repair-01"],
+      "reason": "Static Chrome regression evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill07-recheck-01",
+      "run_id": "skill07-20260806-local-02",
+      "skill_id": "07",
+      "relative_path": "docs/planning/site-launch-qa-report-skill07-20260806-local-02.md",
+      "artifact_type": "launch_qa_report",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["07"],
+      "size_bytes": 1497,
+      "sha256": "6286AC615F6A22A4BE6C49343B141B07864F666AE4228C9CC58E5035275DA77B",
+      "created_at": "2026-08-06T21:05:00+08:00",
+      "last_verified_at": "2026-08-06T21:05:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": ["skill03-repair-01"],
+      "reason": "Skill 07 full local QA recheck after Skill 03 repairs",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill07-recheck-02",
+      "run_id": "skill07-20260806-local-02",
+      "skill_id": "07",
+      "relative_path": "docs/planning/orchestrator-handoff-07-skill07-20260806-local-02.json",
+      "artifact_type": "orchestrator_handoff",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["release_gate"],
+      "size_bytes": 873,
+      "sha256": "59A5EC64219D3E7E6C7553FEFDCDFA4E5DEFB6569D9968A25C60CB0D4721B30A",
+      "created_at": "2026-08-06T21:05:00+08:00",
+      "last_verified_at": "2026-08-06T21:05:00+08:00",
+      "formal_reference_count": 1,
+      "handoff_target": "release_gate",
+      "source_artifact_ids": ["skill07-recheck-01"],
+      "reason": "Skill 07 local QA handoff with formal-domain boundary",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill07-recheck-03",
+      "run_id": "skill07-20260806-local-02",
+      "skill_id": "07",
+      "relative_path": "docs/planning/07-skill-output-manifest-skill07-20260806-local-02.json",
+      "artifact_type": "output_manifest",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": ["release_gate"],
+      "size_bytes": 1016,
+      "sha256": "245465F17040ACE98A94C16720CE381A8EFB1737631C0DEB0D612C078877869D",
+      "created_at": "2026-08-06T21:05:00+08:00",
+      "last_verified_at": "2026-08-06T21:05:00+08:00",
+      "formal_reference_count": 1,
+      "handoff_target": "release_gate",
+      "source_artifact_ids": ["skill07-recheck-01"],
+      "reason": "Skill 07 output manifest",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "skill01-legal-pages-manifest-v1",
+  "site_id": "thailand-field-notes",
+  "legal_source_mode": "standard_template_pack",
+  "source_pack": "C:\\Users\\rolel\\Desktop\\网站\\sites-factory-skills\\legal-trust-source-templates-v2026-07-09.zip",
+  "required_page_keys": ["about", "privacy_policy", "terms", "user_agreement"],
+  "pages": [
+    {"page_key":"about","route":"/about/","title":"About","footer_label":"About","content_status":"adapted_complete","placeholder_count":0},
+    {"page_key":"privacy_policy","route":"/privacy-policy/","title":"Privacy Policy","footer_label":"Privacy Policy","content_status":"adapted_complete","placeholder_count":0},
+    {"page_key":"terms","route":"/terms/","title":"Terms of Use","footer_label":"Terms","content_status":"adapted_complete","placeholder_count":0},
+    {"page_key":"user_agreement","route":"/user-agreement/","title":"User Agreement","footer_label":"User Agreement","content_status":"adapted_complete","placeholder_count":0}
+  ],
+  "site_feature_assumptions": {"has_accounts":false,"has_user_generated_content":false,"has_comments":false,"has_contact_form":false,"has_email_subscription":false,"has_payments":false,"has_downloads":false,"has_ads":false,"has_affiliate_links":false,"has_analytics":false,"has_cookies_or_tracking":false,"has_professional_advice_topic":false},
+  "legal_placeholder_count": 0,
+  "legal_content_matches_site_features": true,
+  "draft_path": "docs/planning/legal-pages-draft-v1.md",
+  "status": "PASS"
+}

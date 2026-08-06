@@ -1,0 +1,841 @@
+{
+  "schema_version": "v1",
+  "skill_id": "05",
+  "site_id": "thailand-field-notes",
+  "preflight": {
+    "skill04_prepared_content_found": true,
+    "skill04_report_found": true,
+    "skill04_output_manifest_found": true,
+    "skill04_handoff_pass": true,
+    "prepared_only_source": true,
+    "toolkit_found": true,
+    "project_identity_found": true
+  },
+  "package_schema": {
+    "allowed_roots_status": "PASS",
+    "root_folder_status": "PASS",
+    "article_path_status": "PASS",
+    "markdown_count": 36,
+    "legal_markdown_count": 0,
+    "raw_source_count": 0,
+    "absolute_path_count": 0
+  },
+  "content_validation": {
+    "article_count": 36,
+    "unique_slug_count": 36,
+    "hierarchy_error_count": 0,
+    "body_schema_error_count": 0,
+    "seo_geo_field_loss_count": 0,
+    "time_field_loss_count": 0,
+    "timestamp_validation": "PASS",
+    "formal_site_data_check": "PASS",
+    "check_pass": "PASS",
+    "build_pass": "PASS"
+  },
+  "media_validation": {
+    "media_contract_version": "v2",
+    "media_root": "/assets/images/",
+    "featured_count": 36,
+    "closing_count": 36,
+    "inline_count": 0,
+    "missing_media_assignment": 0,
+    "optimized_media_count": 72,
+    "missing_file_count": 0,
+    "duplicate_page_count": 0,
+    "uniqueness_status": "PASS"
+  },
+  "package_fingerprint": {
+    "zip_path": "content-prep/packages/thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+    "outer_archive_sha256": "09E269EB9DD907746EFDF2E263D7CF66F3B22059569F84B4D3398B524B592A8F",
+    "normalized_file_count": 112,
+    "normalized_file_manifest_path": "content-prep/packages/package-file-manifest-skill05-20260806-initial-01.json",
+    "normalized_file_manifest_sha256": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+    "total_uncompressed_bytes": 13086390,
+    "package_manifest_sha256": "37fbdede6d77a71336f273c7753c276dc74a42713c1116ce500c9d7c06bac8b1",
+    "content_fingerprint": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+    "reopen_verification": "PASS"
+  },
+  "outputs": [
+    {
+      "output_id": "skill05-01",
+      "path": "content-prep/packages/thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "09E269EB9DD907746EFDF2E263D7CF66F3B22059569F84B4D3398B524B592A8F",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-02",
+      "path": "content-prep/packages/package-manifest-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "37FBDEDE6D77A71336F273C7753C276DC74A42713C1116CE500C9D7C06BAC8B1",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-03",
+      "path": "content-prep/packages/package-file-manifest-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "603E0E93C777A985B6B313AFA3153AFC610574D800E5805AAC5B3C7815698579",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-04",
+      "path": "content-prep/packages/approved-slugs-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "48DC864273CE1EEE0D75F95B10A62828559937EB4694FA138629B0CEE7D5D6B5",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-05",
+      "path": "content-prep/packages/category-map-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "2E8A99F9AF8A36445C611A4263AAFEAE23381D41B2502AE7E3DDEEE8DD747641",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-06",
+      "path": "content-prep/packages/media-manifest-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "DAEB154CBBFE2B621C33B9DA8FD3CEC5FFEE54844CE9194ABFBC9EC5A532E5AC",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-07",
+      "path": "content-prep/package-report-skill05-20260806-initial-01.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "3751D495B227B662067DCD75A63AE82F4D22DF795D486411E583205CCA21143C",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-08",
+      "path": "docs/planning/image-uniqueness-report-skill05-20260806-initial-01.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "D05E7F7B58CCE776A241372B83B8D6773FA7CC4CA01D2AA8B641DE60DC5EA220",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-09",
+      "path": "docs/planning/05-package-consumer-preflight-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "777E236E6C4D9FDFCCF033C9CA5F2CC46C817276996E394159873A9B7E1DC328",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-10",
+      "path": "docs/planning/orchestrator-handoff-05-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "709656425ABCF03E58FF1CFEE462FDC088C089774AE955F1DC5F500573442DD5",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-11",
+      "path": "docs/planning/skill05-cleanup-report-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "C6315A9FBF28065478BD1C2A9403EBFEC09D75C7CD8F9CD32AF0E908486A2EC0",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill05-12",
+      "path": "docs/planning/05-skill-output-manifest-skill05-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "BF270F5504675959DCD57C80754C06373B523768A04E6209DEA38A2B71A8032B",
+      "status": "PASS"
+    }
+  ],
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS",
+    "downstream_handoff_allowed": true
+  },
+  "artifact_storage_report": {
+    "created_file_count": 12,
+    "created_bytes": 12965475,
+    "retained_file_count": 0,
+    "retained_bytes": 0,
+    "safe_deleted_file_count": 0,
+    "safe_deleted_bytes": 0,
+    "review_required_count": 0,
+    "inventory_count": 12,
+    "cleanup_preview_count": 1,
+    "archived_count": 0,
+    "deleted_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 0,
+    "mixed_directory_finding_count": 0
+  },
+  "final_status": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+  "operating_contract": {
+    "site_data_engineering": true,
+    "build_required": true,
+    "admin_package_required": true,
+    "unique_current_package": true
+  },
+  "run_id": "skill05-20260806-initial-01",
+  "artifact_entries": [
+    {
+      "artifact_id": "skill05-01",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+      "artifact_type": "admin_import_package",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 12872378,
+      "sha256": "09E269EB9DD907746EFDF2E263D7CF66F3B22059569F84B4D3398B524B592A8F",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-02",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/package-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 22399,
+      "sha256": "37FBDEDE6D77A71336F273C7753C276DC74A42713C1116CE500C9D7C06BAC8B1",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-03",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/package-file-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 27393,
+      "sha256": "603E0E93C777A985B6B313AFA3153AFC610574D800E5805AAC5B3C7815698579",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-04",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/approved-slugs-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 1558,
+      "sha256": "48DC864273CE1EEE0D75F95B10A62828559937EB4694FA138629B0CEE7D5D6B5",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-05",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/category-map-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 3665,
+      "sha256": "2E8A99F9AF8A36445C611A4263AAFEAE23381D41B2502AE7E3DDEEE8DD747641",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-06",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/packages/media-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 32196,
+      "sha256": "DAEB154CBBFE2B621C33B9DA8FD3CEC5FFEE54844CE9194ABFBC9EC5A532E5AC",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-07",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "content-prep/package-report-skill05-20260806-initial-01.md",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 1849,
+      "sha256": "3751D495B227B662067DCD75A63AE82F4D22DF795D486411E583205CCA21143C",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-08",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/image-uniqueness-report-skill05-20260806-initial-01.md",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 2340,
+      "sha256": "D05E7F7B58CCE776A241372B83B8D6773FA7CC4CA01D2AA8B641DE60DC5EA220",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-09",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/05-package-consumer-preflight-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 630,
+      "sha256": "777E236E6C4D9FDFCCF033C9CA5F2CC46C817276996E394159873A9B7E1DC328",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-10",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/orchestrator-handoff-05-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 568,
+      "sha256": "709656425ABCF03E58FF1CFEE462FDC088C089774AE955F1DC5F500573442DD5",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-11",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/skill05-cleanup-report-skill05-20260806-initial-01.json",
+      "artifact_type": "package_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 499,
+      "sha256": "C6315A9FBF28065478BD1C2A9403EBFEC09D75C7CD8F9CD32AF0E908486A2EC0",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 package and immutable verification evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill05-12",
+      "run_id": "skill05-20260806-initial-01",
+      "skill_id": "05",
+      "relative_path": "docs/planning/05-skill-output-manifest-skill05-20260806-initial-01.json",
+      "artifact_type": "package_output_manifest",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "06"
+      ],
+      "size_bytes": 29736,
+      "sha256": "BF270F5504675959DCD57C80754C06373B523768A04E6209DEA38A2B71A8032B",
+      "created_at": "2026-08-06T16:40:00+08:00",
+      "last_verified_at": "2026-08-06T16:40:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "06",
+      "source_artifact_ids": [
+        "skill04-prepared-content"
+      ],
+      "reason": "Skill 05 machine output manifest",
+      "notes": []
+    }
+  ],
+  "cleanup_report_path": "docs/planning/skill05-cleanup-report-skill05-20260806-initial-01.json",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "lifecycle_contract_version": "v1",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "output_path_contract_version": "site-factory-output-path-contract-v1",
+    "run_id": "skill05-20260806-initial-01",
+    "skill_id": "05",
+    "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+    "artifacts": [
+      {
+        "artifact_id": "skill05-01",
+        "relative_path": "content-prep/packages/thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\packages\\thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill05-02",
+        "relative_path": "content-prep/packages/package-manifest-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\packages\\package-manifest-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-03",
+        "relative_path": "content-prep/packages/package-file-manifest-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\packages\\package-file-manifest-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-04",
+        "relative_path": "content-prep/packages/approved-slugs-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\packages\\approved-slugs-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-05",
+        "relative_path": "content-prep/packages/category-map-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\packages\\category-map-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-06",
+        "relative_path": "content-prep/packages/media-manifest-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\packages\\media-manifest-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-07",
+        "relative_path": "content-prep/package-report-skill05-20260806-initial-01.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\package-report-skill05-20260806-initial-01.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-08",
+        "relative_path": "docs/planning/image-uniqueness-report-skill05-20260806-initial-01.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\image-uniqueness-report-skill05-20260806-initial-01.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-09",
+        "relative_path": "docs/planning/05-package-consumer-preflight-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\05-package-consumer-preflight-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-10",
+        "relative_path": "docs/planning/orchestrator-handoff-05-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\orchestrator-handoff-05-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-11",
+        "relative_path": "docs/planning/skill05-cleanup-report-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\skill05-cleanup-report-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill05-12",
+        "relative_path": "docs/planning/05-skill-output-manifest-skill05-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\05-skill-output-manifest-skill05-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      }
+    ]
+  },
+  "media_role_contract": {
+    "contract_version": "site-factory-media-role-contract-v1",
+    "item_count": 72,
+    "featured_count": 36,
+    "closing_count": 36,
+    "missing_media_assignment": 0,
+    "manifest_path": "content-prep/packages/media-manifest-skill05-20260806-initial-01.json",
+    "manifest_sha256": "DAEB154CBBFE2B621C33B9DA8FD3CEC5FFEE54844CE9194ABFBC9EC5A532E5AC",
+    "media_contract_version": "v2",
+    "media_root": "/assets/images/",
+    "validator_contract_version": "site-factory-validator-media-path-contract-v1",
+    "inline_count": 0
+  },
+  "validator_media_path_validation": {
+    "schema_version": "validator-media-path-contract-v1",
+    "media_contract_version": "v2",
+    "media_root": "/assets/images/",
+    "item_count": 72,
+    "featured_count": 36,
+    "closing_count": 36,
+    "inline_count": 0,
+    "missing_media_assignment": 0,
+    "missing_file_count": 0,
+    "invalid_path_count": 0,
+    "status": "PASS"
+  },
+  "project_identity_evidence": {
+    "site_id": "thailand-field-notes",
+    "project_identity_sha256": "F011170CFBD8AEAC014DEF517EEDD4E0BEB3DEE4D33B3474A68A156CA21B3FBE",
+    "project_contract_version": "effective-project-contract-v1",
+    "identity_status": "PASS",
+    "package_target_identity_match": true,
+    "preview_apply_identity_match": false,
+    "release_identity_match": false
+  },
+  "editorial_content_quality": {
+    "schema_version": "editorial-content-quality-report-v1",
+    "validator_version": "v1",
+    "source": "final packaged article projection",
+    "articles": [
+      {
+        "slug": "arriving-bangkok-suvarnabhumi-airport",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-airport-to-city-main-options",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-bts-mrt-for-beginners",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-chiang-mai-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-first-timer-guide",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-krabi-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-phuket-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "best-time-to-visit-thailand-by-region",
+        "hits": []
+      },
+      {
+        "slug": "book-overnight-trains-thailand",
+        "hits": []
+      },
+      {
+        "slug": "chiang-mai-first-timer-guide",
+        "hits": []
+      },
+      {
+        "slug": "chiang-rai-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "historical-day-trips-from-bangkok",
+        "hits": []
+      },
+      {
+        "slug": "how-many-days-in-thailand",
+        "hits": []
+      },
+      {
+        "slug": "how-to-use-grab-in-thailand",
+        "hits": []
+      },
+      {
+        "slug": "island-hopping-logistics-thailand",
+        "hits": []
+      },
+      {
+        "slug": "koh-samui-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "krabi-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "pai-travel-guide-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "phuket-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "take-ferry-southern-thailand",
+        "hits": []
+      },
+      {
+        "slug": "thai-food-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thai-temple-etiquette-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-10-days-balanced-first-trip",
+        "hits": []
+      },
+      {
+        "slug": "thailand-14-days-north-city-islands",
+        "hits": []
+      },
+      {
+        "slug": "thailand-7-days-bangkok-chiang-mai-beach",
+        "hits": []
+      },
+      {
+        "slug": "thailand-digital-arrival-entry-procedures",
+        "hits": []
+      },
+      {
+        "slug": "thailand-domestic-flights-when-they-make-sense",
+        "hits": []
+      },
+      {
+        "slug": "thailand-entry-requirements-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-for-solo-travelers",
+        "hits": []
+      },
+      {
+        "slug": "thailand-trains-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-insurance-what-to-check",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-mistakes-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-safety-basics",
+        "hits": []
+      },
+      {
+        "slug": "thailand-visa-visa-exemption-basics",
+        "hits": []
+      },
+      {
+        "slug": "thailand-without-domestic-flights",
+        "hits": []
+      }
+    ],
+    "summary": {
+      "article_count": 36,
+      "affected_article_count": 0,
+      "editorial_meta_text_hit_count": 0,
+      "prompt_residue_hit_count": 0,
+      "html_escape_hit_count": 0,
+      "object_render_hit_count": 0,
+      "placeholder_hit_count": 0,
+      "total_hit_count": 0
+    },
+    "quality_status": "PASS"
+  },
+  "semantic_quality_report_path": null,
+  "composite_content_quality_status": "COMPOSITE_CONTENT_QUALITY_PASS",
+  "package_toolkit": {
+    "cli_path": "C:\\Users\\rolel\\Desktop\\网站\\sites-factory-skills\\05\\tools\\package-toolkit\\bin\\package-toolkit.mjs",
+    "package_type": "initial-content-package",
+    "zip_engine": "local_authorized",
+    "content_fingerprint": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+    "atomic_output": true,
+    "reopen_verify": "PASS",
+    "performance_report": {
+      "build_status": "PASS",
+      "reopen_status": "PASS"
+    }
+  },
+  "orchestration": {
+    "orchestrator_version": "149-v1",
+    "orchestrator": "skill04",
+    "mode": "initial_content_package",
+    "status": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+    "stage_id": "05",
+    "next_stage": "06",
+    "resume_token": null,
+    "input_identity": {
+      "skill04_output_manifest": "PASS_READY_FOR_SKILL05",
+      "prepared_article_count": 36
+    },
+    "output_identity": {
+      "zip_outer_sha256": "09E269EB9DD907746EFDF2E263D7CF66F3B22059569F84B4D3398B524B592A8F",
+      "normalized_file_manifest_sha256": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+      "package_manifest_sha256": "37fbdede6d77a71336f273c7753c276dc74a42713c1116ce500c9d7c06bac8b1"
+    },
+    "human_approval_refs": [
+      "user-continued-to-skill05-prepared-content-review"
+    ],
+    "skip_decisions": []
+  },
+  "execution_mode": "initial_content_package"
+}

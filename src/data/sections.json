@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "plan-your-trip",
+    "name": "Plan Your Trip",
+    "category_slugs": [
+      "first-trip-decisions",
+      "route-lengths",
+      "route-combinations",
+      "travel-style-constraints"
+    ]
+  },
+  {
+    "slug": "entry-essentials",
+    "name": "Entry Essentials",
+    "category_slugs": [
+      "entry-documents",
+      "arrival-protection"
+    ]
+  },
+  {
+    "slug": "getting-around",
+    "name": "Getting Around",
+    "category_slugs": [
+      "bangkok-local-transport",
+      "rail-air-long-distance",
+      "ferries-island-logistics"
+    ]
+  },
+  {
+    "slug": "destinations-local-context",
+    "name": "Destinations & Local Context",
+    "category_slugs": [
+      "bangkok-central-thailand",
+      "northern-thailand",
+      "southern-thailand",
+      "food-cultural-etiquette"
+    ]
+  }
+]

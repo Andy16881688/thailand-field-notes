@@ -1,0 +1,11 @@
+{
+  "schema_version":"business-authority-validation-report-v1",
+  "site_id":"thailand-field-notes",
+  "structure_display_contract_path":"docs/planning/structure-display-contract-v1.json",
+  "hardcoded_business_authority_contract_path":"docs/planning/hardcoded-business-authority-contract-v1.json",
+  "runtime_blocking_findings":[],
+  "non_runtime_review_findings":[],
+  "surface_parity":{"header":{"expected":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"actual":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"missing":[],"stale":[],"order_match":true,"result":"PASS"},"mobile_nav":{"expected":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"actual":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"missing":[],"stale":[],"order_match":true,"result":"PASS"},"footer":{"expected":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"actual":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"missing":[],"stale":[],"order_match":true,"result":"PASS"},"homepage_sections":{"expected":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"actual":["plan-your-trip","entry-essentials","getting-around","destinations-local-context"],"missing":[],"stale":[],"order_match":true,"result":"PASS"},"homepage_categories":{"expected":[],"actual":[],"missing":[],"stale":[],"order_match":true,"result":"PASS"},"sitemap":{"expected":[],"actual":[],"missing":[],"stale":[],"order_match":true,"result":"PASS"},"tracked_only_candidate":{"expected":[],"actual":[],"missing":[],"stale":[],"order_match":true,"result":"PASS"}},
+  "status":"PASS",
+  "blocking_status":null
+}

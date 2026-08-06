@@ -1,0 +1,14 @@
+{
+  "schema_version": "skill07-cleanup-report-v1",
+  "run_id": "skill07-20260806-local-01",
+  "skill_id": "07",
+  "site_id": "thailand-field-notes",
+  "previewed_paths": [],
+  "archived_paths": [],
+  "deleted_paths": [],
+  "skipped_paths": [],
+  "manual_review_paths": [
+    "docs/planning/site-launch-qa-report-skill07-20260806-local-01.md"
+  ],
+  "reason": "Local QA blocked before release staging; no cleanup or remote mutation performed."
+}

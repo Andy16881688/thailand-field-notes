@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "contract_version": "v1",
+  "project_contract_version": "v1",
+  "status": "CURRENT",
+  "site_id": "thailand-field-notes",
+  "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+  "data": {"site_settings_path":"src/data/site-settings.json","sections_path":"src/data/sections.json","categories_path":"src/data/categories.json","posts_path":"src/data/posts.json"},
+  "post_contract": {"required_fields":["slug","title","section_slug","category_slug","published","body","hero"],"optional_fields":["process","sources","toc","last_reviewed","content_type","word_count"],"allowed_body_formats":["markdown"],"body_rendering_mode":"controlled paragraph and heading projection","featured_image_rule":"hero path must resolve under public/","closing_image_rule":"process image is optional and content-driven","faq_rule":"only render when present in source data","related_posts_rule":"derive from current category data","date_fields":["published","last_reviewed"],"legacy_policy":"no legacy runtime data"},
+  "routes": {"homepage":"/","section":"/section/{section}/","category":"/category/{category}/","post":"/post/{post}/","legal":"/{legal}/"},
+  "validation": {"data_validation_command":"node scripts/validate-data.mjs","check_command":"npm run check","build_command":"npm run build"},
+  "seo": {"canonical_rule":"every indexable route emits a canonical URL; formal origin remains pending","sitemap_rule":"Astro sitemap integration emits routes after formal origin is approved","robots_rule":"robots.txt remains launch-ready but formal origin is pending","structured_data_rule":"add Article and BreadcrumbList only from current route data"},
+  "media": {"storage_root":"public/content/","naming_rule":"source slug directories with hero.png and process.png; Stitch reference assets under public/assets/","supported_types":["png","woff","woff2","ttf","css"],"reference_contract":"all production media references resolve to public-relative paths"},
+  "release": {"output_directory":"dist/","production_domain":"pending"},
+  "visual_and_code_source": {"visual_lock":"docs/planning/02-approved-visual-source-lock-v1.json","code_source_lock":"docs/planning/03-code-source-lock-v1.json","source_sha256":"7DEC4DF386F7680A353E71E90C0E50AEA845993DACFED135DEC0D74EB8C27147"},
+  "time_policy_contract": {"path":"docs/planning/content-time-policy-v1.json","timezone":"Asia/Bangkok"},
+  "admin_capability_contract": {"status":"NOT_IN_SCOPE_FOR_SKILL03"},
+  "media_role_contract": {"hero":"primary article visual","process":"supporting practical visual"}
+}

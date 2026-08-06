@@ -1,0 +1,9 @@
+---
+const { post } = Astro.props;
+---
+<article class="card">
+  <img src={post.hero} alt={post.title} loading="lazy" />
+  <p class="eyebrow">{post.category_slug.replaceAll('-', ' ')}</p>
+  <h3><a href={`/post/${post.slug}/`}>{post.title}</a></h3>
+  <p class="meta">Published {post.published}</p>
+</article>

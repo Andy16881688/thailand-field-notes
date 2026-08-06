@@ -1,0 +1,19 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { posts } from '../../lib/data';
+export function getStaticPaths(){return posts.map((post)=>({params:{post:post.slug},props:{post}}))}
+const { post }=Astro.props;
+const blocks=post.body.split(/\n\s*\n/).filter(Boolean);
+const isHtml=post.body_format==='html';
+---
+<Layout title={post.title} description={post.title} canonical={`/post/${post.slug}/`}>
+  <article class="page article">
+    <p class="eyebrow">{post.category_slug.replaceAll('-', ' ')}</p>
+    <h1>{post.title}</h1>
+    <p class="meta">Published {post.published} · Last reviewed {post.last_reviewed}</p>
+    <img class="hero-image" src={post.hero} alt={post.title} />
+    {isHtml ? <div class="article-body" set:html={post.body}></div> : blocks.map((block)=>(block.startsWith('## ') ? <h2>{block.slice(3)}</h2> : <p>{block.replaceAll('\n',' ')}</p>))}
+    <img class="closing-image" src={post.closing_image} alt={`${post.title} closing image`} />
+    {!isHtml && <><h2>Official sources</h2><ul>{post.sources.map((source)=><li>{source}</li>)}</ul></>}
+  </article>
+</Layout>

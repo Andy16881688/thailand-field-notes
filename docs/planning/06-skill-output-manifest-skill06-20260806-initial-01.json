@@ -1,0 +1,648 @@
+{
+  "schema_version": "v1",
+  "skill_id": "06",
+  "site_id": "thailand-field-notes",
+  "preflight": {
+    "skill05_output_manifest_found": true,
+    "skill05_handoff_pass": true,
+    "skill05_final_status": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+    "validate_data_pass": true,
+    "bom_scan_pass": true,
+    "zip_schema_pass": true,
+    "local_preview_evidence_found": true,
+    "admin_url_available": true
+  },
+  "package_identity": {
+    "zip_path": "content-prep/packages/thailand-field-notes-content-package-skill05-20260806-initial-01.zip",
+    "outer_archive_sha256": "09e269eb9dd907746efdf2e263d7cf66f3b22059569f84b4d3398b524b592a8f",
+    "normalized_file_manifest_sha256": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+    "package_manifest_sha256": "37fbdede6d77a71336f273c7753c276dc74a42713c1116ce500c9d7c06bac8b1",
+    "site_id": "thailand-field-notes",
+    "article_count": 36,
+    "image_count": 72,
+    "identity_match": true
+  },
+  "admin_binding": {
+    "admin_url": "http://127.0.0.1:4392",
+    "site_id_match": true,
+    "project_root_match": true,
+    "result": "PASS"
+  },
+  "preview": {
+    "found_article_count": 36,
+    "invalid_count": 0,
+    "needs_review_count": 0,
+    "skipped_duplicate_count": 0,
+    "will_add": 0,
+    "will_update": 36,
+    "will_delete": 0,
+    "risk_level": "high",
+    "status": "PASS"
+  },
+  "apply_decision": {
+    "safe_duplicate_no_op": false,
+    "apply_required": true,
+    "apply_executed": true,
+    "decision_reason": "CONTROLLED_UPDATE_APPLIED_AND_VALIDATED"
+  },
+  "validation": {
+    "local_validate_data": "PASS",
+    "local_bom_scan": "PASS",
+    "local_zip_schema": "PASS",
+    "local_preview_status": "BLOCKED_LOCAL_PREVIEW_QA",
+    "admin_preview_status": "PASS",
+    "post_apply_status": "PASS",
+    "frontend_quick_qa_status": "BLOCKED_LOCAL_PREVIEW_QA",
+    "legal_qa_status": "PASS",
+    "rejected_residue_status": "PASS"
+  },
+  "outputs": [
+    {
+      "output_id": "skill06-01",
+      "path": "docs/planning/local-preview-evidence-skill06-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "920F11FA0AC4D317F6336277A4C92D10BA4812F2B1BDB67E897C9EC2BC4142FD",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill06-02",
+      "path": "docs/planning/admin-preview-evidence-skill06-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "6D698547EF2CB4F6B88B2608D9069D41B9F51FDCBBA403BA8F3DF686963127C9",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill06-03",
+      "path": "docs/planning/admin-apply-evidence-skill06-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "C57A1CD561E7E4CE8F22ED5C70CF0D7CBDE5F864D32BEDAB6022A2241D69C6CF",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill06-04",
+      "path": "docs/planning/admin-validation-result-skill06-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "0750DC30B72E9E3D7353066384D48CBA65B391142F047A1745D1201C7DBD4498",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill06-05",
+      "path": "docs/planning/admin-import-qa-report-skill06-20260806-initial-01.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "84A4F3EF2970E6AFAD096D21C2B37E1135239372FF6107CA25B4C5FDCC5DD241",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill06-06",
+      "path": "docs/planning/admin-import-qa-report-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "84A4F3EF2970E6AFAD096D21C2B37E1135239372FF6107CA25B4C5FDCC5DD241",
+      "status": "PASS"
+    },
+    {
+      "output_id": "skill06-07",
+      "path": "docs/planning/skill06-cleanup-report-skill06-20260806-initial-01.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "E67F8C45C63339FF6F819821AC9D6CF705DA73D25F4FBC44E6261486DB865972",
+      "status": "PASS"
+    }
+  ],
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS",
+    "downstream_handoff_allowed": false
+  },
+  "artifact_storage_report": {
+    "created_file_count": 7,
+    "created_bytes": 7850,
+    "retained_file_count": 0,
+    "retained_bytes": 0,
+    "safe_deleted_file_count": 0,
+    "review_required_count": 1,
+    "inventory_count": 7,
+    "cleanup_preview_count": 0,
+    "archived_count": 0,
+    "deleted_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 1,
+    "mixed_directory_finding_count": 0
+  },
+  "frontend_only_repair_gate": {
+    "evaluated": true,
+    "posts_json_unchanged": false,
+    "categories_json_unchanged": true,
+    "sections_json_unchanged": true,
+    "content_package_unchanged": true,
+    "frontend_only": false,
+    "direct_handoff_to_skill08": false
+  },
+  "final_status": "PASS_APPLIED_AND_VALIDATED",
+  "operating_contract": {
+    "admin_start_by_user": false,
+    "admin_url_discovered_by_codex": false,
+    "safe_auto_apply": true,
+    "direct_local_user_review": true,
+    "key_page_screenshots_required": false
+  },
+  "run_id": "skill06-20260806-initial-01",
+  "artifact_entries": [
+    {
+      "artifact_id": "skill06-01",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/local-preview-evidence-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 3925,
+      "sha256": "920F11FA0AC4D317F6336277A4C92D10BA4812F2B1BDB67E897C9EC2BC4142FD",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-02",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-preview-evidence-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 858,
+      "sha256": "6D698547EF2CB4F6B88B2608D9069D41B9F51FDCBBA403BA8F3DF686963127C9",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-03",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-apply-evidence-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 260,
+      "sha256": "C57A1CD561E7E4CE8F22ED5C70CF0D7CBDE5F864D32BEDAB6022A2241D69C6CF",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-04",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-validation-result-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 414,
+      "sha256": "0750DC30B72E9E3D7353066384D48CBA65B391142F047A1745D1201C7DBD4498",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-05",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-import-qa-report-skill06-20260806-initial-01.md",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 1036,
+      "sha256": "84A4F3EF2970E6AFAD096D21C2B37E1135239372FF6107CA25B4C5FDCC5DD241",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-06",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/admin-import-qa-report-v1.md",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 1036,
+      "sha256": "84A4F3EF2970E6AFAD096D21C2B37E1135239372FF6107CA25B4C5FDCC5DD241",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 local preflight and Admin binding evidence",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill06-07",
+      "run_id": "skill06-20260806-initial-01",
+      "skill_id": "06",
+      "relative_path": "docs/planning/skill06-cleanup-report-skill06-20260806-initial-01.json",
+      "artifact_type": "admin_qa_evidence",
+      "lifecycle_status": "CURRENT",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "07"
+      ],
+      "size_bytes": 321,
+      "sha256": "E67F8C45C63339FF6F819821AC9D6CF705DA73D25F4FBC44E6261486DB865972",
+      "created_at": "2026-08-06T16:55:00+08:00",
+      "last_verified_at": "2026-08-06T16:55:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "07",
+      "source_artifact_ids": [
+        "skill05-package"
+      ],
+      "reason": "Skill 06 cleanup evidence",
+      "notes": []
+    }
+  ],
+  "cleanup_report_path": "docs/planning/skill06-cleanup-report-skill06-20260806-initial-01.json",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "lifecycle_contract_version": "v1",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "output_path_contract_version": "site-factory-output-path-contract-v1",
+    "run_id": "skill06-20260806-initial-01",
+    "skill_id": "06",
+    "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+    "artifacts": [
+      {
+        "artifact_id": "skill06-01",
+        "relative_path": "docs/planning/local-preview-evidence-skill06-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\local-preview-evidence-skill06-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill06-02",
+        "relative_path": "docs/planning/admin-preview-evidence-skill06-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\admin-preview-evidence-skill06-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill06-03",
+        "relative_path": "docs/planning/admin-apply-evidence-skill06-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\admin-apply-evidence-skill06-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill06-04",
+        "relative_path": "docs/planning/admin-validation-result-skill06-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\admin-validation-result-skill06-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill06-05",
+        "relative_path": "docs/planning/admin-import-qa-report-skill06-20260806-initial-01.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\admin-import-qa-report-skill06-20260806-initial-01.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill06-06",
+        "relative_path": "docs/planning/admin-import-qa-report-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\admin-import-qa-report-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "skill06-07",
+        "relative_path": "docs/planning/skill06-cleanup-report-skill06-20260806-initial-01.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\skill06-cleanup-report-skill06-20260806-initial-01.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      }
+    ]
+  },
+  "identity_resolution": {
+    "status": "PASS",
+    "mapping_path": "content-prep/packages/approved-slugs-skill05-20260806-initial-01.json",
+    "mapping_sha256": "48DC864273CE1EEE0D75F95B10A62828559937EB4694FA138629B0CEE7D5D6B5",
+    "source_count": 36,
+    "final_count": 36,
+    "mechanical_suffix_count": 0
+  },
+  "preview_apply_parity": {
+    "preview_payload_sha256": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+    "staging_payload_sha256": "df5508a2165a8ae769eae1e9b7c97298a787266a8764aeb6c5c061ead976bc41",
+    "status": "NOT_APPLIED"
+  },
+  "media_projection": {
+    "featured_image_projected": 36,
+    "closing_image_projected": 36,
+    "missing_media_assignment": 0,
+    "undeclared_media_reference_count": 0
+  },
+  "validator_media_path_validation": {
+    "schema_version": "validator-media-path-contract-v1",
+    "media_contract_version": "v2",
+    "media_root": "/assets/images/",
+    "item_count": 72,
+    "featured_count": 36,
+    "closing_count": 36,
+    "inline_count": 0,
+    "missing_media_assignment": 0,
+    "missing_file_count": 0,
+    "invalid_path_count": 0,
+    "status": "PASS"
+  },
+  "project_identity_evidence": {
+    "site_id": "thailand-field-notes",
+    "project_identity_sha256": "F011170CFBD8AEAC014DEF517EEDD4E0BEB3DEE4D33B3474A68A156CA21B3FBE",
+    "project_contract_version": "effective-project-contract-v1",
+    "identity_status": "PASS",
+    "package_target_identity_match": true,
+    "preview_apply_identity_match": false,
+    "release_identity_match": false
+  },
+  "editorial_content_quality": {
+    "schema_version": "editorial-content-quality-report-v1",
+    "validator_version": "v1",
+    "source": "Skill 05 package and current formal data",
+    "articles": [
+      {
+        "slug": "bangkok-first-timer-guide",
+        "hits": []
+      },
+      {
+        "slug": "chiang-mai-first-timer-guide",
+        "hits": []
+      },
+      {
+        "slug": "chiang-rai-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "historical-day-trips-from-bangkok",
+        "hits": []
+      },
+      {
+        "slug": "koh-samui-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "krabi-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "pai-travel-guide-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "phuket-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "arriving-bangkok-suvarnabhumi-airport",
+        "hits": []
+      },
+      {
+        "slug": "thailand-digital-arrival-entry-procedures",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-insurance-what-to-check",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-safety-basics",
+        "hits": []
+      },
+      {
+        "slug": "thailand-entry-requirements-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-visa-visa-exemption-basics",
+        "hits": []
+      },
+      {
+        "slug": "thai-food-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thai-temple-etiquette-visitors",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-airport-to-city-main-options",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-bts-mrt-for-beginners",
+        "hits": []
+      },
+      {
+        "slug": "island-hopping-logistics-thailand",
+        "hits": []
+      },
+      {
+        "slug": "take-ferry-southern-thailand",
+        "hits": []
+      },
+      {
+        "slug": "thailand-domestic-flights-when-they-make-sense",
+        "hits": []
+      },
+      {
+        "slug": "how-to-use-grab-in-thailand",
+        "hits": []
+      },
+      {
+        "slug": "book-overnight-trains-thailand",
+        "hits": []
+      },
+      {
+        "slug": "thailand-trains-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-10-days-balanced-first-trip",
+        "hits": []
+      },
+      {
+        "slug": "thailand-14-days-north-city-islands",
+        "hits": []
+      },
+      {
+        "slug": "thailand-7-days-bangkok-chiang-mai-beach",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-chiang-mai-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-krabi-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-phuket-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "thailand-without-domestic-flights",
+        "hits": []
+      },
+      {
+        "slug": "thailand-for-solo-travelers",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-mistakes-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "how-many-days-in-thailand",
+        "hits": []
+      },
+      {
+        "slug": "best-time-to-visit-thailand-by-region",
+        "hits": []
+      }
+    ],
+    "summary": {
+      "article_count": 36,
+      "affected_article_count": 0,
+      "editorial_meta_text_hit_count": 0,
+      "prompt_residue_hit_count": 0,
+      "html_escape_hit_count": 0,
+      "object_render_hit_count": 0,
+      "placeholder_hit_count": 0,
+      "total_hit_count": 0
+    },
+    "quality_status": "PASS"
+  },
+  "business_authority_validation": {
+    "contract_version": "dynamic-business-authority-r7.1.6",
+    "structure_display_contract_path": "docs/planning/structure-display-contract-v1.json",
+    "hardcoded_business_authority_contract_path": "docs/planning/hardcoded-business-authority-contract-v1.json",
+    "report_path": "docs/planning/business-authority-validation-report-v1.json",
+    "runtime_blocking_finding_count": 0,
+    "non_runtime_review_finding_count": 0,
+    "structure_parity_status": "PASS",
+    "final_status": "PASS"
+  },
+  "semantic_quality_report_path": null,
+  "composite_content_quality_status": "COMPOSITE_CONTENT_QUALITY_PASS",
+  "execution_mode": "initial_admin_import",
+  "orchestration": {
+    "orchestrator_version": "149-v1",
+    "orchestrator": "skill04",
+    "mode": "initial_admin_import",
+    "status": "PASS_APPLIED_AND_VALIDATED",
+    "stage_id": "06",
+    "next_stage": "07",
+    "resume_token": "skill06-resume-after-admin-url-and-binding",
+    "input_identity": {
+      "skill05_output_manifest": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+      "zip_outer_sha256": "09e269eb9dd907746efdf2e263d7cf66f3b22059569f84b4d3398b524b592a8f"
+    },
+    "output_identity": {
+      "local_preview_status": "BLOCKED_LOCAL_PREVIEW_QA",
+      "admin_preview_status": "PASS",
+      "apply_status": "PASS"
+    },
+    "human_approval_refs": [],
+    "skip_decisions": [
+      {
+        "step": "upload_preview_apply",
+        "reason": "Completed with Admin Preview and Apply"
+      }
+    ]
+  }
+}

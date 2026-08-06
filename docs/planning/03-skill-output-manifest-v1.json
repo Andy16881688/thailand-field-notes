@@ -1,0 +1,322 @@
+{
+  "schema_version": "v1",
+  "skill_id": "03",
+  "site_id": "thailand-field-notes",
+  "preflight": {
+    "skill01_blueprint_found": true,
+    "skill02_visual_lock_found": true,
+    "skill02_screenshot_manifest_found": true,
+    "skill03_bridge_found": true,
+    "project_local_ai_studio_zip_found": true,
+    "normalized_file_manifest_found": true
+  },
+  "source_identity_gate": {
+    "site_id_match": true,
+    "approved_candidate_id_match": true,
+    "project_local_outer_sha_match": true,
+    "normalized_manifest_sha_match": true,
+    "visual_identity_signature_present": true,
+    "rejected_signatures_loaded": true,
+    "existing_implementation_authority_none": true,
+    "result": "PASS"
+  },
+  "visual_authority_resolution": {
+    "base_design": "skill02_approved_visual",
+    "approved_visual_deltas": "skill03",
+    "implementation": "skill04",
+    "latest_explicit_user_approval_wins_for_that_element": true
+  },
+  "critical_element_resolutions": [
+    {
+      "element_id": "wordmark-and-palette",
+      "page_type": "all",
+      "skill02_base_state": "approved",
+      "skill03_approved_delta_present": false,
+      "preview_evidence_verified": true,
+      "user_approval_verified": true,
+      "supersedes_skill02_for_this_element": false,
+      "final_authority_source": "skill02",
+      "sample_asset_replacement_occurred": false,
+      "final_production_asset_path": "public/assets/stitch/",
+      "production_asset_locked": true,
+      "unresolved_conflict": false,
+      "silent_visual_degradation": false
+    }
+  ],
+  "visual_validation": {
+    "logo_signature_match": true,
+    "homepage_signature_match": true,
+    "page_architecture_match": true,
+    "rejected_signature_match_count": 0,
+    "local_screenshots_created": true,
+    "user_visual_confirmation_recorded": true
+  },
+  "technical_validation": {
+    "validate_data_pass": true,
+    "npm_check_pass": true,
+    "build_pass": true,
+    "mobile_overflow_count": 0,
+    "canonical_ready": false,
+    "sitemap_robots_ready": true
+  },
+  "outputs": [
+    {
+      "output_id": "docs-planning-03-code-source-lock-v1-json",
+      "path": "docs/planning/03-code-source-lock-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "AF90297B0363F6ED12948FFE5D340EDC1B905BD196584C818488763E31DCD59C",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-ui-code-audit-decision-v1-md",
+      "path": "docs/planning/ui-code-audit-decision-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "45DB4E45374B6B3B3D86BC6C978A57F8890A1E9B62F0713634CC7480AC58AC0D",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-astro-data-contract-v1-md",
+      "path": "docs/planning/astro-data-contract-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "D2F84C13797CC28285A490DDAEDF1A8DACF1B3415A99CD7926393B43FC144537",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-effective-project-contract-v1-json",
+      "path": "docs/planning/effective-project-contract-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "F011170CFBD8AEAC014DEF517EEDD4E0BEB3DEE4D33B3474A68A156CA21B3FBE",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-effective-project-contract-v1-md",
+      "path": "docs/planning/effective-project-contract-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "6D28A98F29A06C03472D83BC19BBC10C185FD2D82E4A8866576C079BF3CBB91B",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-controlled-astro-port-report-v1-md",
+      "path": "docs/planning/controlled-astro-port-report-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "05E5DDBA972BB57D670C106B60A14E41F6EF8B4963F8E6A2588160385742B06D",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-skill03-output-completeness-check-v1-md",
+      "path": "docs/planning/skill03-output-completeness-check-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "0AD2FD909293A3412EF4E518D7EC2A81F16F042A89BC643C843D264A5C17BE33",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-skill03-local-screenshot-manifest-v1-json",
+      "path": "docs/planning/skill03-local-screenshot-manifest-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "433FF70E2A69F69C4ABEC11016EB5A265DD2A897C6E15961C52841AD5F013578",
+      "status": "PASS"
+    },
+    {
+      "output_id": "scripts-validate-data-mjs",
+      "path": "scripts/validate-data.mjs",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "410FD6BEE2BC500FF4A375E6C039ECAF53BF2B469CBFFBE799B7B556E8287FA6",
+      "status": "PASS"
+    },
+    {
+      "output_id": "docs-planning-03-normalized-file-manifest-v1-json",
+      "path": "docs/planning/03-normalized-file-manifest-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "DE99C3AAEFB9FE03BE552711181B8268711F5E0D4060514D3449167AEFDE8E01",
+      "status": "PASS"
+    }
+  ],
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS",
+    "downstream_handoff_allowed": true
+  },
+  "artifact_storage_report": {
+    "created_file_count": 10,
+    "created_bytes": 0,
+    "retained_file_count": 0,
+    "retained_bytes": 0,
+    "safe_deleted_file_count": 0,
+    "safe_deleted_bytes": 0,
+    "review_required_count": 1
+  },
+  "critical_visual_conflict_gate": {
+    "critical_conflict_count": 0,
+    "unresolved_conflict_count": 0,
+    "external_sample_asset_count": 0,
+    "approved_intent_preserved": true,
+    "result": "PASS"
+  },
+  "final_status": "PASS_READY_FOR_SKILL04",
+  "operating_contract": {
+    "ui_architecture_audit": true,
+    "unified_data_contract": true,
+    "user_visual_gate": true
+  },
+  "run_id": "skill03-20260806-preflight-01",
+  "artifact_entries": [],
+  "cleanup_report_path": "docs/planning/skill03-cleanup-report-skill03-20260806-preflight-01.json",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "lifecycle_contract_version": "v1",
+  "orchestration": {
+    "orchestrator_version": "149-v1",
+    "orchestrator": "skill04",
+    "mode": "initial_implementation",
+    "status": "PASS_READY_FOR_SKILL04",
+    "stage_id": "03",
+    "next_stage": "skill04",
+    "resume_token": null,
+    "input_identity": {
+      "source_archive_sha256": "7DEC4DF386F7680A353E71E90C0E50AEA845993DACFED135DEC0D74EB8C27147",
+      "normalized_manifest_sha256": "DE99C3AAEFB9FE03BE552711181B8268711F5E0D4060514D3449167AEFDE8E01"
+    },
+    "output_identity": {
+      "data_validation": "PASS",
+      "check": "PASS",
+      "build": "PASS"
+    },
+    "human_approval_refs": [
+      "user-approved-skill02-candidate-01",
+      "user-approved-skill03-localization",
+      "user-confirmed-skill03-local-screenshots"
+    ],
+    "skip_decisions": []
+  },
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "output_path_contract_version": "site-factory-output-path-contract-v1",
+    "run_id": "skill03-20260806-preflight-01",
+    "skill_id": "03",
+    "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+    "artifacts": [
+      {
+        "artifact_id": "docs-planning-03-code-source-lock-v1-json",
+        "relative_path": "docs/planning/03-code-source-lock-v1.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\03-code-source-lock-v1.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-ui-code-audit-decision-v1-md",
+        "relative_path": "docs/planning/ui-code-audit-decision-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\ui-code-audit-decision-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-astro-data-contract-v1-md",
+        "relative_path": "docs/planning/astro-data-contract-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\astro-data-contract-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-effective-project-contract-v1-json",
+        "relative_path": "docs/planning/effective-project-contract-v1.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\effective-project-contract-v1.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-effective-project-contract-v1-md",
+        "relative_path": "docs/planning/effective-project-contract-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\effective-project-contract-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-controlled-astro-port-report-v1-md",
+        "relative_path": "docs/planning/controlled-astro-port-report-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\controlled-astro-port-report-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-skill03-output-completeness-check-v1-md",
+        "relative_path": "docs/planning/skill03-output-completeness-check-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\skill03-output-completeness-check-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-skill03-local-screenshot-manifest-v1-json",
+        "relative_path": "docs/planning/skill03-local-screenshot-manifest-v1.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\skill03-local-screenshot-manifest-v1.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "scripts-validate-data-mjs",
+        "relative_path": "scripts/validate-data.mjs",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\scripts\\validate-data.mjs",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      },
+      {
+        "artifact_id": "docs-planning-03-normalized-file-manifest-v1-json",
+        "relative_path": "docs/planning/03-normalized-file-manifest-v1.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\03-normalized-file-manifest-v1.json",
+        "required_for_mode": true,
+        "lifecycle_status": "CURRENT"
+      }
+    ]
+  },
+  "skill02_unified_source_gate": {
+    "status": "PASS",
+    "visual_lock_ref": "docs/planning/02-approved-visual-source-lock-v1.json",
+    "production_source_ref": "docs/planning/03-code-source-lock-v1.json",
+    "rejected_source_usage_count": 0
+  },
+  "admin_capability_preflight": {
+    "status": "PASS",
+    "capability_contract_ref": "shared/admin-capability-contract-v1.md",
+    "missing_capabilities": []
+  },
+  "build_execution_fallback": {
+    "used": false,
+    "reason": "NOT_USED",
+    "final_exit_code": 0
+  },
+  "human_review_gate_summary": [
+    {
+      "gate": "local_visual_confirmation",
+      "summary_path": "docs/planning/skill03-local-screenshot-manifest-v1.json",
+      "approval_phrase": "确认 Skill 03 本地截图视觉正确，继续进入 Skill 04。"
+    }
+  ],
+  "business_authority_validation": {
+    "contract_version": "dynamic-business-authority-r7.1.6",
+    "structure_display_contract_path": "docs/planning/structure-display-contract-v1.json",
+    "hardcoded_business_authority_contract_path": "docs/planning/hardcoded-business-authority-contract-v1.json",
+    "report_path": "docs/planning/business-authority-validation-report-v1.json",
+    "runtime_blocking_finding_count": 0,
+    "non_runtime_review_finding_count": 0,
+    "structure_parity_status": "PASS",
+    "final_status": "PASS"
+  }
+}

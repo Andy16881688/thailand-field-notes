@@ -1,0 +1,19 @@
+{
+  "schema_version": "admin-validation-result-v1",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill06-20260806-initial-01",
+  "status": "PASS",
+  "validate_data": "PASS",
+  "bom_scan": "PASS",
+  "zip_schema": "PASS",
+  "package_identity": "PASS",
+  "local_preview": "BLOCKED_LOCAL_PREVIEW_QA",
+  "admin_binding": "PASS",
+  "post_apply_validation": "PASS",
+  "post_apply_check": "PASS",
+  "post_apply_build": "PASS",
+  "frontend_refresh": "PASS",
+  "health_url": "http://127.0.0.1:4321/",
+  "health_status": 200,
+  "route_failures": 0
+}

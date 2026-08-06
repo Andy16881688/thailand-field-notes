@@ -1,0 +1,19 @@
+{
+  "schema_version":"skill03-local-screenshot-manifest-v1",
+  "site_id":"thailand-field-notes",
+  "run_id":"skill03-20260806-preflight-01",
+  "status":"READY_FOR_USER_VISUAL_CONFIRMATION",
+  "screenshots":[
+    {"path":"output/playwright/thailand-home-desktop.png","viewport":"1440x791","route":"/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailandhome-mobile.png","viewport":"390x844","route":"/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-section-plan-your-trip--mobile.png","viewport":"390x844","route":"/section/plan-your-trip/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-category-route-lengths--mobile.png","viewport":"390x844","route":"/category/route-lengths/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-post-thailand-7-days-bangkok-chiang-mai-beach--mobile.png","viewport":"390x844","route":"/post/thailand-7-days-bangkok-chiang-mai-beach/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-about--mobile.png","viewport":"390x844","route":"/about/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-privacy-policy--mobile.png","viewport":"390x844","route":"/privacy-policy/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-terms--mobile.png","viewport":"390x844","route":"/terms/","browser":"Chrome","status":"PASS"},
+    {"path":"output/playwright/thailand-user-agreement--mobile.png","viewport":"390x844","route":"/user-agreement/","browser":"Chrome","status":"PASS"}
+  ],
+  "route_checks":{"status":"PASS","http_statuses":[200],"mobile_overflow_count":0,"console_error_count":0,"lazy_loaded_images_verified":true},
+  "user_visual_confirmation_recorded":false
+}

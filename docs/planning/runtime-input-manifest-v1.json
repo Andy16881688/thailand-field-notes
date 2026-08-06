@@ -1,0 +1,14 @@
+{
+  "contract_version":"site-factory-runtime-dependency-closure-v1",
+  "status":"REVIEW_REQUIRED",
+  "runtime_dependency_count":0,
+  "runtime_dependency_closure":[],
+  "untracked_runtime_inputs":[],
+  "missing_runtime_inputs":[],
+  "forbidden_runtime_locations":[],
+  "dynamic_runtime_paths":[],
+  "tracked_only_clean_build":{"status":"NOT_RUN","source_commit_sha":null,"isolated_from_tracked_files_only":false,"commands":[]},
+  "tracked_file_set_sha256":null,
+  "build_output_summary":{"status":"NOT_RUN","reason":"Build is explicitly out of scope for this turn."},
+  "cloud_build_parity":{"status":"NOT_APPLICABLE"}
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "skill02-screenshot-manifest-v1",
+  "run_id": "skill02-20260806-01",
+  "site_id": "thailand-field-notes",
+  "candidate_id": "6976483276380548078",
+  "screenshots": [{"source":"browser_canvas_observed","viewport":"mobile-and-desktop-observed","page_types":["homepage","section","category","post","legal"],"persisted_path":null,"sha256":null,"notes":"Revised pages observed, but superseded old screens remain visible."}],
+  "required_page_types": ["Homepage mobile","Homepage desktop","Level 1 page","Level 2 page","Post page","Legal / Trust page"],
+  "status": "LOCKED",
+  "approved": true,
+  "review_status": "NEEDS_REVISION",
+  "cleanup_consistency": "PASS_FULL_EXPORT_VERIFICATION",
+  "archive_path": "prototypes/approved/skill02-candidate-01/stitch_thailand_field_notes_prototype-full.zip",
+  "archive_sha256": "7DEC4DF386F7680A353E71E90C0E50AEA845993DACFED135DEC0D74EB8C27147",
+  "archive_entry_count": 51
+}

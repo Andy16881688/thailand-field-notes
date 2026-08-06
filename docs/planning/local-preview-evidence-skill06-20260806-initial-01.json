@@ -1,0 +1,122 @@
+{
+  "schema_version": "local-preview-evidence-v1",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill06-20260806-initial-01",
+  "status": "BLOCKED_LOCAL_PREVIEW_QA",
+  "preview_url": "http://localhost:4321/",
+  "revision_identity": {
+    "formal_data_sha256": "761A5A960D4A03995B332B0C2DDA1816B948DEB9B430580EB63BF3C6A346A430",
+    "package_outer_sha256": "09e269eb9dd907746efdf2e263d7cf66f3b22059569f84b4d3398b524b592a8f",
+    "build_status": "PASS"
+  },
+  "routes_checked": [
+    {
+      "route": "/",
+      "http_status": 200,
+      "title": "Thailand Field Notes | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 2,
+      "image_count": 6,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/section/plan-your-trip/",
+      "http_status": 200,
+      "title": "Plan Your Trip | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 5,
+      "image_count": 12,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/category/route-lengths/",
+      "http_status": 200,
+      "title": "Route Lengths | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 3,
+      "image_count": 3,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/post/thailand-7-days-bangkok-chiang-mai-beach/",
+      "http_status": 200,
+      "title": "Thailand in 7 Days: Bangkok, Chiang Mai, and One Beach | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 1,
+      "image_count": 1,
+      "canonical": "http://localhost:4321/post/thailand-7-days-bangkok-chiang-mai-beach/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/about/",
+      "http_status": 200,
+      "title": "About | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 0,
+      "image_count": 0,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/privacy-policy/",
+      "http_status": 200,
+      "title": "Privacy Policy | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 0,
+      "image_count": 0,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/terms/",
+      "http_status": 200,
+      "title": "Terms of Use | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 0,
+      "image_count": 0,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    },
+    {
+      "route": "/user-agreement/",
+      "http_status": 200,
+      "title": "User Agreement | Thailand Field Notes",
+      "main_content_non_empty": true,
+      "mobile_overflow": false,
+      "images_loaded": 0,
+      "image_count": 0,
+      "canonical": "http://localhost:4321/",
+      "legal_footer_links": 4
+    }
+  ],
+  "screenshot_paths": [
+    "output/playwright/thailand-skill06-local-preview-home-mobile.png",
+    "output/playwright/thailand-home-desktop.png"
+  ],
+  "sitemap": {
+    "url": "/sitemap-index.xml",
+    "status": 404,
+    "expected_build_artifact": "dist/sitemap-index.xml"
+  },
+  "robots": {
+    "url": "/robots.txt",
+    "status": 404,
+    "expected": "formal robots policy pending"
+  },
+  "findings": [
+    "Canonical link defaults to site root on several non-post routes.",
+    "Dev preview does not expose sitemap-index.xml or robots.txt; dist contains sitemap-index.xml, while formal canonical domain remains pending.",
+    "Admin URL and binding were not available; no Upload/Preview/Apply attempted."
+  ],
+  "console_error_count": 1
+}

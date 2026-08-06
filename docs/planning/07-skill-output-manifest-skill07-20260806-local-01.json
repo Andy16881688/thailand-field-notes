@@ -1,0 +1,58 @@
+{
+  "schema_version": "v1",
+  "skill_id": "07",
+  "site_id": "thailand-field-notes",
+  "execution_mode": "production_qa_only",
+  "upstream_handoff": {"artifact_persisted": true, "codex_local_validation": "PASS", "downstream_handoff_allowed": false},
+  "visual_identity_gate": {
+    "approved_candidate_id_match": true,
+    "approved_screenshot_manifest_loaded": true,
+    "expected_logo_signature_match": true,
+    "expected_homepage_signature_match": true,
+    "expected_page_architecture_match": true,
+    "rejected_visual_signature_match_count": 0,
+    "skill04_user_visual_confirmation_present": true,
+    "result": "PASS"
+  },
+  "local_qa": {
+    "check": "PASS",
+    "build": "PASS",
+    "generated_pages": 58,
+    "route_status": "PASS_WITH_FINDINGS",
+    "mobile_status": "BLOCKED",
+    "image_dom_status": "PASS_WITH_LAZY_LOAD_FINDING",
+    "legal_status": "PASS_WITH_CANONICAL_FINDING",
+    "canonical_status": "BLOCKED",
+    "sitemap_robots_status": "BLOCKED",
+    "report_path": "docs/planning/site-launch-qa-report-skill07-20260806-local-01.md"
+  },
+  "deployment": {"status": "NOT_REQUESTED", "github": "NOT_PROVIDED", "cloudflare": "NOT_PROVIDED"},
+  "production_qa": {"status": "NOT_RUN", "reason": "Local QA blockers and missing release identity."},
+  "outputs": [
+    {"path": "docs/planning/site-launch-qa-report-skill07-20260806-local-01.md", "status": "CURRENT"},
+    {"path": "docs/planning/skill07-cleanup-report-skill07-20260806-local-01.json", "status": "CURRENT"},
+    {"path": "docs/planning/orchestrator-handoff-07-skill07-20260806-local-01.json", "status": "REQUIRED_HANDOFF"}
+  ],
+  "stage_completion_gate": {"artifact_persisted": true, "codex_local_validation": "PASS", "local_qa_pass": false, "deployment_qa_pass_or_not_requested": true, "user_launch_confirmation_recorded": false, "launch_complete": false},
+  "artifact_storage_report": {"created_file_count": 3, "created_bytes": 0, "retained_file_count": 3, "retained_bytes": 0, "safe_deleted_file_count": 0, "safe_deleted_bytes": 0, "review_required_count": 1, "inventory_count": 3, "cleanup_preview_count": 0, "archived_count": 0, "deleted_count": 0, "skipped_count": 0, "manual_review_count": 1, "mixed_directory_finding_count": 0},
+  "release_staging_manifest": {"total_change_count": 0, "classified_change_count": 0, "unclassified_change_count": 0, "release_allowed_files": [], "release_blocked_files": [], "review_required_files": [], "staged_files": [], "staged_file_count": 0, "staged_matches_allowlist": false, "missing_allowed_staged_count": 0, "extra_staged_count": 0, "forbidden_staged_count": 0, "protected_data_diff_count": 0, "protected_data_staged_count": 0, "local_blocked_artifacts_present": true, "local_blocked_artifacts_preserved": true, "local_blocked_artifacts_block_commit": false, "local_qa_pass": false, "commit_authorization_received": false, "commit_ready_for_user_approval": false, "blocking_reasons": ["local QA blockers", "release identity not provided"]},
+  "final_status": "BLOCKED_POST_RENDERING_RETURN_TO_04",
+  "operating_contract": {"github_repo_required": true, "cloudflare_project_required": true, "custom_domain_required": false, "default_url_can_complete_launch": true},
+  "cloudflare_authentication": {"authentication_method": "dashboard_manual_evidence", "authenticated": false, "account_id": "NOT_PROVIDED"},
+  "cloudflare_project_identity": {"project_name": "NOT_PROVIDED", "default_domain": "NOT_PROVIDED", "repository_owner": "NOT_PROVIDED", "repository_name": "NOT_PROVIDED", "repository_match": false, "production_branch": "NOT_PROVIDED", "production_branch_match": false, "project_identity_match": false},
+  "cloudflare_build_configuration": {"build_command": "pnpm run build", "output_directory": "dist", "root_directory": ".", "configuration_match": false},
+  "cloudflare_deployment_identity": {"deployment_id": "NOT_RUN", "environment": "production", "status": "NOT_RUN", "branch": "NOT_PROVIDED", "commit_sha": "NOT_PROVIDED", "deployment_url": "NOT_RUN", "commit_matches_github_head": false},
+  "cloudflare_project_lock": {"path": "docs/planning/cloudflare-project-lock-v1.json", "present": false, "contains_secrets": false},
+  "run_id": "skill07-20260806-local-01",
+  "artifact_entries": [
+    {"artifact_id":"skill07-01","run_id":"skill07-20260806-local-01","skill_id":"07","relative_path":"docs/planning/site-launch-qa-report-skill07-20260806-local-01.md","artifact_type":"launch_qa_report","lifecycle_status":"CURRENT","cleanup_policy":"keep_in_project","safe_to_delete_after":"never","current_replacement":null,"referenced_by":["07"],"size_bytes":1916,"sha256":"DDFC3B98E7D631F515BE48FD00A2EF5EE9A3602968A7E9344C0ED6B048CD5148","created_at":"2026-08-06T18:52:00+08:00","last_verified_at":"2026-08-06T18:52:00+08:00","git_tracked":false,"formal_reference_count":1,"handoff_target":"04","source_artifact_ids":["skill06-01"],"reason":"Skill 07 local launch QA evidence","notes":[]},
+    {"artifact_id":"skill07-02","run_id":"skill07-20260806-local-01","skill_id":"07","relative_path":"docs/planning/07-skill-output-manifest-skill07-20260806-local-01.json","artifact_type":"skill_output_manifest","lifecycle_status":"REQUIRED_HANDOFF","cleanup_policy":"keep_in_project","safe_to_delete_after":"never","current_replacement":null,"referenced_by":["04"],"size_bytes":4822,"sha256":"19F1408B91F2E941293581EB66BAB1BC1BC84C24DDD0D32D753F592718299C1A","created_at":"2026-08-06T18:52:00+08:00","last_verified_at":"2026-08-06T18:52:00+08:00","git_tracked":false,"formal_reference_count":1,"handoff_target":"04","source_artifact_ids":["skill07-01"],"reason":"Skill 07 blocked handoff manifest","notes":[]},
+    {"artifact_id":"skill07-03","run_id":"skill07-20260806-local-01","skill_id":"07","relative_path":"docs/planning/orchestrator-handoff-07-skill07-20260806-local-01.json","artifact_type":"orchestrator_handoff","lifecycle_status":"REQUIRED_HANDOFF","cleanup_policy":"keep_in_project","safe_to_delete_after":"never","current_replacement":null,"referenced_by":["04"],"size_bytes":823,"sha256":"79FA190BDED49D04E0C339EF0ED2C30C51EE046155EFE92C2B5F707969E0BFD4","created_at":"2026-08-06T18:52:00+08:00","last_verified_at":"2026-08-06T18:52:00+08:00","git_tracked":false,"formal_reference_count":1,"handoff_target":"04","source_artifact_ids":["skill07-01"],"reason":"Skill 07 blocked handoff","notes":[]}
+  ],
+  "cleanup_report_path": "docs/planning/skill07-cleanup-report-skill07-20260806-local-01.json",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "lifecycle_contract_version": "v1",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {"run_id": "skill07-20260806-local-01", "skill_id": "07", "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes", "artifacts": []},
+  "git_delta_release_evidence": {"status": "NOT_RUN", "reason": "No commit/push authorization and local QA blocked."}
+}

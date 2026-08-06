@@ -1,0 +1,8 @@
+{
+  "schema_version":"structure-display-contract-v1",
+  "section_display":{"header":"all","mobile_nav":"all","footer":"all","homepage":"all"},
+  "category_display":{"homepage":"declared_subset"},
+  "order":"authority_source_order",
+  "homepage":{"featured_section_slug":"plan-your-trip","latest_posts_limit":6},
+  "status":"CURRENT"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "admin-apply-evidence-v1",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill06-20260806-initial-01",
+  "status": "PASS",
+  "apply_executed": true,
+  "apply_http_status": 200,
+  "updated_count": 36,
+  "copied_image_count": 72,
+  "backup_path": "backups/admin-import/20260806-185008/src-data",
+  "preview_apply_parity": "PASS",
+  "rollback_required": false,
+  "report_path": "content-prep/admin-import/reports/import_report.md"
+}

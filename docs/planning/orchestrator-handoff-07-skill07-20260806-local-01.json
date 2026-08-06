@@ -1,0 +1,17 @@
+{
+  "schema_version": "orchestrator-result-envelope-v1",
+  "orchestrator": "skill04",
+  "orchestrator_version": "149-v1",
+  "run_id": "skill07-20260806-local-01",
+  "site_id": "thailand-field-notes",
+  "skill_id": "07",
+  "mode": "production_qa_only",
+  "status": "BLOCKED_POST_RENDERING_RETURN_TO_04",
+  "input_identity": {"skill06_status": "PASS_APPLIED_AND_VALIDATED"},
+  "output_identity": {"report": "docs/planning/site-launch-qa-report-skill07-20260806-local-01.md"},
+  "needs_review": true,
+  "warnings": ["GitHub repository, Cloudflare Pages project, and formal domain were not provided."],
+  "blockers": ["escaped_post_body", "mobile_post_overflow", "wrong_non_post_canonical", "robots_404", "temporary_sitemap_host"],
+  "next_stage": "04",
+  "resume_token": "skill07-resume-after-skill03-render-and-seo-repair"
+}

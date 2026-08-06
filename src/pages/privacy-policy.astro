@@ -1,0 +1,4 @@
+---
+import Layout from '../layouts/Layout.astro'; import { legal } from '../lib/data'; const page=legal.find((item)=>item.key==='privacy-policy'); const blocks=page.body.split(/\n\s*\n/).filter(Boolean);
+---
+<Layout title={page.title}><article class="page legal"><p class="eyebrow">Trust and scope</p><h1>{page.title}</h1>{blocks.map((block)=>(block.startsWith('### ') ? <h2>{block.slice(4)}</h2> : <p>{block.replaceAll('\n',' ')}</p>))}</article></Layout>

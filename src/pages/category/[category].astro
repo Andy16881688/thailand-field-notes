@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { categories, getPostsForCategory } from '../../lib/data';
+export function getStaticPaths(){return categories.map((category)=>({params:{category:category.slug},props:{category}}))}
+const { category }=Astro.props; const posts=getPostsForCategory(category.slug);
+---
+<Layout title={category.name} description={`Thailand travel guides about ${category.name}`}><div class="page"><section class="hero"><p class="eyebrow">Category</p><h1>{category.name}</h1><p class="lede">Focused guidance for choosing, comparing, and preparing for your route.</p></section><div class="grid">{posts.map((post)=><PostCard post={post}/>)}</div></div></Layout>

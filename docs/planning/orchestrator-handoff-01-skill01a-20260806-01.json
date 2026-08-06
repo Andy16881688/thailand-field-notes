@@ -1,0 +1,19 @@
+{
+  "orchestrator": "skill01",
+  "orchestrator_version": "149-v1",
+  "run_id": "skill01a-20260806-01",
+  "site_id": "thailand-field-notes",
+  "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+  "stage_id": "01A",
+  "mode": "read_current_authority",
+  "status": "NEEDS_REVISION",
+  "next_stage": "01B",
+  "resume_token": "skill01b-awaiting-persistence",
+  "input_identity": {"raw_source":"C:\\Users\\rolel\\Desktop\\网站\\Thailand Field Notes","publish_anchor_date":"2026-05-13"},
+  "output_identity": {"archive_batch_id":"thailand-field-notes-20260806-01","visual_source_status":"awaiting_skill02"},
+  "human_approval_refs": ["positioning-confirmed","hierarchy-confirmed","content-scope-confirmed","seo-geo-confirmed","legal-direction-confirmed","time-policy-confirmed","homepage-wireframe-confirmed"],
+  "skip_decisions": ["Skill 02 not started","Skill 03 not started","Admin not started","build not started","Git not started","deployment not started"],
+  "handoff_allowed": false,
+  "persistence_status": "SKILL01B_PERSISTENCE_PASS",
+  "note": "01A authored outputs and the unchanged raw archive are persisted and locally validated. Formal domain remains pending, so downstream handoff is not allowed."
+}

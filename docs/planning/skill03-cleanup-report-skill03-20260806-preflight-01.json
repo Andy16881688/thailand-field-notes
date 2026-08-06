@@ -1,0 +1,11 @@
+{
+  "schema_version":"skill-cleanup-report-v1",
+  "skill_id":"03",
+  "run_id":"skill03-20260806-preflight-01",
+  "status":"PARTIAL_PENDING_VALIDATION",
+  "previewed":[],
+  "archived":[],
+  "deleted":[],
+  "skipped":[{"path":".tmp-ai-studio-audit","reason":"retained until Astro port and local validation complete"}],
+  "manual_review":[]
+}

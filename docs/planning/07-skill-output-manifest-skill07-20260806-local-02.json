@@ -1,0 +1,29 @@
+{
+  "schema_version": "v1",
+  "skill_id": "07",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill07-20260806-local-02",
+  "mode": "local_qa_recheck",
+  "inputs": {
+    "skill03_repair_handoff": "docs/planning/orchestrator-handoff-03-skill03-20260806-repair-01.json",
+    "dist_present": true
+  },
+  "validation": {
+    "route_count": 58,
+    "viewport_count": 3,
+    "total_checks": 174,
+    "failures": 0,
+    "check_pass": true,
+    "build_pass": true,
+    "robots_generated": true,
+    "sitemap_generated": true,
+    "formal_domain_ready": false
+  },
+  "outputs": [
+    {"path":"docs/planning/site-launch-qa-report-skill07-20260806-local-02.md","status":"PASS"},
+    {"path":"docs/planning/orchestrator-handoff-07-skill07-20260806-local-02.json","status":"PASS"}
+  ],
+  "final_status": "PASS_LOCAL_QA_DOMAIN_PENDING",
+  "release_actions": "NOT_AUTHORIZED",
+  "resume_token": "skill07-release-after-formal-domain"
+}

@@ -1,0 +1,703 @@
+{
+  "schema_version": "v1",
+  "skill_id": "04",
+  "site_id": "thailand-field-notes",
+  "preflight": {
+    "skill01_blueprint_found": true,
+    "skill01_seo_geo_manifest_found": true,
+    "content_time_policy_found": true,
+    "skill04_data_contract_found": true,
+    "skill04_handoff_pass": true,
+    "original_raw_content_found": true
+  },
+  "content_summary": {
+    "source_article_count": 36,
+    "prepared_article_count": 36,
+    "ready_count": 36,
+    "warning_count": 0,
+    "needs_review_count": 0,
+    "unique_slug_count": 36,
+    "hierarchy_error_count": 0,
+    "seo_geo_error_count": 0,
+    "body_format_counts": {
+      "markdown": 36
+    }
+  },
+  "time_summary": {
+    "article_count": 36,
+    "unique_published_at_count": 36,
+    "future_dates_count": 0,
+    "same_timestamp_count": 0,
+    "invalid_updated_at_count": 0,
+    "capacity_status": "OK"
+  },
+  "legal_summary": {
+    "required_page_count": 4,
+    "ready_page_count": 4,
+    "placeholder_count": 0,
+    "irrelevant_clause_count": 0
+  },
+  "media_summary": {
+    "article_count": 36,
+    "featured_image_count": 36,
+    "closing_image_count": 36,
+    "prepared_image_count": 72,
+    "missing_referenced_image_count": 0,
+    "placeholder_count": 0,
+    "needs_review_count": 0
+  },
+  "outputs": [
+    {
+      "output_id": "OUT-04-01",
+      "path": "imports/raw-content/current/",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": null,
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-04-02",
+      "path": "imports/raw-content/raw-content-intake-manifest-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "9B54139DC895866B36C5E4C668EB8DCCA3773FB834900F0C9B3B9D0356CB6433",
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-04-03",
+      "path": "content-prep/prepared-content/",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": null,
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-04-04",
+      "path": "content-prep/prepared-content/media-manifest.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "C7CAB0D4A790C9B54B1935A038B8D80D78BB0E3A3AA979589766F817D6C901D7",
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-04-05",
+      "path": "content-prep/time-generation-report-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "59D0E0A8878E2B7FB60D183D56379EEE78F8A561A5119F5E12B68B1475CC8F05",
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-04-06",
+      "path": "content-prep/time-generation-summary-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "B614AA1EDDF6F00F125BC6D3DA805584B4DCD943F171A2BABC7CD5615D72400B",
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-04-07",
+      "path": "docs/planning/content-seo-geo-naming-package-report-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": null,
+      "sha256": "9101D4F2E0F3B54A0152F9D406D4034EFFECC99315BD02DD0726FEBA2B31DB9E",
+      "status": "PASS"
+    },
+    {
+      "output_id": "OUT-08",
+      "path": "docs/planning/04-skill-output-manifest-v1.json",
+      "exists": false,
+      "non_empty": false,
+      "schema_valid": true,
+      "sha256": null,
+      "status": "MISSING"
+    },
+    {
+      "output_id": "OUT-04-09",
+      "path": "docs/planning/artifact-lifecycle-registry-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "schema_valid": true,
+      "sha256": "F8470572A08B4D4EED91F44D1CAAC1381F58BDBE39BC8968F53EE49ADF829114",
+      "status": "PASS"
+    }
+  ],
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS",
+    "downstream_handoff_allowed": true
+  },
+  "artifact_storage_report": {
+    "created_file_count": 11,
+    "created_bytes": 339073937,
+    "retained_file_count": 0,
+    "retained_bytes": 0,
+    "safe_deleted_file_count": 0,
+    "safe_deleted_bytes": 0,
+    "review_required_count": 0,
+    "inventory_count": 9,
+    "cleanup_preview_count": 0,
+    "archived_count": 0,
+    "deleted_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 0,
+    "mixed_directory_finding_count": 0
+  },
+  "final_status": "PASS_READY_FOR_SKILL05",
+  "operating_contract": {
+    "raw_source": "project_local_original_archive",
+    "seo_geo_authority": "skill01",
+    "legal_mode": "controlled_consistency_finalization",
+    "future_video_extensible": true
+  },
+  "run_id": "skill04-20260806-initial-01",
+  "artifact_entries": [
+    {
+      "artifact_id": "skill04-01",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "imports/raw-content/current/",
+      "artifact_type": "prepared_content_directory",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 168650753,
+      "sha256": null,
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-02",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "imports/raw-content/raw-content-intake-manifest-v1.md",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 431,
+      "sha256": "9B54139DC895866B36C5E4C668EB8DCCA3773FB834900F0C9B3B9D0356CB6433",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-03",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "content-prep/prepared-content/",
+      "artifact_type": "prepared_content_directory",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 170381503,
+      "sha256": null,
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-04",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "content-prep/prepared-content/media-manifest.json",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 22783,
+      "sha256": "C7CAB0D4A790C9B54B1935A038B8D80D78BB0E3A3AA979589766F817D6C901D7",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-05",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "content-prep/time-generation-report-v1.md",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 416,
+      "sha256": "59D0E0A8878E2B7FB60D183D56379EEE78F8A561A5119F5E12B68B1475CC8F05",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-06",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "content-prep/time-generation-summary-v1.json",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 430,
+      "sha256": "B614AA1EDDF6F00F125BC6D3DA805584B4DCD943F171A2BABC7CD5615D72400B",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-07",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "docs/planning/content-seo-geo-naming-package-report-v1.md",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 7685,
+      "sha256": "8F7120EBD8E0EFE55534640A58DF2D025404EA11DD61428D6363569904A8EC55",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-08",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "content-prep/prepared-content/contact-sheet.png",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 1888611,
+      "sha256": "9C6F6D6BA9D128D0D40C40039C2D9D4DE21ECD730C5445B93047E2314C88CF9F",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    },
+    {
+      "artifact_id": "skill04-09",
+      "run_id": "skill04-20260806-initial-01",
+      "skill_id": "04",
+      "relative_path": "content-prep/prepared-content/content-review-summary-v1.md",
+      "artifact_type": "prepared_content_evidence",
+      "lifecycle_status": "REQUIRED_HANDOFF",
+      "cleanup_policy": "keep_in_project",
+      "safe_to_delete_after": "never",
+      "current_replacement": null,
+      "referenced_by": [
+        "05"
+      ],
+      "size_bytes": 442,
+      "sha256": "35E045D4F9A5C2A8C6D8D8959055A0E2C67437D769BA5BBECF756A9202ADABC4",
+      "created_at": "2026-08-06T16:00:00+08:00",
+      "last_verified_at": "2026-08-06T16:00:00+08:00",
+      "git_tracked": false,
+      "formal_reference_count": 1,
+      "handoff_target": "05",
+      "source_artifact_ids": [
+        "skill01a-blueprint",
+        "skill01a-seo-geo-manifest",
+        "skill01a-time-policy",
+        "skill01a-legal-draft",
+        "skill03-output"
+      ],
+      "reason": "Skill 04 initial content preparation output",
+      "notes": []
+    }
+  ],
+  "cleanup_report_path": "docs/planning/skill04-cleanup-report-skill04-20260806-initial-01.json",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "lifecycle_contract_version": "v1",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "output_path_contract_version": "site-factory-output-path-contract-v1",
+    "run_id": "skill04-20260806-initial-01",
+    "skill_id": "04",
+    "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+    "artifacts": [
+      {
+        "artifact_id": "skill04-01",
+        "relative_path": "imports/raw-content/current/",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\imports\\raw-content\\current\\",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-02",
+        "relative_path": "imports/raw-content/raw-content-intake-manifest-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\imports\\raw-content\\raw-content-intake-manifest-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-03",
+        "relative_path": "content-prep/prepared-content/",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\prepared-content\\",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-04",
+        "relative_path": "content-prep/prepared-content/media-manifest.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\prepared-content\\media-manifest.json",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-05",
+        "relative_path": "content-prep/time-generation-report-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\time-generation-report-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-06",
+        "relative_path": "content-prep/time-generation-summary-v1.json",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\time-generation-summary-v1.json",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-07",
+        "relative_path": "docs/planning/content-seo-geo-naming-package-report-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\docs\\planning\\content-seo-geo-naming-package-report-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-08",
+        "relative_path": "content-prep/prepared-content/contact-sheet.png",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\prepared-content\\contact-sheet.png",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      },
+      {
+        "artifact_id": "skill04-09",
+        "relative_path": "content-prep/prepared-content/content-review-summary-v1.md",
+        "absolute_path": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes\\content-prep\\prepared-content\\content-review-summary-v1.md",
+        "required_for_mode": true,
+        "lifecycle_status": "REQUIRED_HANDOFF"
+      }
+    ]
+  },
+  "human_review": {
+    "contact_sheet_path": "content-prep/prepared-content/contact-sheet.png",
+    "summary_path": "content-prep/prepared-content/content-review-summary-v1.md",
+    "caption_required": false,
+    "caption_empty_allowed": true,
+    "needs_review_count": 0,
+    "approval_phrase": "确认 Skill 04 prepared content、时间、Legal 与媒体审查结果，继续进入 Skill 05"
+  },
+  "editorial_content_quality": {
+    "schema_version": "editorial-content-quality-report-v1",
+    "validator_version": "v1",
+    "source": "Skill 04 prepared-content corpus",
+    "articles": [
+      {
+        "slug": "arriving-bangkok-suvarnabhumi-airport",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-airport-to-city-main-options",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-bts-mrt-for-beginners",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-chiang-mai-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-first-timer-guide",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-krabi-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "bangkok-phuket-itinerary",
+        "hits": []
+      },
+      {
+        "slug": "best-time-to-visit-thailand-by-region",
+        "hits": []
+      },
+      {
+        "slug": "book-overnight-trains-thailand",
+        "hits": []
+      },
+      {
+        "slug": "chiang-mai-first-timer-guide",
+        "hits": []
+      },
+      {
+        "slug": "chiang-rai-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "historical-day-trips-from-bangkok",
+        "hits": []
+      },
+      {
+        "slug": "how-many-days-in-thailand",
+        "hits": []
+      },
+      {
+        "slug": "how-to-use-grab-in-thailand",
+        "hits": []
+      },
+      {
+        "slug": "island-hopping-logistics-thailand",
+        "hits": []
+      },
+      {
+        "slug": "koh-samui-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "krabi-travel-guide",
+        "hits": []
+      },
+      {
+        "slug": "pai-travel-guide-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "phuket-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "take-ferry-southern-thailand",
+        "hits": []
+      },
+      {
+        "slug": "thai-food-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thai-temple-etiquette-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-10-days-balanced-first-trip",
+        "hits": []
+      },
+      {
+        "slug": "thailand-14-days-north-city-islands",
+        "hits": []
+      },
+      {
+        "slug": "thailand-7-days-bangkok-chiang-mai-beach",
+        "hits": []
+      },
+      {
+        "slug": "thailand-digital-arrival-entry-procedures",
+        "hits": []
+      },
+      {
+        "slug": "thailand-domestic-flights-when-they-make-sense",
+        "hits": []
+      },
+      {
+        "slug": "thailand-entry-requirements-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-for-solo-travelers",
+        "hits": []
+      },
+      {
+        "slug": "thailand-trains-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-insurance-what-to-check",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-mistakes-first-time-visitors",
+        "hits": []
+      },
+      {
+        "slug": "thailand-travel-safety-basics",
+        "hits": []
+      },
+      {
+        "slug": "thailand-visa-visa-exemption-basics",
+        "hits": []
+      },
+      {
+        "slug": "thailand-without-domestic-flights",
+        "hits": []
+      }
+    ],
+    "summary": {
+      "article_count": 36,
+      "affected_article_count": 0,
+      "editorial_meta_text_hit_count": 0,
+      "prompt_residue_hit_count": 0,
+      "html_escape_hit_count": 0,
+      "object_render_hit_count": 0,
+      "placeholder_hit_count": 0,
+      "total_hit_count": 0
+    },
+    "quality_status": "PASS"
+  },
+  "semantic_quality_report_path": null,
+  "composite_content_quality_status": "COMPOSITE_CONTENT_QUALITY_PASS",
+  "orchestration": {
+    "orchestrator_version": "149-v1",
+    "orchestrator": "skill04",
+    "mode": "initial_content_preparation",
+    "status": "PASS_READY_FOR_SKILL05",
+    "stage_id": "04",
+    "next_stage": "skill05",
+    "resume_token": null,
+    "input_identity": {
+      "skill03_output_manifest": "PASS_READY_FOR_SKILL04",
+      "raw_original_file_count": 226
+    },
+    "output_identity": {
+      "prepared_article_count": 36,
+      "media_file_count": 72,
+      "legal_page_count": 4
+    },
+    "human_approval_refs": [
+      "user-confirmed-skill03-local-screenshots",
+      "user-continued-to-skill05-prepared-content-review"
+    ],
+    "skip_decisions": []
+  }
+}

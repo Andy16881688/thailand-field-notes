@@ -1,0 +1,40 @@
+{
+  "schema_version": "skill03-code-source-lock-v1",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill03-20260806-preflight-01",
+  "source_type": "stitch",
+  "source_archive_path": "prototypes/approved/skill02-candidate-01/stitch_thailand_field_notes_prototype-full.zip",
+  "source_archive_sha256": "7DEC4DF386F7680A353E71E90C0E50AEA845993DACFED135DEC0D74EB8C27147",
+  "approved_candidate_id": "6976483276380548078",
+  "visual_lock_path": "docs/planning/02-approved-visual-source-lock-v1.json",
+  "skill02_handoff_path": "docs/planning/orchestrator-handoff-02-skill02-20260806-01.json",
+  "project_root": "C:\\Users\\rolel\\Desktop\\site\\site-Thailand Field Notes",
+  "implementation_mode": "new_astro_create",
+  "status": "READY_FOR_CONTROLLED_ASTRO_PORT",
+  "source_identity_gate": {
+    "site_id_match": true,
+    "approved_candidate_id_match": true,
+    "project_local_outer_sha_match": true,
+    "normalized_file_manifest_sha_match": true,
+    "approved_visual_identity_signature_present": true,
+    "rejected_signatures_loaded": true,
+    "existing_implementation_authority_none": true,
+    "result": "PASS"
+  },
+  "production_source_gate": {
+    "status": "PASS",
+    "reason": "Approved visual assets and font resources were localized into a project-scoped staging projection; remote references are removed from the localized source.",
+    "remote_image_reference_count": 0,
+    "tailwind_cdn_reference_count": 0,
+    "google_font_reference_count": 0,
+    "normalized_file_manifest_path": "docs/planning/03-normalized-file-manifest-v1.json",
+    "normalized_file_manifest_sha256": "DE99C3AAEFB9FE03BE552711181B8268711F5E0D4060514D3449167AEFDE8E01",
+    "localized_source_path": ".tmp-ai-studio-audit/localized-source",
+    "required_next_action": "Proceed to controlled Astro port; rewrite Tailwind utility assumptions into local Astro CSS/components and preserve the locked visual signatures."
+  },
+  "implementation_started": false,
+  "build_started": false,
+  "admin_started": false,
+  "git_started": false,
+  "deployment_started": false
+}

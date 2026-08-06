@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PostCard from '../components/PostCard.astro';
+import { site, sections, posts } from '../lib/data';
+const featured = posts.slice(0, 6);
+---
+<Layout title={site.site_name} description={site.tagline}>
+  <div class="page">
+    <section class="hero"><p class="eyebrow">Thailand, planned with intention</p><h1>Go farther by planning less.</h1><p class="lede">Thailand Field Notes helps first-time independent visitors choose realistic routes, prepare for arrival, and travel with more confidence.</p><a class="button" href="/section/plan-your-trip/">Start planning</a></section>
+    <section><div class="grid">{sections.map((section) => <article class="card"><p class="eyebrow">Section</p><h2><a href={`/section/${section.slug}/`}>{section.name}</a></h2><p>Practical guides for making this part of a first Thailand trip work.</p></article>)}</div></section>
+    <section><p class="eyebrow">Field notes</p><h2>Begin with a focused question</h2><div class="grid">{featured.map((post) => <PostCard post={post} />)}</div></section>
+  </div>
+</Layout>

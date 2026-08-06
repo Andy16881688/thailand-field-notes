@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "first-trip-decisions",
+    "section_slug": "plan-your-trip",
+    "section": "plan-your-trip",
+    "name": "First Trip Decisions"
+  },
+  {
+    "slug": "route-lengths",
+    "section_slug": "plan-your-trip",
+    "section": "plan-your-trip",
+    "name": "Route Lengths"
+  },
+  {
+    "slug": "route-combinations",
+    "section_slug": "plan-your-trip",
+    "section": "plan-your-trip",
+    "name": "Route Combinations"
+  },
+  {
+    "slug": "travel-style-constraints",
+    "section_slug": "plan-your-trip",
+    "section": "plan-your-trip",
+    "name": "Travel Style & Constraints"
+  },
+  {
+    "slug": "entry-documents",
+    "section_slug": "entry-essentials",
+    "section": "entry-essentials",
+    "name": "Entry & Documents"
+  },
+  {
+    "slug": "arrival-protection",
+    "section_slug": "entry-essentials",
+    "section": "entry-essentials",
+    "name": "Arrival & Protection"
+  },
+  {
+    "slug": "bangkok-local-transport",
+    "section_slug": "getting-around",
+    "section": "getting-around",
+    "name": "Bangkok & Local Transport"
+  },
+  {
+    "slug": "rail-air-long-distance",
+    "section_slug": "getting-around",
+    "section": "getting-around",
+    "name": "Rail, Air & Long-Distance Travel"
+  },
+  {
+    "slug": "ferries-island-logistics",
+    "section_slug": "getting-around",
+    "section": "getting-around",
+    "name": "Ferries & Island Logistics"
+  },
+  {
+    "slug": "bangkok-central-thailand",
+    "section_slug": "destinations-local-context",
+    "section": "destinations-local-context",
+    "name": "Bangkok & Central Thailand"
+  },
+  {
+    "slug": "northern-thailand",
+    "section_slug": "destinations-local-context",
+    "section": "destinations-local-context",
+    "name": "Northern Thailand"
+  },
+  {
+    "slug": "southern-thailand",
+    "section_slug": "destinations-local-context",
+    "section": "destinations-local-context",
+    "name": "Southern Thailand"
+  },
+  {
+    "slug": "food-cultural-etiquette",
+    "section_slug": "destinations-local-context",
+    "section": "destinations-local-context",
+    "name": "Food & Cultural Etiquette"
+  }
+]

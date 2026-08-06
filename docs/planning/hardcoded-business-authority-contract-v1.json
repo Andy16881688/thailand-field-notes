@@ -1,0 +1,10 @@
+{
+  "schema_version":"hardcoded-business-authority-contract-v1",
+  "runtime_business_collections":{"sections":"src/data/sections.json","categories":"src/data/categories.json","posts":"src/data/posts.json","navigation":"src/data/sections.json","brand":"src/data/site-settings.json","legal_routes":"src/data/legal.json","production_origin":"src/data/site-settings.json"},
+  "authority_sources":{"site":"docs/site-blueprint/01-site-blueprint-seo-geo-map-v1.md","visual":"docs/planning/02-approved-visual-source-lock-v1.json","effective_project":"docs/planning/effective-project-contract-v1.json"},
+  "allowed_fixed_limits":[{"id":"homepage-latest-posts","authority":"docs/planning/structure-display-contract-v1.json"}],
+  "allowed_static_labels":["Section","Category","Field notes","Official sources","About","Privacy Policy","Terms","User Agreement"],
+  "forbidden_business_literal_classes":["section collections","category collections","post collections","navigation arrays","brand defaults","legal route collections","production origin","undeclared featured limits","project-specific media maps"],
+  "project_specific_literal_allowlist":[],
+  "status":"CURRENT"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "v1",
+  "site_id": "thailand-field-notes",
+  "run_id": "skill01a-20260806-01",
+  "inventory_count": 8,
+  "cleanup_preview_count": 0,
+  "archived_count": 0,
+  "deleted_count": 0,
+  "skipped_count": 0,
+  "manual_review_count": 1,
+  "mixed_directory_finding_count": 0,
+  "artifact_storage_report": {"created_file_count":8,"created_bytes":0,"retained_file_count":8,"retained_bytes":0,"safe_deleted_file_count":0,"safe_deleted_bytes":0,"review_required_count":1},
+  "status": "PASS_WITH_REVIEW"
+}
