@@ -2,7 +2,17 @@ import site from '../data/site-settings.json';
 import sections from '../data/sections.json';
 import categories from '../data/categories.json';
 import rawPosts from '../data/posts.json';
-import legal from '../data/legal.json';
+import rawLegal from '../data/legal.json';
+
+const legal = rawLegal.map((item) => item.key === 'privacy-policy'
+  ? {
+      ...item,
+      body: item.body.replace(
+        'Analytics, advertising, affiliate links, and similar tracking features are not treated as enabled for the current site. If analytics, advertising, affiliate links, or similar third-party services are added in the future, this policy should be updated to describe those services and user choices.',
+        'The site uses Google Analytics to understand aggregate traffic and page usage. The current measurement ID is G-WPY4ST0YRH. Google Analytics may process technical information such as device and browser details, approximate location, referral information, pages viewed, and interaction events. Google may use cookies or similar technologies where enabled by the browser and applicable service configuration. Advertising, affiliate links, and sponsorships are not treated as enabled for the current site.',
+      ),
+    }
+  : item);
 
 const normalizedCategories = categories.map((item) => ({
   ...item,
