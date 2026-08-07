@@ -6,7 +6,7 @@ const featured = posts.slice(0, 6);
 ---
 <Layout title={site.site_name} description={site.tagline}>
   <div class="page">
-    <section class="hero home-hero"><div class="hero-pattern" aria-hidden="true"></div><div class="hero-content"><p class="eyebrow">Thailand, planned with intention</p><h1>Go farther by planning less.</h1><p class="lede">Thailand Field Notes helps first-time independent visitors choose realistic routes, prepare for arrival, and travel with more confidence.</p><a class="button" href="/section/plan-your-trip/">Start planning</a></div></section>
+    <section class="hero home-hero"><div class="hero-photo" aria-hidden="true"></div><div class="hero-content"><p class="eyebrow">Thailand, planned with intention</p><h1>Go farther by planning less.</h1><p class="lede">Thailand Field Notes helps first-time independent visitors choose realistic routes, prepare for arrival, and travel with more confidence.</p><a class="button" href="/section/plan-your-trip/">Start planning</a></div></section>
     <section><div class="grid">{sections.map((section) => <article class="card"><p class="eyebrow">Section</p><h2><a href={`/section/${section.slug}/`}>{section.name}</a></h2><p>Practical guides for making this part of a first Thailand trip work.</p></article>)}</div></section>
     <section><p class="eyebrow">Field notes</p><h2>Begin with a focused question</h2><div class="grid">{featured.map((post) => <PostCard post={post} />)}</div></section>
   </div>
@@ -15,7 +15,8 @@ const featured = posts.slice(0, 6);
 <style>
   .home-hero{position:relative;isolation:isolate;min-height:30rem;display:flex;align-items:center;overflow:hidden;padding:clamp(2rem,6vw,4rem) 0}
   .hero-content{position:relative;z-index:1;max-width:760px}
-  .hero-pattern{position:absolute;inset:0;background:url('/assets/thailand-landmark-pattern.svg') center right/cover no-repeat;opacity:1;z-index:-1;pointer-events:none}
-  .home-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--paper) 0%,color-mix(in srgb,var(--paper) 68%,transparent) 42%,color-mix(in srgb,var(--paper) 10%,transparent) 82%,transparent 100%);z-index:-1;pointer-events:none}
-  @media (max-width:700px){.home-hero{min-height:26rem}.hero-pattern{background-size:auto 100%;background-position:58% center;opacity:.9}.home-hero:after{background:linear-gradient(90deg,var(--paper) 0%,color-mix(in srgb,var(--paper) 58%,transparent) 58%,transparent 100%)}}
+  .hero-photo{position:absolute;inset:0;background:url('/assets/thailand-ayutthaya-hero.jpg') center 42%/cover no-repeat;z-index:-2;pointer-events:none}
+  .home-hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,color-mix(in srgb,var(--paper) 96%,transparent) 0%,color-mix(in srgb,var(--paper) 80%,transparent) 37%,color-mix(in srgb,#2e2019 18%,transparent) 100%);z-index:-1;pointer-events:none}
+  .home-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 12%,transparent) 0%,transparent 48%,color-mix(in srgb,#2e2019 22%,transparent) 100%);z-index:-1;pointer-events:none}
+  @media (max-width:700px){.home-hero{min-height:26rem}.hero-photo{background-position:center center}.home-hero:before{background:linear-gradient(90deg,color-mix(in srgb,var(--paper) 88%,transparent) 0%,color-mix(in srgb,var(--paper) 55%,transparent) 100%)}.home-hero:after{background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 10%,transparent) 0%,transparent 45%,color-mix(in srgb,#2e2019 28%,transparent) 100%)}}
 </style>
