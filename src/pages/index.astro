@@ -14,9 +14,9 @@ const featured = posts.slice(0, 6);
 
 <style>
   .home-hero{position:relative;isolation:isolate;min-height:30rem;display:flex;align-items:center;overflow:hidden;padding:clamp(2rem,6vw,4rem) 0}
-  .hero-content{position:relative;z-index:1;max-width:760px}
-  .hero-photo{position:absolute;inset:0;background:url('/assets/thailand-ayutthaya-hero.jpg') center 42%/cover no-repeat;z-index:-2;pointer-events:none}
-  .home-hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,color-mix(in srgb,var(--paper) 96%,transparent) 0%,color-mix(in srgb,var(--paper) 80%,transparent) 37%,color-mix(in srgb,#2e2019 18%,transparent) 100%);z-index:-1;pointer-events:none}
-  .home-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 12%,transparent) 0%,transparent 48%,color-mix(in srgb,#2e2019 22%,transparent) 100%);z-index:-1;pointer-events:none}
+  .hero-content{position:relative;z-index:2;max-width:760px}
+  .hero-photo{position:absolute;inset:0;background:url('/assets/thailand-ayutthaya-hero.jpg') center 42%/cover no-repeat;z-index:0;pointer-events:none}
+  .home-hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,color-mix(in srgb,var(--paper) 96%,transparent) 0%,color-mix(in srgb,var(--paper) 80%,transparent) 37%,color-mix(in srgb,#2e2019 18%,transparent) 100%);z-index:1;pointer-events:none}
+  .home-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 12%,transparent) 0%,transparent 48%,color-mix(in srgb,#2e2019 22%,transparent) 100%);z-index:1;pointer-events:none}
   @media (max-width:700px){.home-hero{min-height:26rem}.hero-photo{background-position:center center}.home-hero:before{background:linear-gradient(90deg,color-mix(in srgb,var(--paper) 88%,transparent) 0%,color-mix(in srgb,var(--paper) 55%,transparent) 100%)}.home-hero:after{background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 10%,transparent) 0%,transparent 45%,color-mix(in srgb,#2e2019 28%,transparent) 100%)}}
 </style>
