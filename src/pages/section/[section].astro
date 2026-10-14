@@ -1,8 +1,27 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
-import { sections, getPostsForSection } from '../../lib/data';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import EditorialPicture from '../../components/EditorialPicture.astro';
+import { sections, categories, getPostsForSection } from '../../lib/data';
+import { sectionDescriptions } from '../../lib/editorial-context';
 export function getStaticPaths(){return sections.map((section)=>({params:{section:section.slug},props:{section}}))}
-const { section } = Astro.props; const posts = getPostsForSection(section.slug);
+const { section } = Astro.props;
+const posts = getPostsForSection(section.slug);
+const groups = categories.filter(category => category.section_slug === section.slug);
+const photo = section.slug === 'destinations-local-context' ? 'chiang-mai' : section.slug === 'plan-your-trip' ? 'home-railay' : undefined;
 ---
-<Layout title={section.name} description={`Thailand Field Notes guides in ${section.name}`}><div class="page"><section class="hero"><p class="eyebrow">Section</p><h1>{section.name}</h1><p class="lede">A practical starting point for first-time independent travelers.</p></section><div class="grid">{posts.map((post)=><PostCard post={post}/>)}</div></div></Layout>
+<Layout title={section.name} description={sectionDescriptions[section.slug]} canonical={`/section/${section.slug}/`}>
+  <div class="page listing-page">
+    <Breadcrumbs items={[{label:'Home',href:'/'},{label:section.name}]} />
+    <header class:list={['listing-heading',{ 'with-image': photo }]}><div><p class="eyebrow">Explore the field notes</p><h1>{section.name}</h1><p class="lede">{sectionDescriptions[section.slug]}</p><p class="meta">{posts.length} guides · {groups.length} collections</p></div>{photo && <EditorialPicture assetId={photo} priority sizes="(max-width: 900px) 100vw, 40vw" class={photo === 'chiang-mai' ? 'section-image portrait' : 'section-image'} />}</header>
+    <nav class="collection-index" aria-label="Collections in this section">{groups.map((category,index) => <a href={`/category/${category.slug}/`}><span class="index-number">{String(index+1).padStart(2,'0')}</span><span>{category.name}</span><span aria-hidden="true">↗</span></a>)}</nav>
+    <section class="guides" aria-label={`${section.name} guides`}><p class="eyebrow">The guides</p><div class="post-grid">{posts.map(post => <PostCard post={post}/>)}</div></section>
+  </div>
+</Layout>
+<style>
+  .listing-heading :global(.section-image.portrait){max-width:24rem;width:100%;margin-inline:auto}
+  .listing-heading :global(.section-image.portrait img){aspect-ratio:auto}
+  @media(prefers-reduced-motion:reduce){.collection-index a:hover span:last-child{transform:none!important}}
+  .listing-heading{margin-bottom:3.5rem;max-width:58rem}.listing-heading.with-image{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}h1{font-family:var(--font-heading,'Playfair Display',Georgia,serif);font-size:clamp(2.8rem,5.6vw,5.6rem);line-height:1.08;letter-spacing:-.045em;font-weight:500;margin:1rem 0 1.5rem}.listing-heading :global(.section-image img){aspect-ratio:4/3;object-fit:cover}.collection-index{display:grid;grid-template-columns:1fr 1fr;gap:0 3rem;margin:3rem 0 5rem}.collection-index a{display:grid;grid-template-columns:2rem 1fr auto;align-items:center;gap:.8rem;padding:1.3rem 0;border-top:1px solid var(--line,#d8dcd2);font-size:1rem}.index-number{font-size:.7rem;color:var(--muted,#59675f)}.collection-index a:hover span:last-child{transform:translate(2px,-2px)}.guides>.eyebrow{margin-bottom:2rem}@media(max-width:900px){.listing-heading.with-image{grid-template-columns:1fr;gap:2rem}.collection-index{gap:0 2rem;margin-bottom:3rem}}@media(max-width:600px){.collection-index{grid-template-columns:1fr}}
+</style>

@@ -1,0 +1,15 @@
+---
+interface Props { headings: Array<{ id: string; text: string }> }
+const { headings } = Astro.props;
+---
+{headings.length > 0 && <aside class="contents"><details open><summary>In this guide</summary><nav aria-label="On this page"><ol>{headings.map(heading => <li><a href={`#${encodeURIComponent(heading.id)}`}>{heading.text}</a></li>)}</ol></nav></details></aside>}
+<style>
+  .contents nav a{min-height:44px;display:flex;align-items:center}
+  .contents{min-width:0;font-size:.8rem;line-height:1.5}.contents details{position:sticky;top:7rem;border-top:1px solid var(--line,#d8dcd2);padding-top:1rem}summary{font-weight:600;cursor:pointer;padding:.6rem 0;color:var(--green,#193d35)}ol{list-style:none;padding:0;margin:.4rem 0}li{margin:0}a{display:block;padding:.5rem 0;color:var(--muted,#59675f)}a:hover{color:var(--green,#193d35);text-decoration:underline;text-underline-offset:.2em}
+  @media(max-width:900px){.contents{font-size:.875rem}.contents details{position:static;border-bottom:1px solid var(--line,#d8dcd2);padding:0}summary{padding:1rem 0}}
+</style>
+<script>
+  document.querySelectorAll('.contents details').forEach(details => {
+    if (window.matchMedia('(max-width: 900px)').matches) details.removeAttribute('open');
+  });
+</script>

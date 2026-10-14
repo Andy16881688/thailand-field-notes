@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "ownerApprovedOn": "2026-10-14",
+  "ownerInstruction": "新版既然不使用了，就把原来的给删除掉，仅保留发布的版本",
+  "scope": "Exact72 active legacy photos and their dist copies. Clear associated current post fields only. No Git or release. Historical archives/evidence remain untouched.",
+  "originalsDeletionMethod": "Windows Recycle Bin; generated dist copies removed by clean Astro rebuild",
+  "baselinePostsSha256": "95f371f6d373d4338156dcdc9c66a3efeda46c1250817ecdb0a8da8617001633",
+  "images": [
+    {
+      "slug": "bangkok-first-timer-guide",
+      "role": "featured",
+      "src": "/assets/images/bangkok-first-timer-guide/featured.webp",
+      "path": "public/assets/images/bangkok-first-timer-guide/featured.webp",
+      "distPath": "dist/assets/images/bangkok-first-timer-guide/featured.webp",
+      "sha256": "6181fc4ac8fcdc38c01127860e50887d8c10bac5e3e1b3facd79167407293521",
+      "bytes": 142284
+    },
+    {
+      "slug": "bangkok-first-timer-guide",
+      "role": "closing",
+      "src": "/assets/images/bangkok-first-timer-guide/closing.webp",
+      "path": "public/assets/images/bangkok-first-timer-guide/closing.webp",
+      "distPath": "dist/assets/images/bangkok-first-timer-guide/closing.webp",
+      "sha256": "d24647c02a07e0355d9073cb823df7cb8587c416233d64a90e43fabc3cebd0a5",
+      "bytes": 141412
+    },
+    {
+      "slug": "chiang-mai-first-timer-guide",
+      "role": "featured",
+      "src": "/assets/images/chiang-mai-first-timer-guide/featured.webp",
+      "path": "public/assets/images/chiang-mai-first-timer-guide/featured.webp",
+      "distPath": "dist/assets/images/chiang-mai-first-timer-guide/featured.webp",
+      "sha256": "f8b27d6a4d86b5a55f99b2fe31e9026c677acd08e87eff8084c3f2b292f12f79",
+      "bytes": 146236
+    },
+    {
+      "slug": "chiang-mai-first-timer-guide",
+      "role": "closing",
+      "src": "/assets/images/chiang-mai-first-timer-guide/closing.webp",
+      "path": "public/assets/images/chiang-mai-first-timer-guide/closing.webp",
+      "distPath": "dist/assets/images/chiang-mai-first-timer-guide/closing.webp",
+      "sha256": "a72ce28303631a9d3f54d11ae18c51b8c021aaaff32d95ee49ad62a2cc8e0be9",
+      "bytes": 122792
+    },
+    {
+      "slug": "chiang-rai-travel-guide",
+      "role": "featured",
+      "src": "/assets/images/chiang-rai-travel-guide/featured.webp",
+      "path": "public/assets/images/chiang-rai-travel-guide/featured.webp",
+      "distPath": "dist/assets/images/chiang-rai-travel-guide/featured.webp",
+      "sha256": "fd611a886619865b2dd069286180375a48c5891ad20451128e4d8bdd4cbb50b2",
+      "bytes": 247482
+    },
+    {
+      "slug": "chiang-rai-travel-guide",
+      "role": "closing",
+      "src": "/assets/images/chiang-rai-travel-guide/closing.webp",
+      "path": "public/assets/images/chiang-rai-travel-guide/closing.webp",
+      "distPath": "dist/assets/images/chiang-rai-travel-guide/closing.webp",
+      "sha256": "be7147cbf0f14e3bb8fbbfd8cf9f68864f4c076e034b9266ff30323ee09a0ff5",
+      "bytes": 130158
+    },
+    {
+      "slug": "historical-day-trips-from-bangkok",
+      "role": "featured",
+      "src": "/assets/images/historical-day-trips-from-bangkok/featured.webp",
+      "path": "public/assets/images/historical-day-trips-from-bangkok/featured.webp",
+      "distPath": "dist/assets/images/historical-day-trips-from-bangkok/featured.webp",
+      "sha256": "344e192a97156f527bd47c0dfb6a0f15ed03e67eedebf22eae73d1ca92a44465",
+      "bytes": 264104
+    },
+    {
+      "slug": "historical-day-trips-from-bangkok",
+      "role": "closing",
+      "src": "/assets/images/historical-day-trips-from-bangkok/closing.webp",
+      "path": "public/assets/images/historical-day-trips-from-bangkok/closing.webp",
+      "distPath": "dist/assets/images/historical-day-trips-from-bangkok/closing.webp",
+      "sha256": "d07beaa8f8253b0e2d97a516836ee60937cb3a621810f7bb1ca5af38af7f2eec",
+      "bytes": 247674
+    },
+    {
+      "slug": "koh-samui-travel-guide",
+      "role": "featured",
+      "src": "/assets/images/koh-samui-travel-guide/featured.webp",
+      "path": "public/assets/images/koh-samui-travel-guide/featured.webp",
+      "distPath": "dist/assets/images/koh-samui-travel-guide/featured.webp",
+      "sha256": "db1416fa2e5f083344c2127eaf574a7a486ac35070b61e5ef5ad42d4347662ad",
+      "bytes": 262546
+    },
+    {
+      "slug": "koh-samui-travel-guide",
+      "role": "closing",
+      "src": "/assets/images/koh-samui-travel-guide/closing.webp",
+      "path": "public/assets/images/koh-samui-travel-guide/closing.webp",
+      "distPath": "dist/assets/images/koh-samui-travel-guide/closing.webp",
+      "sha256": "5064456c3e4c3c8f6159d4f541690dfad084d0dc30f319e8ec75f4b4d4147424",
+      "bytes": 184396
+    },
+    {
+      "slug": "krabi-travel-guide",
+      "role": "featured",
+      "src": "/assets/images/krabi-travel-guide/featured.webp",
+      "path": "public/assets/images/krabi-travel-guide/featured.webp",
+      "distPath": "dist/assets/images/krabi-travel-guide/featured.webp",
+      "sha256": "d75d535bc3d8492e4030ed54501d2b88b3af99eb05b7eaa964fae9a5e3b75de2",
+      "bytes": 246556
+    },
+    {
+      "slug": "krabi-travel-guide",
+      "role": "closing",
+      "src": "/assets/images/krabi-travel-guide/closing.webp",
+      "path": "public/assets/images/krabi-travel-guide/closing.webp",
+      "distPath": "dist/assets/images/krabi-travel-guide/closing.webp",
+      "sha256": "7018fd08425dee92c3a7ed8feea6b499dffebf5814d564e9377297d4e7f727aa",
+      "bytes": 279832
+    },
+    {
+      "slug": "pai-travel-guide-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/pai-travel-guide-first-time-visitors/featured.webp",
+      "path": "public/assets/images/pai-travel-guide-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/pai-travel-guide-first-time-visitors/featured.webp",
+      "sha256": "9fcc8e87995a390fcc055cff6a0e849bfa665f19768f365d33037add4f6e59a5",
+      "bytes": 168226
+    },
+    {
+      "slug": "pai-travel-guide-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/pai-travel-guide-first-time-visitors/closing.webp",
+      "path": "public/assets/images/pai-travel-guide-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/pai-travel-guide-first-time-visitors/closing.webp",
+      "sha256": "7dc1b434b34544534e38d06fecd66eb8095f2bb7493430265acbf5171d52a371",
+      "bytes": 118414
+    },
+    {
+      "slug": "phuket-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/phuket-first-time-visitors/featured.webp",
+      "path": "public/assets/images/phuket-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/phuket-first-time-visitors/featured.webp",
+      "sha256": "aa18a410aad9137c50b636fb751bf6b9eee953b56c9232b9b685192e611fd6d0",
+      "bytes": 303786
+    },
+    {
+      "slug": "phuket-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/phuket-first-time-visitors/closing.webp",
+      "path": "public/assets/images/phuket-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/phuket-first-time-visitors/closing.webp",
+      "sha256": "b85fe705cca73ed7ef9bd0c347fba20b2611faba60f070982e34d06cd5f22864",
+      "bytes": 132772
+    },
+    {
+      "slug": "arriving-bangkok-suvarnabhumi-airport",
+      "role": "featured",
+      "src": "/assets/images/arriving-bangkok-suvarnabhumi-airport/featured.webp",
+      "path": "public/assets/images/arriving-bangkok-suvarnabhumi-airport/featured.webp",
+      "distPath": "dist/assets/images/arriving-bangkok-suvarnabhumi-airport/featured.webp",
+      "sha256": "751fa74fee28f876c96b6b6615c540585384e5d26f8c1a8a559ea1d1751e00ab",
+      "bytes": 190532
+    },
+    {
+      "slug": "arriving-bangkok-suvarnabhumi-airport",
+      "role": "closing",
+      "src": "/assets/images/arriving-bangkok-suvarnabhumi-airport/closing.webp",
+      "path": "public/assets/images/arriving-bangkok-suvarnabhumi-airport/closing.webp",
+      "distPath": "dist/assets/images/arriving-bangkok-suvarnabhumi-airport/closing.webp",
+      "sha256": "9e417ad51623c04e0c9508bf3ce9e699b7cbb8a033fcaeaddf1306675aaacb4a",
+      "bytes": 167454
+    },
+    {
+      "slug": "thailand-digital-arrival-entry-procedures",
+      "role": "featured",
+      "src": "/assets/images/thailand-digital-arrival-entry-procedures/featured.webp",
+      "path": "public/assets/images/thailand-digital-arrival-entry-procedures/featured.webp",
+      "distPath": "dist/assets/images/thailand-digital-arrival-entry-procedures/featured.webp",
+      "sha256": "d8d1dce7a3c5730558ccf71a97ca3d4905473cba9d0104d5c0e42de9e18cfba5",
+      "bytes": 119914
+    },
+    {
+      "slug": "thailand-digital-arrival-entry-procedures",
+      "role": "closing",
+      "src": "/assets/images/thailand-digital-arrival-entry-procedures/closing.webp",
+      "path": "public/assets/images/thailand-digital-arrival-entry-procedures/closing.webp",
+      "distPath": "dist/assets/images/thailand-digital-arrival-entry-procedures/closing.webp",
+      "sha256": "948d05818fce4a7549fe4b222c66362daaf6e31f4f3f72175f0a8f34f2cec700",
+      "bytes": 107628
+    },
+    {
+      "slug": "thailand-travel-insurance-what-to-check",
+      "role": "featured",
+      "src": "/assets/images/thailand-travel-insurance-what-to-check/featured.webp",
+      "path": "public/assets/images/thailand-travel-insurance-what-to-check/featured.webp",
+      "distPath": "dist/assets/images/thailand-travel-insurance-what-to-check/featured.webp",
+      "sha256": "6181c5ea65c28275cbb604e6c510dcea47fb4837c604afcdaedfeddc603b93dd",
+      "bytes": 114880
+    },
+    {
+      "slug": "thailand-travel-insurance-what-to-check",
+      "role": "closing",
+      "src": "/assets/images/thailand-travel-insurance-what-to-check/closing.webp",
+      "path": "public/assets/images/thailand-travel-insurance-what-to-check/closing.webp",
+      "distPath": "dist/assets/images/thailand-travel-insurance-what-to-check/closing.webp",
+      "sha256": "0627db394580e2314287bde7ffd2477daa3e1542be734e1c5bdc8269f6b09559",
+      "bytes": 103932
+    },
+    {
+      "slug": "thailand-travel-safety-basics",
+      "role": "featured",
+      "src": "/assets/images/thailand-travel-safety-basics/featured.webp",
+      "path": "public/assets/images/thailand-travel-safety-basics/featured.webp",
+      "distPath": "dist/assets/images/thailand-travel-safety-basics/featured.webp",
+      "sha256": "2e276da69a29c99dd4d575a6f2d258610a3d2f8764c30dc0c21aae7b0481a72c",
+      "bytes": 148842
+    },
+    {
+      "slug": "thailand-travel-safety-basics",
+      "role": "closing",
+      "src": "/assets/images/thailand-travel-safety-basics/closing.webp",
+      "path": "public/assets/images/thailand-travel-safety-basics/closing.webp",
+      "distPath": "dist/assets/images/thailand-travel-safety-basics/closing.webp",
+      "sha256": "5315a3f80966ac96b2f79e42f07d0b26543f8cdbc138a448715772cdc5576955",
+      "bytes": 130358
+    },
+    {
+      "slug": "thailand-entry-requirements-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/thailand-entry-requirements-first-time-visitors/featured.webp",
+      "path": "public/assets/images/thailand-entry-requirements-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/thailand-entry-requirements-first-time-visitors/featured.webp",
+      "sha256": "2ae3681f0dfef6b8c35ff45758fc7d8ca350bb8ec7e71faf3b70734985598c37",
+      "bytes": 111076
+    },
+    {
+      "slug": "thailand-entry-requirements-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/thailand-entry-requirements-first-time-visitors/closing.webp",
+      "path": "public/assets/images/thailand-entry-requirements-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/thailand-entry-requirements-first-time-visitors/closing.webp",
+      "sha256": "ee1ccf5393f3a54137085afd1e445c05240d29621606ebc023dd3882db6fd348",
+      "bytes": 111932
+    },
+    {
+      "slug": "thailand-visa-visa-exemption-basics",
+      "role": "featured",
+      "src": "/assets/images/thailand-visa-visa-exemption-basics/featured.webp",
+      "path": "public/assets/images/thailand-visa-visa-exemption-basics/featured.webp",
+      "distPath": "dist/assets/images/thailand-visa-visa-exemption-basics/featured.webp",
+      "sha256": "d9af54f316669846b73accdfa4c52abe43ca2112a0b0f5b47428a550b18ff95c",
+      "bytes": 135864
+    },
+    {
+      "slug": "thailand-visa-visa-exemption-basics",
+      "role": "closing",
+      "src": "/assets/images/thailand-visa-visa-exemption-basics/closing.webp",
+      "path": "public/assets/images/thailand-visa-visa-exemption-basics/closing.webp",
+      "distPath": "dist/assets/images/thailand-visa-visa-exemption-basics/closing.webp",
+      "sha256": "ca479e3d8ce0f14d661f4880dd951a1744a33b6c2b751c7e64fca4d08ad23f80",
+      "bytes": 103834
+    },
+    {
+      "slug": "thai-food-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/thai-food-first-time-visitors/featured.webp",
+      "path": "public/assets/images/thai-food-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/thai-food-first-time-visitors/featured.webp",
+      "sha256": "a20cadc9c278d50e6762344b3177a42cd8389635608f2d28605c0e30598b5fce",
+      "bytes": 228948
+    },
+    {
+      "slug": "thai-food-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/thai-food-first-time-visitors/closing.webp",
+      "path": "public/assets/images/thai-food-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/thai-food-first-time-visitors/closing.webp",
+      "sha256": "5c8e9085db6850da2a0b79067719cc5618336992de1faf4540d70d74db121231",
+      "bytes": 111232
+    },
+    {
+      "slug": "thai-temple-etiquette-visitors",
+      "role": "featured",
+      "src": "/assets/images/thai-temple-etiquette-visitors/featured.webp",
+      "path": "public/assets/images/thai-temple-etiquette-visitors/featured.webp",
+      "distPath": "dist/assets/images/thai-temple-etiquette-visitors/featured.webp",
+      "sha256": "2e4cce7d9cb2b1cdd13003d3db32aeb7b1e52063857fc47cb86a54e458e8b1cf",
+      "bytes": 212114
+    },
+    {
+      "slug": "thai-temple-etiquette-visitors",
+      "role": "closing",
+      "src": "/assets/images/thai-temple-etiquette-visitors/closing.webp",
+      "path": "public/assets/images/thai-temple-etiquette-visitors/closing.webp",
+      "distPath": "dist/assets/images/thai-temple-etiquette-visitors/closing.webp",
+      "sha256": "8d29030aa8a25505ec56c995a7ad8e7b87a388bbf1ab5c1ab1f2d56a59cb8ffc",
+      "bytes": 229740
+    },
+    {
+      "slug": "bangkok-airport-to-city-main-options",
+      "role": "featured",
+      "src": "/assets/images/bangkok-airport-to-city-main-options/featured.webp",
+      "path": "public/assets/images/bangkok-airport-to-city-main-options/featured.webp",
+      "distPath": "dist/assets/images/bangkok-airport-to-city-main-options/featured.webp",
+      "sha256": "e919a6df3fabddd9afa7094182b0a3d288394d38be2b14c214929d60091b2d1a",
+      "bytes": 170258
+    },
+    {
+      "slug": "bangkok-airport-to-city-main-options",
+      "role": "closing",
+      "src": "/assets/images/bangkok-airport-to-city-main-options/closing.webp",
+      "path": "public/assets/images/bangkok-airport-to-city-main-options/closing.webp",
+      "distPath": "dist/assets/images/bangkok-airport-to-city-main-options/closing.webp",
+      "sha256": "5c3caa36d7138560cb0aebcd1e133f902bf14016ead2630f746cca491330834e",
+      "bytes": 159422
+    },
+    {
+      "slug": "bangkok-bts-mrt-for-beginners",
+      "role": "featured",
+      "src": "/assets/images/bangkok-bts-mrt-for-beginners/featured.webp",
+      "path": "public/assets/images/bangkok-bts-mrt-for-beginners/featured.webp",
+      "distPath": "dist/assets/images/bangkok-bts-mrt-for-beginners/featured.webp",
+      "sha256": "dab9fbcda85b5046506f509dae9bc2a2e6115e61c6399d4bd68964524cef9a3c",
+      "bytes": 223940
+    },
+    {
+      "slug": "bangkok-bts-mrt-for-beginners",
+      "role": "closing",
+      "src": "/assets/images/bangkok-bts-mrt-for-beginners/closing.webp",
+      "path": "public/assets/images/bangkok-bts-mrt-for-beginners/closing.webp",
+      "distPath": "dist/assets/images/bangkok-bts-mrt-for-beginners/closing.webp",
+      "sha256": "1bfac7ee89200049097ac289ad88ab5af142325e3bb17139668a07d61fe8d5d4",
+      "bytes": 110056
+    },
+    {
+      "slug": "island-hopping-logistics-thailand",
+      "role": "featured",
+      "src": "/assets/images/island-hopping-logistics-thailand/featured.webp",
+      "path": "public/assets/images/island-hopping-logistics-thailand/featured.webp",
+      "distPath": "dist/assets/images/island-hopping-logistics-thailand/featured.webp",
+      "sha256": "3f9050cc87ac2e3fe8fcae8ba27367ef039422b5710b704e5ede07d02977df37",
+      "bytes": 163800
+    },
+    {
+      "slug": "island-hopping-logistics-thailand",
+      "role": "closing",
+      "src": "/assets/images/island-hopping-logistics-thailand/closing.webp",
+      "path": "public/assets/images/island-hopping-logistics-thailand/closing.webp",
+      "distPath": "dist/assets/images/island-hopping-logistics-thailand/closing.webp",
+      "sha256": "4b67bb25b29e1ab82fb7a0b31e5c0e92ca22ab3db86dc0c00801e1b30e37e9e7",
+      "bytes": 122442
+    },
+    {
+      "slug": "take-ferry-southern-thailand",
+      "role": "featured",
+      "src": "/assets/images/take-ferry-southern-thailand/featured.webp",
+      "path": "public/assets/images/take-ferry-southern-thailand/featured.webp",
+      "distPath": "dist/assets/images/take-ferry-southern-thailand/featured.webp",
+      "sha256": "67f68f23b4d6a5ebe12c8511254c8674e71e6486a664483c4f9462c69cfdbffb",
+      "bytes": 167376
+    },
+    {
+      "slug": "take-ferry-southern-thailand",
+      "role": "closing",
+      "src": "/assets/images/take-ferry-southern-thailand/closing.webp",
+      "path": "public/assets/images/take-ferry-southern-thailand/closing.webp",
+      "distPath": "dist/assets/images/take-ferry-southern-thailand/closing.webp",
+      "sha256": "22690c80a68ba13ed284844161ac89cea8e12cc64e9ad1de43642e339a0af1cb",
+      "bytes": 164906
+    },
+    {
+      "slug": "thailand-domestic-flights-when-they-make-sense",
+      "role": "featured",
+      "src": "/assets/images/thailand-domestic-flights-when-they-make-sense/featured.webp",
+      "path": "public/assets/images/thailand-domestic-flights-when-they-make-sense/featured.webp",
+      "distPath": "dist/assets/images/thailand-domestic-flights-when-they-make-sense/featured.webp",
+      "sha256": "695297008e31c60cc391ff482d1d283921fd15af9c98e92767bf1a79620dc82f",
+      "bytes": 101698
+    },
+    {
+      "slug": "thailand-domestic-flights-when-they-make-sense",
+      "role": "closing",
+      "src": "/assets/images/thailand-domestic-flights-when-they-make-sense/closing.webp",
+      "path": "public/assets/images/thailand-domestic-flights-when-they-make-sense/closing.webp",
+      "distPath": "dist/assets/images/thailand-domestic-flights-when-they-make-sense/closing.webp",
+      "sha256": "923155534549364e7a277224ae4a40a17aa0c166f2a7d64a3e35dddfd066f39c",
+      "bytes": 80808
+    },
+    {
+      "slug": "how-to-use-grab-in-thailand",
+      "role": "featured",
+      "src": "/assets/images/how-to-use-grab-in-thailand/featured.webp",
+      "path": "public/assets/images/how-to-use-grab-in-thailand/featured.webp",
+      "distPath": "dist/assets/images/how-to-use-grab-in-thailand/featured.webp",
+      "sha256": "c46dd40a9cb4c0b320491242853c06a4506188bf43c93750533ad16dd78aa34d",
+      "bytes": 140074
+    },
+    {
+      "slug": "how-to-use-grab-in-thailand",
+      "role": "closing",
+      "src": "/assets/images/how-to-use-grab-in-thailand/closing.webp",
+      "path": "public/assets/images/how-to-use-grab-in-thailand/closing.webp",
+      "distPath": "dist/assets/images/how-to-use-grab-in-thailand/closing.webp",
+      "sha256": "5deb642dcd0a34125d78acd699a246b5d6984259dcf9a73d29e5a3e01b5a903d",
+      "bytes": 113350
+    },
+    {
+      "slug": "book-overnight-trains-thailand",
+      "role": "featured",
+      "src": "/assets/images/book-overnight-trains-thailand/featured.webp",
+      "path": "public/assets/images/book-overnight-trains-thailand/featured.webp",
+      "distPath": "dist/assets/images/book-overnight-trains-thailand/featured.webp",
+      "sha256": "2b603afe999a6130822e71ec9734014161a7f0313a4a5c9038da913f642adbee",
+      "bytes": 122502
+    },
+    {
+      "slug": "book-overnight-trains-thailand",
+      "role": "closing",
+      "src": "/assets/images/book-overnight-trains-thailand/closing.webp",
+      "path": "public/assets/images/book-overnight-trains-thailand/closing.webp",
+      "distPath": "dist/assets/images/book-overnight-trains-thailand/closing.webp",
+      "sha256": "7c4ee507659a20d86eb205a375760cac01ea81ecbcabd8aa28c13e42c7dfcccb",
+      "bytes": 147430
+    },
+    {
+      "slug": "thailand-trains-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/thailand-trains-first-time-visitors/featured.webp",
+      "path": "public/assets/images/thailand-trains-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/thailand-trains-first-time-visitors/featured.webp",
+      "sha256": "fbdebe59f4ffb46291c61489d8eff8158c277fdbea82e89cc1519a4f908d9b5a",
+      "bytes": 132338
+    },
+    {
+      "slug": "thailand-trains-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/thailand-trains-first-time-visitors/closing.webp",
+      "path": "public/assets/images/thailand-trains-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/thailand-trains-first-time-visitors/closing.webp",
+      "sha256": "3c1159dc904dd26d989acdb1b52a071d37dcc6fbfa3580d72849caa2d241d08d",
+      "bytes": 126404
+    },
+    {
+      "slug": "thailand-10-days-balanced-first-trip",
+      "role": "featured",
+      "src": "/assets/images/thailand-10-days-balanced-first-trip/featured.webp",
+      "path": "public/assets/images/thailand-10-days-balanced-first-trip/featured.webp",
+      "distPath": "dist/assets/images/thailand-10-days-balanced-first-trip/featured.webp",
+      "sha256": "5fa3d16570b94db8a8aa35c7340efc238940158d2a87da5ea45e2b80af1e6f62",
+      "bytes": 228550
+    },
+    {
+      "slug": "thailand-10-days-balanced-first-trip",
+      "role": "closing",
+      "src": "/assets/images/thailand-10-days-balanced-first-trip/closing.webp",
+      "path": "public/assets/images/thailand-10-days-balanced-first-trip/closing.webp",
+      "distPath": "dist/assets/images/thailand-10-days-balanced-first-trip/closing.webp",
+      "sha256": "57e9a724d6e28169cda442c4bd1f2869640480d6470d171ac983b0ad42e0a4de",
+      "bytes": 194268
+    },
+    {
+      "slug": "thailand-14-days-north-city-islands",
+      "role": "featured",
+      "src": "/assets/images/thailand-14-days-north-city-islands/featured.webp",
+      "path": "public/assets/images/thailand-14-days-north-city-islands/featured.webp",
+      "distPath": "dist/assets/images/thailand-14-days-north-city-islands/featured.webp",
+      "sha256": "7bd177da33980ec32f4993b2225c335e8098c9820c2bb86be48058c205ec834e",
+      "bytes": 242934
+    },
+    {
+      "slug": "thailand-14-days-north-city-islands",
+      "role": "closing",
+      "src": "/assets/images/thailand-14-days-north-city-islands/closing.webp",
+      "path": "public/assets/images/thailand-14-days-north-city-islands/closing.webp",
+      "distPath": "dist/assets/images/thailand-14-days-north-city-islands/closing.webp",
+      "sha256": "fa6eef6f7428960a7c179baddd9659c0a6a5995efcc93842abfe3d1db8c3ab98",
+      "bytes": 208536
+    },
+    {
+      "slug": "thailand-7-days-bangkok-chiang-mai-beach",
+      "role": "featured",
+      "src": "/assets/images/thailand-7-days-bangkok-chiang-mai-beach/featured.webp",
+      "path": "public/assets/images/thailand-7-days-bangkok-chiang-mai-beach/featured.webp",
+      "distPath": "dist/assets/images/thailand-7-days-bangkok-chiang-mai-beach/featured.webp",
+      "sha256": "e1c75415c6de00dd8c6e2da6eb6f4f97098aa6c4f59b18a90b28d31944c65d67",
+      "bytes": 289306
+    },
+    {
+      "slug": "thailand-7-days-bangkok-chiang-mai-beach",
+      "role": "closing",
+      "src": "/assets/images/thailand-7-days-bangkok-chiang-mai-beach/closing.webp",
+      "path": "public/assets/images/thailand-7-days-bangkok-chiang-mai-beach/closing.webp",
+      "distPath": "dist/assets/images/thailand-7-days-bangkok-chiang-mai-beach/closing.webp",
+      "sha256": "4b1d6ba8ae3095d0872e78f45d1592685d9a5e46f54ecee59b5744a5b2cddd77",
+      "bytes": 215422
+    },
+    {
+      "slug": "bangkok-chiang-mai-itinerary",
+      "role": "featured",
+      "src": "/assets/images/bangkok-chiang-mai-itinerary/featured.webp",
+      "path": "public/assets/images/bangkok-chiang-mai-itinerary/featured.webp",
+      "distPath": "dist/assets/images/bangkok-chiang-mai-itinerary/featured.webp",
+      "sha256": "526c0289d38fc8d868374917cae8c8b004350edd74c4f9e06f675195099405f1",
+      "bytes": 325738
+    },
+    {
+      "slug": "bangkok-chiang-mai-itinerary",
+      "role": "closing",
+      "src": "/assets/images/bangkok-chiang-mai-itinerary/closing.webp",
+      "path": "public/assets/images/bangkok-chiang-mai-itinerary/closing.webp",
+      "distPath": "dist/assets/images/bangkok-chiang-mai-itinerary/closing.webp",
+      "sha256": "7664425ac10cce88068bfa45d47556b16e6f779a5e2a43b30528f366c7516d39",
+      "bytes": 198610
+    },
+    {
+      "slug": "bangkok-krabi-itinerary",
+      "role": "featured",
+      "src": "/assets/images/bangkok-krabi-itinerary/featured.webp",
+      "path": "public/assets/images/bangkok-krabi-itinerary/featured.webp",
+      "distPath": "dist/assets/images/bangkok-krabi-itinerary/featured.webp",
+      "sha256": "d70f3d4778a420a7faf860d904a21f9a6d4288cca84526b343bb6a220b46503b",
+      "bytes": 293126
+    },
+    {
+      "slug": "bangkok-krabi-itinerary",
+      "role": "closing",
+      "src": "/assets/images/bangkok-krabi-itinerary/closing.webp",
+      "path": "public/assets/images/bangkok-krabi-itinerary/closing.webp",
+      "distPath": "dist/assets/images/bangkok-krabi-itinerary/closing.webp",
+      "sha256": "792272f91c8e46febc21d7657c562a2133a1bff44f9c6448f37aea42a3761df9",
+      "bytes": 203024
+    },
+    {
+      "slug": "bangkok-phuket-itinerary",
+      "role": "featured",
+      "src": "/assets/images/bangkok-phuket-itinerary/featured.webp",
+      "path": "public/assets/images/bangkok-phuket-itinerary/featured.webp",
+      "distPath": "dist/assets/images/bangkok-phuket-itinerary/featured.webp",
+      "sha256": "fa6d99608da52e41afac69de83eaadcd4301750631b374bb3de91b30a1826ce2",
+      "bytes": 267834
+    },
+    {
+      "slug": "bangkok-phuket-itinerary",
+      "role": "closing",
+      "src": "/assets/images/bangkok-phuket-itinerary/closing.webp",
+      "path": "public/assets/images/bangkok-phuket-itinerary/closing.webp",
+      "distPath": "dist/assets/images/bangkok-phuket-itinerary/closing.webp",
+      "sha256": "427fc3e28a710dd0f487bdcf3f076120fa1c1772657cb6396b0d23d9538fa478",
+      "bytes": 249554
+    },
+    {
+      "slug": "thailand-without-domestic-flights",
+      "role": "featured",
+      "src": "/assets/images/thailand-without-domestic-flights/featured.webp",
+      "path": "public/assets/images/thailand-without-domestic-flights/featured.webp",
+      "distPath": "dist/assets/images/thailand-without-domestic-flights/featured.webp",
+      "sha256": "866f2fd6238f55379c631f0be4f2bff7e2e9ce2b1bc7b20306f3ccaf0f1c6a4b",
+      "bytes": 255614
+    },
+    {
+      "slug": "thailand-without-domestic-flights",
+      "role": "closing",
+      "src": "/assets/images/thailand-without-domestic-flights/closing.webp",
+      "path": "public/assets/images/thailand-without-domestic-flights/closing.webp",
+      "distPath": "dist/assets/images/thailand-without-domestic-flights/closing.webp",
+      "sha256": "92116c3ff2b465ff995f25e33fd447a373f9c45501f005cf043abde18f50005f",
+      "bytes": 147206
+    },
+    {
+      "slug": "thailand-for-solo-travelers",
+      "role": "featured",
+      "src": "/assets/images/thailand-for-solo-travelers/featured.webp",
+      "path": "public/assets/images/thailand-for-solo-travelers/featured.webp",
+      "distPath": "dist/assets/images/thailand-for-solo-travelers/featured.webp",
+      "sha256": "8f9a85169714a0c9eb2d9b1d6d5a2165a911a2e856fa3e5ceca3ea8d2f3ae1eb",
+      "bytes": 235068
+    },
+    {
+      "slug": "thailand-for-solo-travelers",
+      "role": "closing",
+      "src": "/assets/images/thailand-for-solo-travelers/closing.webp",
+      "path": "public/assets/images/thailand-for-solo-travelers/closing.webp",
+      "distPath": "dist/assets/images/thailand-for-solo-travelers/closing.webp",
+      "sha256": "e456b3e799fe1888646e7c4866c963284bc0233ad879021bb1fb70dacbeb6913",
+      "bytes": 107898
+    },
+    {
+      "slug": "thailand-travel-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/thailand-travel-first-time-visitors/featured.webp",
+      "path": "public/assets/images/thailand-travel-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/thailand-travel-first-time-visitors/featured.webp",
+      "sha256": "80451ff145a3fea1473136dc7b4fcf67d763df17a8be43ccf77f1689a96a1099",
+      "bytes": 217194
+    },
+    {
+      "slug": "thailand-travel-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/thailand-travel-first-time-visitors/closing.webp",
+      "path": "public/assets/images/thailand-travel-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/thailand-travel-first-time-visitors/closing.webp",
+      "sha256": "826e30e30db02793d17672a70d2cf38c63991d42c61fb086f87a0a08e50f98af",
+      "bytes": 134184
+    },
+    {
+      "slug": "thailand-travel-mistakes-first-time-visitors",
+      "role": "featured",
+      "src": "/assets/images/thailand-travel-mistakes-first-time-visitors/featured.webp",
+      "path": "public/assets/images/thailand-travel-mistakes-first-time-visitors/featured.webp",
+      "distPath": "dist/assets/images/thailand-travel-mistakes-first-time-visitors/featured.webp",
+      "sha256": "106b78528bcdf1aef506a20e441e7acb87f9b1cc475a6134c2104ffe588e5de0",
+      "bytes": 111884
+    },
+    {
+      "slug": "thailand-travel-mistakes-first-time-visitors",
+      "role": "closing",
+      "src": "/assets/images/thailand-travel-mistakes-first-time-visitors/closing.webp",
+      "path": "public/assets/images/thailand-travel-mistakes-first-time-visitors/closing.webp",
+      "distPath": "dist/assets/images/thailand-travel-mistakes-first-time-visitors/closing.webp",
+      "sha256": "a2960b8a7ae9adcde51cddd1e1215bafc025b64a4cc2a9be8080997ffce9b160",
+      "bytes": 136036
+    },
+    {
+      "slug": "how-many-days-in-thailand",
+      "role": "featured",
+      "src": "/assets/images/how-many-days-in-thailand/featured.webp",
+      "path": "public/assets/images/how-many-days-in-thailand/featured.webp",
+      "distPath": "dist/assets/images/how-many-days-in-thailand/featured.webp",
+      "sha256": "c78b0fe3cac224fb46bdc889a0bd33a73c52c00ca381600c15211faaf9736248",
+      "bytes": 155958
+    },
+    {
+      "slug": "how-many-days-in-thailand",
+      "role": "closing",
+      "src": "/assets/images/how-many-days-in-thailand/closing.webp",
+      "path": "public/assets/images/how-many-days-in-thailand/closing.webp",
+      "distPath": "dist/assets/images/how-many-days-in-thailand/closing.webp",
+      "sha256": "dc5c96596e969a1ad121a5b2a0b0b69469e3969e67fcbcec96ecd147d949f86d",
+      "bytes": 140566
+    },
+    {
+      "slug": "best-time-to-visit-thailand-by-region",
+      "role": "featured",
+      "src": "/assets/images/best-time-to-visit-thailand-by-region/featured.webp",
+      "path": "public/assets/images/best-time-to-visit-thailand-by-region/featured.webp",
+      "distPath": "dist/assets/images/best-time-to-visit-thailand-by-region/featured.webp",
+      "sha256": "6c4875d23778f0bed1c27fe04cbcc4b05676f51f0ad567855ccb7447cddcdda0",
+      "bytes": 189850
+    },
+    {
+      "slug": "best-time-to-visit-thailand-by-region",
+      "role": "closing",
+      "src": "/assets/images/best-time-to-visit-thailand-by-region/closing.webp",
+      "path": "public/assets/images/best-time-to-visit-thailand-by-region/closing.webp",
+      "distPath": "dist/assets/images/best-time-to-visit-thailand-by-region/closing.webp",
+      "sha256": "0274c5c432fa7026f6110efb3397861f20647bef36115fc99a5b85ddf6767ff2",
+      "bytes": 262790
+    }
+  ],
+  "preservedEditorialFiles": [
+    {
+      "path": "public/assets/editorial/bangkok-1440.webp",
+      "sha256": "ce30f3ae7fc756ab6da521e1d449ab43d6056df688c92a0d8798bf59962bfe2b"
+    },
+    {
+      "path": "public/assets/editorial/bangkok-1920.webp",
+      "sha256": "3176a4d758c3784f125535f491d0f71f111d87c94da87ceb3803872943374279"
+    },
+    {
+      "path": "public/assets/editorial/bangkok-640.webp",
+      "sha256": "fe0b9e7f836df8eac33096bc1f162ec81447ba229b3f6b895b39a18cce59464d"
+    },
+    {
+      "path": "public/assets/editorial/bangkok-960.webp",
+      "sha256": "5f8448698c41afa15fdf5f8e43f258dd63bc761b51cada1b1fb32c1fa5f84331"
+    },
+    {
+      "path": "public/assets/editorial/chiang-mai-1440.webp",
+      "sha256": "91b6be77dcb174b4ed96ac003b4d8e52de341076a129c3d450d657d76d56686a"
+    },
+    {
+      "path": "public/assets/editorial/chiang-mai-1920.webp",
+      "sha256": "d8d4bfcd12a80b505725523bb8dc090743e15bb79370a97eb2447d6d2616ff05"
+    },
+    {
+      "path": "public/assets/editorial/chiang-mai-640.webp",
+      "sha256": "b298c99742dc49c7eaa16f74fac1f2b48fb1d15d03a7c3a1894ab3ca71e0c644"
+    },
+    {
+      "path": "public/assets/editorial/chiang-mai-960.webp",
+      "sha256": "e71d57eaa590ba4cdacce8e1b4d549af680a210a7da5b2105972e637f7269df5"
+    },
+    {
+      "path": "public/assets/editorial/home-railay-1440.webp",
+      "sha256": "589b15245ee8d8a9f8f349e5e89751094a27c56846650e6a568f841e67b431bc"
+    },
+    {
+      "path": "public/assets/editorial/home-railay-1920.webp",
+      "sha256": "2d30420cac46f35228c91c0de0ede182cd3cafad1f38b46bb857d85e662a4c8a"
+    },
+    {
+      "path": "public/assets/editorial/home-railay-640.webp",
+      "sha256": "5bae2ac6db24c940bb7d1f07b2b7a3154a252585e33db5a888da72485c3e45e4"
+    },
+    {
+      "path": "public/assets/editorial/home-railay-960.webp",
+      "sha256": "abfb9d5c5359b9890b5237b06d50bed07fb4593b192127846d4af3c1e12921fd"
+    },
+    {
+      "path": "public/assets/editorial/krabi-1440.webp",
+      "sha256": "d9b38a0d3246682558b289381d4008c25d18085b4f0d2f6ab0ef443e5138127a"
+    },
+    {
+      "path": "public/assets/editorial/krabi-1920.webp",
+      "sha256": "c1e213a6329d4e4abc6dab1eeb5f038a7023e75b2ad2de71a116b15b0b208b82"
+    },
+    {
+      "path": "public/assets/editorial/krabi-640.webp",
+      "sha256": "cfb6dae00f407860771a8498f73b8650af6732c9642d55b27be45d8047d717b5"
+    },
+    {
+      "path": "public/assets/editorial/krabi-960.webp",
+      "sha256": "a5d0102b41c9fc62c00ccb7b00cbcc2810318616ace1a93234a32ff9c99bfa1e"
+    },
+    {
+      "path": "public/assets/editorial/originals/bangkok.jpg",
+      "sha256": "b3f6c0a2732c29b46891efca53b41d377e84cd4e96dacd1cfd69864c711710e7"
+    },
+    {
+      "path": "public/assets/editorial/originals/chiang-mai.jpg",
+      "sha256": "5545c4da818bf531e97c5d149b4bc90f539cb9ca37c2ea6837e3dc036831ccf2"
+    },
+    {
+      "path": "public/assets/editorial/originals/home-railay.jpg",
+      "sha256": "2b0a2fb5995e1d6f6fc97efa9416313c502d152f51a726aacd1347896ea244a4"
+    },
+    {
+      "path": "public/assets/editorial/originals/krabi.jpg",
+      "sha256": "6af6153cc87c5d2d34f6df6609948933bf1658f331b18bacb49d0231771ef8b1"
+    }
+  ]
+}

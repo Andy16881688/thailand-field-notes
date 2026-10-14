@@ -1,0 +1,233 @@
+[
+  {
+    "id": "home-railay",
+    "subject": "Railay Beach, Krabi, Thailand",
+    "creator": "Laura",
+    "sourceUrl": "https://unsplash.com/photos/longtail-boats-line-a-beautiful-beach-o6NdiShHyZg",
+    "downloadUrl": "https://images.unsplash.com/photo-1736753399626-578b167b85b7?fm=jpg&q=95",
+    "alt": "Longtail boats beside limestone cliffs at Railay Beach, Krabi.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Laura on Unsplash",
+    "verifiedAt": "2026-10-13",
+    "verificationBasis": "Source page identifies photographer, location and Free Unsplash License; downloaded image subject reviewed separately. No model/property-release warranty.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/home-railay.jpg",
+    "originalWidth": 6000,
+    "originalHeight": 4000,
+    "originalBytes": 5722070,
+    "sha256": "2b0a2fb5995e1d6f6fc97efa9416313c502d152f51a726aacd1347896ea244a4",
+    "variants": [
+      {
+        "src": "/assets/editorial/home-railay-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 29246
+      },
+      {
+        "src": "/assets/editorial/home-railay-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 52482
+      },
+      {
+        "src": "/assets/editorial/home-railay-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 91754
+      },
+      {
+        "src": "/assets/editorial/home-railay-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 146898
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/home-railay-960.webp",
+    "width": 960,
+    "height": 640,
+    "usage": [
+      "home-hero",
+      "southern-thailand",
+      "route-planning"
+    ]
+  },
+  {
+    "id": "bangkok",
+    "subject": "Wat Arun, Bangkok, Thailand",
+    "creator": "Martijn Vonk",
+    "sourceUrl": "https://unsplash.com/photos/wat-arun-temple-on-the-chao-phraya-river-bangkok-7KSiPWt82us",
+    "downloadUrl": "https://images.unsplash.com/photo-1768392810963-017c92313d79?fm=jpg&q=95",
+    "alt": "Wat Arun rising above the Chao Phraya River in Bangkok.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Martijn Vonk on Unsplash",
+    "verifiedAt": "2026-10-13",
+    "verificationBasis": "Source page identifies photographer, location and Free Unsplash License; downloaded image subject reviewed separately. No model/property-release warranty.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/bangkok.jpg",
+    "originalWidth": 5474,
+    "originalHeight": 3649,
+    "originalBytes": 4738234,
+    "sha256": "b3f6c0a2732c29b46891efca53b41d377e84cd4e96dacd1cfd69864c711710e7",
+    "variants": [
+      {
+        "src": "/assets/editorial/bangkok-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 36190
+      },
+      {
+        "src": "/assets/editorial/bangkok-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 71726
+      },
+      {
+        "src": "/assets/editorial/bangkok-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 152632
+      },
+      {
+        "src": "/assets/editorial/bangkok-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 260962
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/bangkok-960.webp",
+    "width": 960,
+    "height": 640,
+    "usage": [
+      "bangkok",
+      "bangkok-central-thailand"
+    ]
+  },
+  {
+    "id": "chiang-mai",
+    "subject": "Temple architecture, Chiang Mai, Thailand",
+    "creator": "Stergios K",
+    "sourceUrl": "https://unsplash.com/photos/ancient-temple-with-golden-spires-and-lush-greenery-or2uu_vZAg8",
+    "downloadUrl": "https://images.unsplash.com/photo-1765833733487-0d72eeaaf8a6?fm=jpg&q=95",
+    "alt": "A temple arch and brick chedi with golden spires in Chiang Mai.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Stergios K on Unsplash",
+    "verifiedAt": "2026-10-13",
+    "verificationBasis": "Source page identifies photographer, location and Free Unsplash License; downloaded image subject reviewed separately. No model/property-release warranty.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/chiang-mai.jpg",
+    "originalWidth": 4000,
+    "originalHeight": 6000,
+    "originalBytes": 5121657,
+    "sha256": "5545c4da818bf531e97c5d149b4bc90f539cb9ca37c2ea6837e3dc036831ccf2",
+    "variants": [
+      {
+        "src": "/assets/editorial/chiang-mai-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 101092
+      },
+      {
+        "src": "/assets/editorial/chiang-mai-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 217346
+      },
+      {
+        "src": "/assets/editorial/chiang-mai-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 448292
+      },
+      {
+        "src": "/assets/editorial/chiang-mai-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 718118
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/chiang-mai-960.webp",
+    "width": 960,
+    "height": 1440,
+    "usage": [
+      "chiang-mai",
+      "northern-thailand",
+      "temple-etiquette"
+    ]
+  },
+  {
+    "id": "krabi",
+    "subject": "Coastal bay, Krabi, Thailand; precise island not independently established",
+    "creator": "Nopparuj Lamaikul",
+    "sourceUrl": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-body-of-water-ZA4V1cBpj_w",
+    "downloadUrl": "https://images.unsplash.com/photo-1708451304298-58bd8bfd49d1?fm=jpg&q=95",
+    "alt": "Boats floating on turquoise water beneath limestone cliffs in Krabi.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Nopparuj Lamaikul on Unsplash",
+    "verifiedAt": "2026-10-13",
+    "verificationBasis": "Source page identifies photographer, location and Free Unsplash License; downloaded image subject reviewed separately. No model/property-release warranty.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/krabi.jpg",
+    "originalWidth": 4496,
+    "originalHeight": 3000,
+    "originalBytes": 4094873,
+    "sha256": "6af6153cc87c5d2d34f6df6609948933bf1658f331b18bacb49d0231771ef8b1",
+    "variants": [
+      {
+        "src": "/assets/editorial/krabi-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 71500
+      },
+      {
+        "src": "/assets/editorial/krabi-960.webp",
+        "width": 960,
+        "height": 641,
+        "bytes": 154090
+      },
+      {
+        "src": "/assets/editorial/krabi-1440.webp",
+        "width": 1440,
+        "height": 961,
+        "bytes": 317740
+      },
+      {
+        "src": "/assets/editorial/krabi-1920.webp",
+        "width": 1920,
+        "height": 1281,
+        "bytes": 535040
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/krabi-960.webp",
+    "width": 960,
+    "height": 641,
+    "usage": [
+      "krabi",
+      "southern-thailand",
+      "island-travel"
+    ]
+  }
+]

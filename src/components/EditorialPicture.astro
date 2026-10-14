@@ -1,0 +1,33 @@
+---
+import assets from '../data/editorial-media.json';
+interface Props {
+  assetId: string;
+  alt?: string;
+  priority?: boolean;
+  sizes: string;
+  class?: string;
+}
+const { assetId, alt, priority = false, sizes, class: className } = Astro.props;
+const asset = assets.find((item) => item.id === assetId);
+if (!asset || !asset.verified) throw new Error(`Unknown editorial asset: ${assetId}`);
+if (!sizes?.trim()) throw new Error('EditorialPicture requires sizes');
+const srcset = asset.variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
+const focalPoint = `${asset.focalPoint[0]}% ${asset.focalPoint[1]}%`;
+---
+<figure class:list={['editorial-picture', className]}>
+  <picture>
+    <source type="image/webp" srcset={srcset} sizes={sizes} />
+    <img src={asset.src} srcset={srcset} sizes={sizes} alt={alt ?? asset.alt}
+      width={asset.width} height={asset.height}
+      loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'}
+      decoding="async" style={`object-position: ${focalPoint}`} />
+  </picture>
+  <figcaption><a href={asset.sourceUrl} rel="noopener noreferrer">{asset.creditText}</a></figcaption>
+</figure>
+<style>
+  .editorial-picture { margin: 0; min-width: 0; }
+  picture { display: block; overflow: hidden; }
+  img { display: block; width: 100%; height: auto; object-fit: cover; }
+  figcaption { margin-top: .5rem; font-size: .75rem; line-height: 1.5; }
+  a { display: inline-flex; align-items: center; min-height: 44px; color: inherit; text-underline-offset: .2em; }
+</style>

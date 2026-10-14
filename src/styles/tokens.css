@@ -1,0 +1,7 @@
+@font-face{font-family:Inter;src:url('/assets/stitch-fonts/font-323940468.bin') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url('/assets/stitch-fonts/font-142450754.bin') format('truetype');font-weight:600;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('/assets/stitch-fonts/font-988713024.bin') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('/assets/stitch-fonts/font-950330861.bin') format('truetype');font-weight:700;font-display:swap}
+:root{--paper:#f8f7f3;--green:#193d35;--ink:#24352f;--muted:#59645e;--terracotta:#b74d35;--line:#bcc2ba;--sage:#e8ece5;--serif:'Playfair Display',Georgia,serif;--sans:Inter,Arial,sans-serif;--gutter:48px;--content:1320px;--section-space:88px}
+@media(max-width:1100px){:root{--gutter:32px;--section-space:64px}}
+@media(max-width:600px){:root{--gutter:20px;--section-space:48px}}

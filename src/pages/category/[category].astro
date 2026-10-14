@@ -1,8 +1,20 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
-import { categories, getPostsForCategory } from '../../lib/data';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { categories, getPostsForCategory, getSection } from '../../lib/data';
+import { categoryDescriptions } from '../../lib/editorial-context';
 export function getStaticPaths(){return categories.map((category)=>({params:{category:category.slug},props:{category}}))}
-const { category }=Astro.props; const posts=getPostsForCategory(category.slug);
+const { category }=Astro.props;
+const posts=getPostsForCategory(category.slug);
+const section=getSection(category.section_slug);
 ---
-<Layout title={category.name} description={`Thailand travel guides about ${category.name}`}><div class="page"><section class="hero"><p class="eyebrow">Category</p><h1>{category.name}</h1><p class="lede">Focused guidance for choosing, comparing, and preparing for your route.</p></section><div class="grid">{posts.map((post)=><PostCard post={post}/>)}</div></div></Layout>
+<Layout title={category.name} description={categoryDescriptions[category.slug]} canonical={`/category/${category.slug}/`}>
+  <div class="page category-page"><Breadcrumbs items={[{label:'Home',href:'/'},...(section ? [{label:section.name,href:`/section/${section.slug}/`}] : []),{label:category.name}]} />
+    <header><p class="eyebrow">A collection of field notes</p><h1>{category.name}</h1><p class="lede">{categoryDescriptions[category.slug]}</p><p class="meta">{posts.length} {posts.length === 1 ? 'guide' : 'guides'}</p></header>
+    {posts.length ? <div class="post-grid">{posts.map(post => <PostCard post={post}/>)}</div> : <p>No guides have been published in this collection yet. {section && <a href={`/section/${section.slug}/`}>Explore {section.name}</a>}</p>}
+  </div>
+</Layout>
+<style>
+  header{max-width:52rem;margin-bottom:4rem;padding-bottom:2rem;border-bottom:1px solid var(--line,#d8dcd2)}h1{font-family:var(--font-heading,'Playfair Display',Georgia,serif);font-size:clamp(2.8rem,5.5vw,5.5rem);line-height:1.08;letter-spacing:-.045em;font-weight:500;margin:1rem 0 1.5rem}@media(max-width:600px){header{margin-bottom:2.5rem}}
+</style>

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "authority": {
+    "path": "docs/superpowers/specs/2026-10-13-editorial-ui-redesign-design.md",
+    "bytes": 10276,
+    "sha256": "fb2f430f6e4aa237c4729b21a0917970835d82e5314ad2718389f233ec4d88bb"
+  },
+  "status": "APPROVED_SPEC_COPY_NOT_DEPLOYED",
+  "home": {
+    "brand": "Thailand Field Notes",
+    "h1": "Go farther by planning less.",
+    "lead": "Practical routes and local context for your first Thailand trip.",
+    "cta": {
+      "label": "Start planning",
+      "href": "/section/plan-your-trip/"
+    },
+    "photoCaption": "A different pace of travel.",
+    "headings": [
+      "Make the journey your own.",
+      "Places worth slowing down for."
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Plan Your Trip",
+      "href": "/section/plan-your-trip/"
+    },
+    {
+      "label": "Entry Essentials",
+      "href": "/section/entry-essentials/"
+    },
+    {
+      "label": "Getting Around",
+      "href": "/section/getting-around/"
+    },
+    {
+      "label": "Destinations",
+      "href": "/section/destinations-local-context/"
+    }
+  ],
+  "sectionDescriptions": {
+    "plan-your-trip": "Choose your route, timing, and travel pace.",
+    "entry-essentials": "Prepare for arrival and know what to verify before departure.",
+    "getting-around": "Connect your journey by train, road, air, and ferry.",
+    "destinations-local-context": "Compare places and explore the context behind your route."
+  },
+  "legal": [
+    {
+      "key": "terms",
+      "route": "/terms/",
+      "title": "Terms of Use",
+      "bodySha256": "0782735441d728358d422821b395b518b42ed16156bea7bc4962a2ccf297a5d6"
+    },
+    {
+      "key": "privacy-policy",
+      "route": "/privacy-policy/",
+      "title": "Privacy Policy",
+      "bodySha256": "c6e26e849b6f51ad926be918ed2f145b6cf64431987510b9a0629903ddaf802e"
+    },
+    {
+      "key": "user-agreement",
+      "route": "/user-agreement/",
+      "title": "User Agreement",
+      "bodySha256": "c9a7085123ebd1b300c5dea7d8458fc4be14f7c13b46566eebbb7427b710c5e4"
+    },
+    {
+      "key": "about",
+      "route": "/about/",
+      "title": "About",
+      "bodySha256": "0ed87e281ec603aa0eb47084f58eb8dba7e498ca38643cf0c814cb0fe5c6dc33"
+    }
+  ],
+  "forbiddenClaims": [
+    "first-hand insights",
+    "invented personal expertise",
+    "invented public contact details"
+  ],
+  "references": "Controller-owned; reference index not accessed or modified."
+}

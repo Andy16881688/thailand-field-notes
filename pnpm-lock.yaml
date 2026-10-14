@@ -14,6 +14,9 @@ importers:
       astro:
         specifier: ^5.14.1
         version: 5.18.2(@types/node@24.13.3)(rollup@4.62.4)(typescript@5.9.3)
+      parse5:
+        specifier: 7.3.0
+        version: 7.3.0
 
 packages:
 

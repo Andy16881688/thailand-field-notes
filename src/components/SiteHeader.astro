@@ -1,0 +1,25 @@
+---
+import copy from '../../docs/redesign/20261013/copy-lock.json';
+const current = Astro.url.pathname;
+---
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="header-inner">
+  <a class="wordmark" href="/">Thailand Field Notes</a>
+  <nav class="desktop-nav" aria-label="Primary navigation">{copy.navigation.map(item => <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a>)}</nav>
+  <details class="mobile-menu"><summary aria-controls="mobile-navigation"><span class="menu-label">Menu</span><span class="close-label">Close</span><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path class="hamburger" d="M3 6h18M3 12h18M3 18h18"/><path class="cross" d="m5 5 14 14M19 5 5 19"/></svg></summary>
+    <nav id="mobile-navigation" aria-label="Mobile navigation">{copy.navigation.map(item => <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}<span aria-hidden="true">↗</span></a>)}</nav>
+  </details>
+</div></header>
+<script>
+ const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
+ const trigger = menu?.querySelector('summary');
+ const close = () => { if (menu?.open) { menu.open = false; trigger?.focus(); } };
+ document.addEventListener('keydown', event => { if (event.key === 'Escape' && menu?.open) close(); });
+ menu?.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+ window.matchMedia('(min-width: 1101px)').addEventListener('change', event => { if (event.matches && menu) menu.open = false; });
+</script>
+<style>
+ .wordmark{min-height:44px;display:flex;align-items:center}
+ .mobile-menu nav{max-height:calc(100vh - 100%);max-height:calc(100dvh - 100%);overflow-y:auto;overscroll-behavior-y:contain}
+ .site-header{position:sticky;top:0;z-index:20;background:var(--paper)}.header-inner{max-width:var(--content);width:calc(100% - 2 * var(--gutter));margin:auto;min-height:96px;display:flex;align-items:center;justify-content:space-between;gap:32px;border-bottom:1px solid var(--line)}.wordmark{font-family:var(--serif);font-size:clamp(23px,2.6vw,36px);line-height:1.15;letter-spacing:-.055em;color:var(--green);text-decoration:none;white-space:nowrap}.desktop-nav{display:flex;align-items:center;gap:30px}.desktop-nav a{padding-block:12px;font-size:14px;text-decoration:none}.desktop-nav a:hover,.desktop-nav a[aria-current]{text-decoration:underline}.mobile-menu{display:none}.mobile-menu summary{cursor:pointer;list-style:none;min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:13px}.mobile-menu summary::-webkit-details-marker{display:none}.mobile-menu svg{fill:none;stroke:currentColor;stroke-width:1.5}.cross,.close-label{display:none}.mobile-menu[open] .cross,.mobile-menu[open] .close-label{display:block}.mobile-menu[open] .hamburger,.mobile-menu[open] .menu-label{display:none}.mobile-menu nav{position:absolute;left:0;right:0;top:100%;padding:12px var(--gutter) 24px;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 12px 18px #193d350a}.mobile-menu nav a{max-width:var(--content);margin:auto;display:flex;justify-content:space-between;gap:20px;padding:16px 0;border-bottom:1px solid var(--line);text-decoration:none}.mobile-menu nav a:last-child{border:0}@media(max-width:1100px){.desktop-nav{display:none}.mobile-menu{display:block}.header-inner{min-height:80px}}@media(max-width:400px){.header-inner{gap:12px}.menu-label,.close-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}}
+</style>
