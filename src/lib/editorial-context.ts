@@ -22,6 +22,16 @@ export const categoryDescriptions: Record<string, string> = {
 };
 // Only use newly verified documentary photographs where the subject matches.
 export function articleMedia(slug: string): string | undefined {
+  const supplement: Record<string, string> = {
+    'chiang-rai-travel-guide': 'supplement-chiang-rai',
+    'historical-day-trips-from-bangkok': 'supplement-ayutthaya',
+    'koh-samui-travel-guide': 'supplement-koh-samui',
+    'pai-travel-guide-first-time-visitors': 'supplement-pai',
+    'phuket-first-time-visitors': 'supplement-phuket-old-town',
+    'thai-food-first-time-visitors': 'supplement-thai-food',
+    'thai-temple-etiquette-visitors': 'chiang-mai',
+  };
+  if (supplement[slug]) return supplement[slug];
   if (['bangkok-first-timer-guide', 'bangkok-chiang-mai-itinerary', 'bangkok-krabi-itinerary'].includes(slug)) return 'bangkok';
   if (slug === 'chiang-mai-first-timer-guide') return 'chiang-mai';
   if (['krabi-travel-guide', 'krabi-vs-phuket', 'railay-beach-guide'].includes(slug)) return 'krabi';

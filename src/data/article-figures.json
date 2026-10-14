@@ -1,0 +1,348 @@
+[
+  {
+    "slug": "arriving-bangkok-suvarnabhumi-airport",
+    "src": "/assets/editorial/diagrams/arriving-bangkok-suvarnabhumi-airport.svg",
+    "width": 640,
+    "height": 760,
+    "alt": "From SAT-1 Level 2, take the B2 people mover to main-terminal Level 2, then passport control, bags, customs and public arrivals.",
+    "caption": "For international arrivals ending at BKK: SAT-1 passengers first reach the main terminal, then clear passport control, baggage and customs. The people mover is not Airport Rail Link.",
+    "afterHeading": "From SAT-1 to the main terminal",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "b5896a5ce7f792dcf53b530e9c990d5255897de741a3455c32162a731670406b",
+      "exactSupportingText": [
+        "disembarking on Level 2, descending to B2",
+        "passport control before baggage and customs"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "bangkok-airport-to-city-main-options",
+    "src": "/assets/editorial/diagrams/bangkok-airport-to-city-main-options.svg",
+    "width": 640,
+    "height": 910,
+    "alt": "BKK uses Airport Rail Link to Phaya Thai for BTS or Makkasan for Phetchaburi MRT; DMK uses Red Line to Krung Thep Aphiwat with the Blue Line connection at Bang Sue.",
+    "caption": "Conceptual rail connections, not a geographic map or through-train promise. BKK and DMK use different airport rail systems; include transfers and the final hotel journey.",
+    "afterHeading": "From DMK: Red Line, then the city connection",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "f0871083b0acfffdcd3b3120f23129ff2d5544c370ca2b1463ec5d6c0b810f3e",
+      "exactSupportingText": [
+        "Phaya Thai for the BTS and Makkasan for the MRT connection at Phetchaburi",
+        "Red Line route to Krung Thep Aphiwat, with the Blue Line connection at Bang Sue"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "bangkok-bts-mrt-for-beginners",
+    "src": "/assets/editorial/diagrams/bangkok-bts-mrt-for-beginners.svg",
+    "width": 640,
+    "height": 720,
+    "alt": "A complete rail journey links the hotel entrance, station approach, train ride, arrival station and final street address.",
+    "caption": "The rail segment is only the middle of the journey. Check station access, the final walk and operator-specific tickets instead of assuming a station name means door-to-door access.",
+    "afterHeading": "Count the first and last legs",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "4c46d97964d9c62a3c179f8dd3daf9088e35e66695f22ed9f730e5aec1541d55",
+      "exactSupportingText": [
+        "Also check the street-level walk at both ends.",
+        "do not assume a ticket bought for one system covers the other"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "island-hopping-logistics-thailand",
+    "src": "/assets/editorial/diagrams/island-hopping-logistics-thailand.svg",
+    "width": 640,
+    "height": 820,
+    "alt": "Eight-night comparison: Samui 3, Phangan 3, Samui 2 has two moves. Samui 3, Phangan 2, Tao 2, Samui 1 has three moves.",
+    "caption": "Both examples total 8 nights. Adding Tao raises island moves from 2 to 3 and reduces the final Samui stay from 2 nights to 1; neither sequence is a verified sailing itinerary.",
+    "afterHeading": "Try an eight-night Gulf plan on paper",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "873dc3b45c7e6468ccf82b997739b9dc6527128024d0121f02b2a41c2add0d38",
+      "exactSupportingText": [
+        "three nights on Samui, three on Phangan and two back on Samui",
+        "Samui three nights, Phangan two, Tao two and Samui one"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "take-ferry-southern-thailand",
+    "src": "/assets/editorial/diagrams/take-ferry-southern-thailand.svg",
+    "width": 640,
+    "height": 720,
+    "alt": "Work backward from boat departure to the operator check-in deadline, then to hotel pickup and the land journey.",
+    "caption": "Pickup, check-in and departure are different times. The article quotes Lomprayah’s at-least-60-minute check-in requirement only as that operator’s example; confirm the instructions on your own booking.",
+    "afterHeading": "Work backward from check-in, not departure",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "96aeaccb981d8ece07b9c407133e3b9eb75ac7e04f204cdbf9bdb846da181e76",
+      "exactSupportingText": [
+        "at least 60 minutes before departure",
+        "Keep check-in time, pickup time and sailing time separately labeled"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "thailand-domestic-flights-when-they-make-sense",
+    "src": "/assets/editorial/diagrams/thailand-domestic-flights-when-they-make-sense.svg",
+    "width": 640,
+    "height": 780,
+    "alt": "Flight comparison includes leaving the hotel, airport travel, check-in, security, boarding, flight, bags and onward transfer to the next hotel.",
+    "caption": "Scheduled flight time is just one part of a hotel-to-hotel move. Compare complete elapsed time and costs with rail or road; no durations are implied by this schematic.",
+    "afterHeading": "Count every part of the airport day",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "632dc810e361682884e9efa5c8a46a631627d1bb8d97ce5e03610f1a71a7f8e4",
+      "exactSupportingText": [
+        "Scheduled flight time is only one line in the calculation.",
+        "Blank entries are still unresolved costs or timing assumptions, not zeroes."
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "how-to-use-grab-in-thailand",
+    "src": "/assets/editorial/diagrams/how-to-use-grab-in-thailand.svg",
+    "width": 640,
+    "height": 860,
+    "alt": "A matched-car request provides driver details before meeting. The airport PIN process provides a code first, then a designated queue and waiting driver.",
+    "caption": "The article distinguishes a matched car from the Suvarnabhumi PIN queue. Follow the process shown for your actual booking; this original flow diagram is not an app screenshot.",
+    "afterHeading": "At Suvarnabhumi, distinguish a PIN queue from a matched car",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "561c22bb7c45266af9f35ae4e294e3d2a04d3d84c3241102363b229be7e245c8",
+      "exactSupportingText": [
+        "compare the vehicle and driver with the booking details",
+        "four-digit code before assigning a particular driver",
+        "Follow this only when your actual booking directs you into that process."
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "book-overnight-trains-thailand",
+    "src": "/assets/editorial/diagrams/book-overnight-trains-thailand.svg",
+    "width": 640,
+    "height": 700,
+    "alt": "A payment record, reservation reference and issued travel ticket are different records; reconcile the status and save the issued ticket offline.",
+    "caption": "A bank notification or search screenshot is not the issued travel ticket. Check passengers, stations, dates and places on the issued ticket and keep it available offline.",
+    "afterHeading": "Save the issued ticket, then check how changes are handled",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "88751f50235e619c807e6038231dc43b18b35bd3574dd2d4023a9515a8534a51",
+      "exactSupportingText": [
+        "A bank notification, a reservation reference and an issued travel ticket are different things to reconcile",
+        "Save the actual ticket in a form you can open offline"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "thailand-trains-first-time-visitors",
+    "src": "/assets/editorial/diagrams/thailand-trains-first-time-visitors.svg",
+    "width": 640,
+    "height": 660,
+    "alt": "Class, seat versus berth, and ventilation are separate descriptions. Second class by itself does not establish that a sleeping berth is included.",
+    "caption": "Read class + seat or berth + ventilation together. This separates booking attributes; it is not an inventory of available coach combinations.",
+    "afterHeading": "Read three descriptions, not just the class number",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "8e5d408ea31dae35e55658b29b4a33fbab76a053d25f1c2c5160990d02b33453",
+      "exactSupportingText": [
+        "Separate class, seat or sleeping berth, and ventilation.",
+        "“second class” alone does not tell you whether you are buying a seat or a bed."
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "thailand-10-days-balanced-first-trip",
+    "src": "/assets/editorial/diagrams/thailand-10-days-balanced-first-trip.svg",
+    "width": 640,
+    "height": 800,
+    "alt": "Bangkok · nights 1–2: 2 nights; Chiang Mai · nights 3–5: 3 nights; One southern base · nights 6–8: 3 nights; Bangkok buffer · night 9: 1 night.",
+    "caption": "2 + 3 + 3 + 1 = 9 nights. Arrival: Day 1. Moves: Days 3, 6, 9. Planning example, not a schedule.",
+    "afterHeading": "Worked example: 10 days and 9 nights",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "0f18b3de52a1a9e1c351ac350c665cb53d9bc1eb0570802f4adfc8d7d13bcf5e",
+      "exactSupportingText": [
+        "nights 1–2 to Bangkok (2), nights 3–5 to Chiang Mai (3), nights 6–8 to one southern base (3), and night 9 back in Bangkok"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "thailand-14-days-north-city-islands",
+    "src": "/assets/editorial/diagrams/thailand-14-days-north-city-islands.svg",
+    "width": 640,
+    "height": 800,
+    "alt": "Bangkok · nights 1–3: 3 nights; Chiang Mai · nights 4–7: 4 nights; One southern base · nights 8–12: 5 nights; Bangkok buffer · night 13: 1 night.",
+    "caption": "3 + 4 + 5 + 1 = 13 nights. Arrival: Day 1. Moves: Days 4, 8, 13. Planning example, not a schedule.",
+    "afterHeading": "Worked example: 14 days and 13 nights",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "40af40ea9bd88adc68c19c42bc9c2ec5fa383e42bbec7d1b571bce5ce25f1828",
+      "exactSupportingText": [
+        "nights 1–3 in Bangkok (3), nights 4–7 in Chiang Mai (4), nights 8–12 in one southern coast or island base (5), and night 13 back in Bangkok (1)"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "thailand-7-days-bangkok-chiang-mai-beach",
+    "src": "/assets/editorial/diagrams/thailand-7-days-bangkok-chiang-mai-beach.svg",
+    "width": 640,
+    "height": 930,
+    "alt": "In the compressed seven-day route, Days 1 and 7 are arrival and departure, Days 2, 4 and 6 are transfers, and only Days 3 and 5 are fully free.",
+    "caption": "Only Days 3 and 5 are fully free of scheduled moves. The six-night split is 1 + 2 + 2 + 1; this is a feasibility model, not a confirmed route. The article recommends two destinations for most first visits.",
+    "afterHeading": "See where the seven days actually go",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "3d5b17786e69e3882cf1d93841f4db8b383c308c5e9821fe50bef091429a425e",
+      "exactSupportingText": [
+        "Only Days 3 and 5 are fully free",
+        "Bangkok 1 + Chiang Mai 2 + coast 2 + Bangkok 1 = 6"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "bangkok-chiang-mai-itinerary",
+    "src": "/assets/editorial/diagrams/bangkok-chiang-mai-itinerary.svg",
+    "width": 640,
+    "height": 770,
+    "alt": "Flight version: two Bangkok hotel nights and four Chiang Mai nights. Sleeper version: one Bangkok hotel night, one train night and four Chiang Mai nights.",
+    "caption": "Both models total 6 nights and assume an onward journey from Chiang Mai on Day 7. A Bangkok return requires the article’s separate return allocation; the sleeper replaces a room night.",
+    "afterHeading": "A sleeper changes which night belongs to Bangkok",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "ee31c9e49fe5cb9564bed44907f899fcdeb1b3f3164b6096752593ea6a2fc52a",
+      "exactSupportingText": [
+        "one Bangkok hotel night, one night on the train and four Chiang Mai hotel nights: six nights altogether",
+        "confirmed onward journey beginning in Chiang Mai on day seven"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "bangkok-krabi-itinerary",
+    "src": "/assets/editorial/diagrams/bangkok-krabi-itinerary.svg",
+    "width": 640,
+    "height": 770,
+    "alt": "A road-access Ao Nang property uses a road transfer. A boat-access Railay property adds a pier and boat leg before reaching the accommodation.",
+    "caption": "The access mode belongs to the specific property, not just the region name. Confirm your hotel’s road, pier and boat arrangements before selecting the flight; these are conceptual chains, not mapped routes.",
+    "afterHeading": "Choose the Krabi address before the flight time",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "7dc936f7140048260562a0771c0d85c1139dd71303f3be7941ad9ce4350a0cf3",
+      "exactSupportingText": [
+        "choose an Ao Nang property you can reach by road",
+        "travel by car or van to its pier followed by a boat to the resort"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "bangkok-phuket-itinerary",
+    "src": "/assets/editorial/diagrams/bangkok-phuket-itinerary.svg",
+    "width": 640,
+    "height": 785,
+    "alt": "Phuket exit: Bangkok two nights and Phuket four. Bangkok return: Bangkok two, Phuket three and Bangkok one; night 6 moves from Phuket to Bangkok.",
+    "caption": "Both versions use 6 nights. A Phuket exit allows 3 full intervening Phuket days; returning to Bangkok on Day 6 leaves 2. Confirm the exit before booking rooms; a buffer night is not connection protection.",
+    "afterHeading": "Choose between a Phuket exit and a Bangkok return",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "696b86f8c2dd5040c9c708ddc4ff8ddfd91f2da86e1858d39df637452461fb08",
+      "exactSupportingText": [
+        "Bangkok for nights 1–2 and Phuket for nights 3–6",
+        "Bangkok for nights 1–2, Phuket for nights 3–5, and Bangkok again for night 6"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "thailand-without-domestic-flights",
+    "src": "/assets/editorial/diagrams/thailand-without-domestic-flights.svg",
+    "width": 640,
+    "height": 860,
+    "alt": "Ten-night northern model: Bangkok three, outbound train one, Chiang Mai four, return train one and Bangkok one. Eight accommodation nights plus two train nights.",
+    "caption": "3 + 1 + 4 + 1 + 1 = 10 nights, not 10 hotel nights plus trains. The Bangkok–Chiang Mai–Bangkok concept depends on confirming suitable services and berths in both directions.",
+    "afterHeading": "A northern model: ten nights, with two on the train",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "80d1f8a341294fdd68d3cdb491d1f02d5a841e1e2d108540e4e8b4ef91f8bc9f",
+      "exactSupportingText": [
+        "Nights 1–3: Bangkok accommodation.",
+        "Night 4: an overnight train",
+        "Nights 5–8: Chiang Mai accommodation.",
+        "Night 9: an overnight return train",
+        "Night 10: Bangkok accommodation"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "how-many-days-in-thailand",
+    "src": "/assets/editorial/diagrams/how-many-days-in-thailand.svg",
+    "width": 640,
+    "height": 740,
+    "alt": "Monday evening to Sunday morning spans seven calendar dates, six nights and five intervening days. Subtract two transfer-shaped days to leave three relatively free days.",
+    "caption": "The article’s example has 7 calendar dates but 6 nights and 5 intervening days; spending 2 of those changing bases leaves 3 relatively free. This is a planning calculation, not a minimum stay.",
+    "afterHeading": "Subtract transfer time from the headline number",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "560ae528e25e7f0c1e0f328d33f9eba5d6395b087f899d2b853b39f4d71b752f",
+      "exactSupportingText": [
+        "seven calendar dates but six nights and only five intervening days",
+        "just three remain relatively free for exploring"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  },
+  {
+    "slug": "best-time-to-visit-thailand-by-region",
+    "src": "/assets/editorial/diagrams/best-time-to-visit-thailand-by-region.svg",
+    "width": 640,
+    "height": 890,
+    "alt": "Broad windows: Bangkok and central November–January, north November–February, Andaman November–April, southern Gulf May–September. The first two are cooler periods; the coastal ranges are tourism-season windows.",
+    "caption": "Article-sourced TAT windows: central Nov–Jan and north Nov–Feb are cooler periods; Andaman Nov–Apr and Gulf May–Sep are tourism-season framing, not rainfall rankings or the only visitable months. No weather or sailing is guaranteed; check forecasts, air quality and operator notices separately.",
+    "afterHeading": "Use the seasonal window as a shortlist, not a booking guarantee",
+    "sourceBasis": {
+      "file": "src/data/posts.json",
+      "articleBodySha256": "4a679d44e0a3b607a757311dc9e9305069a90a2a633c8de4f2cbb0d44f46a778",
+      "exactSupportingText": [
+        "central region's cooler period broadly in November to January",
+        "November to February as the north's cooler period",
+        "November to April as a tourism-season window",
+        "May to September as the southern east/Gulf coast's tourism-season window"
+      ],
+      "placement": "After the entire section matching afterHeading, before the next H2 (or after the final section).",
+      "interpretation": "Original diagram of article statements; no independent current-service verification; conceptual routes are not geographic maps."
+    }
+  }
+]

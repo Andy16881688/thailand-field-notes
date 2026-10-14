@@ -229,5 +229,341 @@
       "southern-thailand",
       "island-travel"
     ]
+  },
+  {
+    "id": "supplement-chiang-rai",
+    "subject": "White Temple (Wat Rong Khun), Chiang Rai, Thailand",
+    "creator": "Peter Borter",
+    "sourceUrl": "https://unsplash.com/photos/white-temple-thailand-V4ZOYepFugE",
+    "downloadUrl": "https://images.unsplash.com/photo-1578335144141-069e13ef7890?fm=jpg&q=95",
+    "alt": "The ornate white exterior of Wat Rong Khun in Chiang Rai.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Peter Borter on Unsplash",
+    "verifiedAt": "2026-10-14",
+    "verificationBasis": "Source description White Temple; location Chiang Rai, Thailand; Sony DSC-RX100M3 camera metadata. Official source page read 2026-10-14 via web retrieval explicitly offers Download free and Unsplash License (not Plus); image CDN address followed from that exact page. Full-resolution JPEG rendition retained without width/crop query; not a camera RAW original. Visual review of downloaded 960px WebP completed: White temple, bridge, garden and water; principal spires intact. No stretching or added content. Copyright license does not warrant model/property releases or imply endorsement.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/supplement-chiang-rai.jpg",
+    "originalWidth": 5472,
+    "originalHeight": 3080,
+    "originalBytes": 5091864,
+    "sha256": "d3faa9e27a21eac65501f894f064334e8a78809c02adac0b9097994eb26986e4",
+    "variants": [
+      {
+        "src": "/assets/editorial/supplement-chiang-rai-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 49014
+      },
+      {
+        "src": "/assets/editorial/supplement-chiang-rai-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 106774
+      },
+      {
+        "src": "/assets/editorial/supplement-chiang-rai-1440.webp",
+        "width": 1440,
+        "height": 811,
+        "bytes": 241138
+      },
+      {
+        "src": "/assets/editorial/supplement-chiang-rai-1920.webp",
+        "width": 1920,
+        "height": 1081,
+        "bytes": 424120
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/supplement-chiang-rai-960.webp",
+    "width": 960,
+    "height": 540,
+    "usage": [
+      "chiang-rai-travel-guide"
+    ]
+  },
+  {
+    "id": "supplement-ayutthaya",
+    "subject": "Ancient Buddha statue and temple ruins, Ayutthaya, Thailand; individual temple not established",
+    "creator": "Aleksei Zhivilov",
+    "sourceUrl": "https://unsplash.com/photos/a-headless-buddha-statue-sits-in-ancient-ruins-cGL482Ouw3k",
+    "downloadUrl": "https://images.unsplash.com/photo-1741138439419-26667e8d115e?fm=jpg&q=95",
+    "alt": "A headless seated Buddha statue among brick temple ruins in Ayutthaya.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Aleksei Zhivilov on Unsplash",
+    "verifiedAt": "2026-10-14",
+    "verificationBasis": "Source description identifies an ancient Buddha statue in Ayutthaya park; location Ayutthaya, Thailand; Nikon D40 camera metadata. Do not label as Wat Mahathat, Wat Ratchaburana or Wat Chaiwatthanaram. Official source page read 2026-10-14 via web retrieval explicitly offers Download free and Unsplash License (not Plus); image CDN address followed from that exact page. Full-resolution JPEG rendition retained without width/crop query; not a camera RAW original. Visual review of downloaded 960px WebP completed: Headless seated Buddha and brick wall; exact temple unasserted. No stretching or added content. Copyright license does not warrant model/property releases or imply endorsement.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/supplement-ayutthaya.jpg",
+    "originalWidth": 3008,
+    "originalHeight": 2000,
+    "originalBytes": 1896940,
+    "sha256": "fb04e6b8f9f05d3b3d77f01c5338a6ea6cc50356628283d4e189bf08737f214a",
+    "variants": [
+      {
+        "src": "/assets/editorial/supplement-ayutthaya-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 84088
+      },
+      {
+        "src": "/assets/editorial/supplement-ayutthaya-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 170360
+      },
+      {
+        "src": "/assets/editorial/supplement-ayutthaya-1440.webp",
+        "width": 1440,
+        "height": 957,
+        "bytes": 352316
+      },
+      {
+        "src": "/assets/editorial/supplement-ayutthaya-1920.webp",
+        "width": 1920,
+        "height": 1277,
+        "bytes": 547758
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/supplement-ayutthaya-960.webp",
+    "width": 960,
+    "height": 638,
+    "usage": [
+      "historical-day-trips-from-bangkok"
+    ]
+  },
+  {
+    "id": "supplement-koh-samui",
+    "subject": "Palm-lined beach, Koh Samui, Thailand; individual beach not established",
+    "creator": "Andrea Ferrario",
+    "sourceUrl": "https://unsplash.com/photos/a-sandy-beach-next-to-the-ocean-with-palm-trees-3APAR5o1sZo",
+    "downloadUrl": "https://images.unsplash.com/photo-1708853162956-6610d9785508?fm=jpg&q=95",
+    "alt": "Palm trees lining a sandy beach beside the sea on Koh Samui.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Andrea Ferrario on Unsplash",
+    "verifiedAt": "2026-10-14",
+    "verificationBasis": "Source location Koh Samui, Ko Samui District, Surat Thani, Thailand; Canon EOS 6D Mark II metadata. Do not label as Chaweng, Lamai or Bo Phut. Official source page read 2026-10-14 via web retrieval explicitly offers Download free and Unsplash License (not Plus); image CDN address followed from that exact page. Full-resolution JPEG rendition retained without width/crop query; not a camera RAW original. Visual review of downloaded 960px WebP completed: Palm-lined beach and shoreline; portrait composition preserved. No stretching or added content. Copyright license does not warrant model/property releases or imply endorsement.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/supplement-koh-samui.jpg",
+    "originalWidth": 4122,
+    "originalHeight": 6183,
+    "originalBytes": 10737810,
+    "sha256": "023764c322d234964a3644bf5a525f4c0ba880094730764018e507217f3a69bc",
+    "variants": [
+      {
+        "src": "/assets/editorial/supplement-koh-samui-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 50354
+      },
+      {
+        "src": "/assets/editorial/supplement-koh-samui-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 113490
+      },
+      {
+        "src": "/assets/editorial/supplement-koh-samui-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 318452
+      },
+      {
+        "src": "/assets/editorial/supplement-koh-samui-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 854334
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/supplement-koh-samui-960.webp",
+    "width": 960,
+    "height": 1440,
+    "usage": [
+      "koh-samui-travel-guide"
+    ]
+  },
+  {
+    "id": "supplement-pai",
+    "subject": "Pai Canyon, Pai, Thailand",
+    "creator": "Peter Borter",
+    "sourceUrl": "https://unsplash.com/photos/a-dirt-path-in-the-middle-of-a-forest-fDzBfn9rkCY",
+    "downloadUrl": "https://images.unsplash.com/photo-1642675243020-39aed611855b?fm=jpg&q=95",
+    "alt": "Narrow earthen ridges and surrounding woodland at Pai Canyon.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Peter Borter on Unsplash",
+    "verifiedAt": "2026-10-14",
+    "verificationBasis": "Source description explicitly Pai Canyon; location Pai, Thailand; Sony ILCE-6600 metadata. Official source page read 2026-10-14 via web retrieval explicitly offers Download free and Unsplash License (not Plus); image CDN address followed from that exact page. Full-resolution JPEG rendition retained without width/crop query; not a camera RAW original. Visual review of downloaded 960px WebP completed: Narrow earthen ridges and steep drop-offs amid woodland. No stretching or added content. Copyright license does not warrant model/property releases or imply endorsement.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/supplement-pai.jpg",
+    "originalWidth": 6373,
+    "originalHeight": 4249,
+    "originalBytes": 11649300,
+    "sha256": "80e7244bdbdac5a2dc694f851886b6ac05d668940f9fec307036e113af3298cc",
+    "variants": [
+      {
+        "src": "/assets/editorial/supplement-pai-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 89348
+      },
+      {
+        "src": "/assets/editorial/supplement-pai-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 207648
+      },
+      {
+        "src": "/assets/editorial/supplement-pai-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 490564
+      },
+      {
+        "src": "/assets/editorial/supplement-pai-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 878256
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/supplement-pai-960.webp",
+    "width": 960,
+    "height": 640,
+    "usage": [
+      "pai-travel-guide-first-time-visitors"
+    ]
+  },
+  {
+    "id": "supplement-phuket-old-town",
+    "subject": "Colorful building facades, Phuket Old Town, Thailand",
+    "creator": "Sadiq Ahmad",
+    "sourceUrl": "https://unsplash.com/photos/a-row-of-multicolored-buildings-on-a-city-street-4fHhzdafw_k",
+    "downloadUrl": "https://images.unsplash.com/photo-1684083338842-ee04a0ff8335?fm=jpg&q=95",
+    "alt": "Colorful historic building facades along a street in Phuket Old Town.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by Sadiq Ahmad on Unsplash",
+    "verifiedAt": "2026-10-14",
+    "verificationBasis": "Source description explicitly identifies buildings of Phuket Old Town; Canon EOS 80D metadata. No particular street or museum is claimed. Official source page read 2026-10-14 via web retrieval explicitly offers Download free and Unsplash License (not Plus); image CDN address followed from that exact page. Full-resolution JPEG rendition retained without width/crop query; not a camera RAW original. Visual review of downloaded 960px WebP completed: Colorful shophouse facades with original street details. No stretching or added content. Copyright license does not warrant model/property releases or imply endorsement.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/supplement-phuket-old-town.jpg",
+    "originalWidth": 6000,
+    "originalHeight": 4000,
+    "originalBytes": 5320141,
+    "sha256": "b07f40850f49d355d421745b4acacf7345a794ce0e82cbef73a33bd2f8637f08",
+    "variants": [
+      {
+        "src": "/assets/editorial/supplement-phuket-old-town-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 53834
+      },
+      {
+        "src": "/assets/editorial/supplement-phuket-old-town-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 101592
+      },
+      {
+        "src": "/assets/editorial/supplement-phuket-old-town-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 188250
+      },
+      {
+        "src": "/assets/editorial/supplement-phuket-old-town-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 280674
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/supplement-phuket-old-town-960.webp",
+    "width": 960,
+    "height": 640,
+    "usage": [
+      "phuket-first-time-visitors"
+    ]
+  },
+  {
+    "id": "supplement-thai-food",
+    "subject": "Pad thai dish; shooting location not established",
+    "creator": "John Aledia",
+    "sourceUrl": "https://unsplash.com/photos/a-plate-of-food-on-a-wooden-table-YiBV-s9nZfQ",
+    "downloadUrl": "https://images.unsplash.com/photo-1637806931098-af30b519be53?fm=jpg&q=95",
+    "alt": "A plate of pad thai noodles with bean sprouts on a wooden table.",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "creditRequired": false,
+    "creditText": "Photo by John Aledia on Unsplash",
+    "verifiedAt": "2026-10-14",
+    "verificationBasis": "Source description Pad thai 1; Nikon D5100 camera metadata. Tags include both Thailand and Philippines, so no shooting location or restaurant is asserted. Official source page read 2026-10-14 via web retrieval explicitly offers Download free and Unsplash License (not Plus); image CDN address followed from that exact page. Full-resolution JPEG rendition retained without width/crop query; not a camera RAW original. Visual review of downloaded 960px WebP completed: Noodles, sprouts and lime on a plate; location and ingredient safety unasserted. No stretching or added content. Copyright license does not warrant model/property releases or imply endorsement.",
+    "focalPoint": [
+      50,
+      50
+    ],
+    "originalSrc": "/assets/editorial/originals/supplement-thai-food.jpg",
+    "originalWidth": 3264,
+    "originalHeight": 4928,
+    "originalBytes": 3434812,
+    "sha256": "d8f462d3462a151ee0c88160062181fbb3b79b84b2d18d96dab6ecd4108316e3",
+    "variants": [
+      {
+        "src": "/assets/editorial/supplement-thai-food-640.webp",
+        "width": 640,
+        "height": 966,
+        "bytes": 63186
+      },
+      {
+        "src": "/assets/editorial/supplement-thai-food-960.webp",
+        "width": 960,
+        "height": 1449,
+        "bytes": 112162
+      },
+      {
+        "src": "/assets/editorial/supplement-thai-food-1440.webp",
+        "width": 1440,
+        "height": 2174,
+        "bytes": 198146
+      },
+      {
+        "src": "/assets/editorial/supplement-thai-food-1920.webp",
+        "width": 1920,
+        "height": 2899,
+        "bytes": 305030
+      }
+    ],
+    "verified": true,
+    "src": "/assets/editorial/supplement-thai-food-960.webp",
+    "width": 960,
+    "height": 1449,
+    "usage": [
+      "thai-food-first-time-visitors"
+    ]
   }
 ]
