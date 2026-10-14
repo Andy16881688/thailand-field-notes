@@ -51,3 +51,21 @@ test('all photo original hashes and derivative byte sizes match the published ma
     for(const v of a.variants) assert.equal(fs.statSync('public'+v.src).size,v.bytes,v.src);
   }
 });
+test('article photo reserves its proportional height while its network request is still pending', {skip:!process.env.PLAYWRIGHT_MODULE}, async()=>{
+  const {chromium}=await import(process.env.PLAYWRIGHT_MODULE);
+  const browser=await chromium.launch({channel:'chrome',headless:true});
+  try{
+    const page=await browser.newPage({viewport:{width:390,height:844}});
+    await page.route('https://www.googletagmanager.com/**',r=>r.fulfill({status:200,body:''}));
+    let releaseImage;
+    const gate=new Promise(resolve=>{releaseImage=resolve});
+    await page.route('**/supplement-chiang-rai-*.webp',async r=>{await gate;await r.continue().catch(()=>{});});
+    try{
+      await page.goto((process.env.SHELL_BASE_URL||'http://127.0.0.1:4323')+'/post/chiang-rai-travel-guide/',{waitUntil:'domcontentloaded'});
+      await page.evaluate(()=>document.fonts.ready);
+      const rect=await page.locator('.article-photo img').evaluate(i=>({width:i.getBoundingClientRect().width,height:i.getBoundingClientRect().height,loaded:i.complete}));
+      assert.equal(rect.loaded,false,'test must observe the still-pending image');
+      assert.ok(Math.abs(rect.height-rect.width*540/960)<1,JSON.stringify(rect));
+    }finally{releaseImage();}
+  }finally{await browser.close();}
+});

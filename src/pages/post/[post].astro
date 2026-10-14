@@ -30,7 +30,7 @@ const words = prepared.html.replace(/<[^>]*>/g,' ').split(/\s+/).filter(Boolean)
   <article class="page reading-page">
     <Breadcrumbs items={[{label:'Home',href:'/'},...(section ? [{label:section.name,href:`/section/${section.slug}/`}] : []),...(category ? [{label:category.name,href:`/category/${category.slug}/`}] : [])]} />
     <header class="article-heading"><p class="eyebrow">{category?.name || 'Field notes'}</p><h1>{post.title}</h1><p class="meta">Published <time datetime={post.published}>{post.published}</time> · {Math.max(1,Math.ceil(words/220))} min read</p></header>
-    {photo && <div class:list={['article-photo',{'portrait':portraitPhoto}]}><EditorialPicture assetId={photo} priority sizes={portraitPhoto ? '(max-width: 768px) calc(100vw - 40px), 640px' : '(max-width: 768px) 100vw, (max-width: 1440px) 90vw, 1320px'} /></div>}
+    {photo && <div class:list={['article-photo',{'portrait':portraitPhoto}]}><EditorialPicture assetId={photo} priority reserveAspectRatio sizes={portraitPhoto ? '(max-width: 768px) calc(100vw - 40px), 640px' : '(max-width: 768px) 100vw, (max-width: 1440px) 90vw, 1320px'} /></div>}
     <div class:list={['reading-grid', { 'without-contents': prepared.headings.length === 0 }]}><ArticleContents headings={prepared.headings}/><div class="article-body" set:html={illustratedHtml}></div></div>
     {related.length > 0 && <section class="related"><p class="eyebrow">Continue exploring</p><h2>More from the field notes</h2><div class="post-grid">{related.map(item => <PostCard post={item}/>)}</div></section>}
   </article>

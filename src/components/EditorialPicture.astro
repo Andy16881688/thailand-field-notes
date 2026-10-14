@@ -4,10 +4,11 @@ interface Props {
   assetId: string;
   alt?: string;
   priority?: boolean;
+  reserveAspectRatio?: boolean;
   sizes: string;
   class?: string;
 }
-const { assetId, alt, priority = false, sizes, class: className } = Astro.props;
+const { assetId, alt, priority = false, reserveAspectRatio = false, sizes, class: className } = Astro.props;
 const asset = assets.find((item) => item.id === assetId);
 if (!asset || !asset.verified) throw new Error(`Unknown editorial asset: ${assetId}`);
 if (!sizes?.trim()) throw new Error('EditorialPicture requires sizes');
@@ -20,7 +21,7 @@ const focalPoint = `${asset.focalPoint[0]}% ${asset.focalPoint[1]}%`;
     <img src={asset.src} srcset={srcset} sizes={sizes} alt={alt ?? asset.alt}
       width={asset.width} height={asset.height}
       loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'}
-      decoding="async" style={`object-position: ${focalPoint}`} />
+      decoding="async" style={`object-position: ${focalPoint}${reserveAspectRatio ? `; aspect-ratio: auto ${asset.width} / ${asset.height}` : ''}`} />
   </picture>
   <figcaption><a href={asset.sourceUrl} rel="noopener noreferrer">{asset.creditText}</a></figcaption>
 </figure>
